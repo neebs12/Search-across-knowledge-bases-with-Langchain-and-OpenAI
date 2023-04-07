@@ -7,6 +7,9 @@ import getContext from "./utils/getContext.js";
 import getResponse from "./utils/getResponse.js";
 import getStreamResponse from "./utils/getResponseStream.js";
 
+import { loggerMiddleware } from "./middleware/index.js";
+import healthCheckRoutes from "./routes/healthCheck.routes.js";
+
 const app = express();
 
 app.use(express.static("build/public"));
@@ -14,16 +17,9 @@ app.use(express.static("build/public"));
 app.use(cors());
 app.use(express.json());
 
-app.use((req, res, next) => {
-  console.log(req.method, req.url);
-  console.log(req.query);
-  console.log(req.body);
-  next();
-});
+app.use(loggerMiddleware);
 
-app.get("/health-check", (req, res) => {
-  res.send("Hello World!");
-});
+app.use("/health-check", healthCheckRoutes);
 
 app.post("/question", async (req, res) => {
   // console.log({ question: req.body.question, namespace: req.body.namespace });
@@ -91,8 +87,7 @@ app.get("/question-sse", async (req, res) => {
     question,
     context,
     () => {
-      // send indication that the stream has started
-
+      // no `\n` in context allowed, otherwise is stream info cutoff
       const joinedContext = context.replace(/\n/g, "");
       console.log({ joinedContext });
       res.write(`data: ${"[CONTEXT]: " + joinedContext}\n\n`);

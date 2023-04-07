@@ -21,13 +21,14 @@ const ChatInterface: React.FC = () => {
   useEffect(() => {
     const healthCheck = async () => {
       try {
-        await axios.get(`${URL}/health-check`)
+        const reponse = await axios.get(`${URL}/health-check`)
         setHistory(_ => [{
           sender: "system",
           message: `Ready to receve messages from: ${DEFAULT_MODE.name}`
         }])
 
       } catch (e) {
+        console.log({ e })
         setHistory(_ => [{
           sender: "system",
           message: "Unfortunately, the server doesnt seem to be responding 😔... refresh?"
