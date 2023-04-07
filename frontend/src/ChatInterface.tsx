@@ -21,7 +21,7 @@ const ChatInterface: React.FC = () => {
   useEffect(() => {
     const healthCheck = async () => {
       try {
-        const reponse = await axios.get(`${URL}/health-check`)
+        const reponse = await axios.get(`${URL}/health`)
         setHistory(_ => [{
           sender: "system",
           message: `Ready to receve messages from: ${DEFAULT_MODE.name}`
@@ -44,7 +44,7 @@ const ChatInterface: React.FC = () => {
       return () => { }
     }
 
-    const extension = question.includes("health") ? "health-check-sse" : "question-sse"
+    const extension = question.includes("health") ? "health/sse" : "question/sse"
     const source = new EventSource(`${URL}/${extension}?question=${question}&namespace=${(MODES.find(m => m.name === modeName) ?? DEFAULT_MODE).namespace}`);
 
     source.addEventListener('message', (event) => {
@@ -96,13 +96,17 @@ const ChatInterface: React.FC = () => {
       <div className="min-w-full rounded border lg:grid lg:grid-cols-3">
         <Sidebar modes={MODES} currentModeName={modeName} handleSetMode={(newModeName: ModesTypes) => {
           setHistory(currentHistory => {
-            if (currentHistory[currentHistory.length - 1].message.includes(newModeName)) {
+            const mostRecentMessage = currentHistory[currentHistory.length - 1]
+            if (mostRecentMessage.message.includes(newModeName)) {
               return currentHistory
             } else {
-              return [...currentHistory, {
+              const newMessage = {
                 sender: "system",
                 message: `Changed systems to receive from: ${newModeName}`
-              }]
+              }
+              return (mostRecentMessage.sender === "system"
+                ? [...currentHistory.slice(0, currentHistory.length - 1), newMessage]
+                : [...currentHistory, newMessage]) as History
             }
           })
           setModeName(newModeName)
