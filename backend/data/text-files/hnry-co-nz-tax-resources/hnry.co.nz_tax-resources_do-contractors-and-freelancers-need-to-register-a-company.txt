@@ -1,0 +1,75 @@
+Many sole traders or freelancers think that they have to register a limited liability company in order to trade.
+This is a common misconception.
+In fact, there is very little advantage of registering a company when you’re trading as an individual, and for some it can result in increased compliance costs and headaches.
+We’ve put together this comprehensive guide, to help you find out more about whether it’s worth you registering a company when you’re a contractor or freelancer.
+To jump to a specific section, click the links below:
+
+What is a ‘company’ vs a ‘business’
+What are the additional requirements of you when you have a company?
+Do you have to register a company to be a self-employed contractor or freelancer?
+I’ve heard that it reduces my risk if I register a company, is this correct?
+Do I pay less tax if I pay myself through a company?
+If it’s not required, why do so many people do it?
+Do IRD and MBIE advise individual contractors and freelancers to register companies?
+What are my options if I’ve registered a company unnecessarily?
+
+What is a ‘company’ vs a ‘business’
+People often use the word ‘company’ and ‘business’ interchangeably, however they are actually two different things.
+A ‘company’ refers to an entity, registered with the Companies Office. It is a legal entity that has Directors and Shareholders and has its own set of tax filing and compliance requirements, separate from you as an individual taxpayer.
+A ‘business’ is any trading operation, where goods and services are being sold. Running a ‘business’ doesn’t require you to register a company - you can run a business as an individual sole trader, freelancer, or contractor.
+What are the additional requirements of you when you have a company?
+If you are the Director of a registered company, you will be required to maintain the records and tax affairs of that company. The main requirements are:
+
+Filing annual company returns with the Companies Office (and detailing the names and addresses of all Directors on their publicly-searchable register)
+Calculating, paying and filing company Income Tax (IR4) returns every year
+Calculating, paying and filing GST returns on a regular basis
+Managing company ACC levies and payments
+
+Each of these are in addition to any responsibilities you have as an individual Director of that company. As a Director, you will be responsible for all your individual tax affairs, such as Income Tax (IR3) returns, ACC levies (where not covered by the company) and any other personal tax and compliance requirements.
+All of the above have a cost associated, whether you are doing them yourself or whether you pay someone else to administer your company for you.
+Do you have to register a company to be a self-employed contractor or freelancer?
+No. It is often the case that self-employed contractors, freelancers and sole traders carry out their business as an individual, with no need to register a company.
+Individuals can still register for GST, raise invoices, claim business and home office expenses, hire staff, depreciate assets, trade under a Trading Name and get all of the trappings of being a business such as having a website, physical premises and business cards, all without needing to register a company.
+Usually it is only necessary to register a company if you have the following complexities in your business:
+
+You are employing staff on permanent or fixed term salaries, and therefore require payroll services (although you can do this as an individual)
+You need to maintain a complex inventory of goods, and manage the supply of your inventory
+You have creditors, and other organisations are providing you a line of credit to allow you to defer payment for their goods and services.
+You have multiple Directors, shareholders or a complex ownership structure that requires a company
+
+To manage the above complexities, you would also need various additional tools for your company, such as complex accounting software (designed for small-to-medium sized business), payroll software (to file your monthly payday filing schedules to IRD) as well as inventory management tools.
+For the vast majority of contractors and freelancers who do not have this level of complexity, these tools, (and therefore registering a company) can be unnecessary, and can result in increased costs and administration headaches.
+I’ve heard that it reduces my risk if I register a company, is this correct?
+No. These days, despite them sometimes being called a ‘limited liability company’, registering a company does not necessarily reduce your risk if you are a contractor or freelancer.
+If you are running a business that takes on large numbers of creditors, you may want to structure yourself as a company to give yourself some protection in the event that your company is forced into bankruptcy.
+However, as the Director of a company you would still be responsible for the activities and actions of that company, and you would still be at risk of litigation. There is no option to ‘hide’ behind a company structure as a way of indemnifying yourself as an individual.
+As an example, in November 2020 the Supreme Court found the director of a company in breach of his duty to act in good faith and in the best interests of his company; he was ordered to personally pay $280,000 to the company’s creditors.
+Most contractors and freelancers do not bear this sort of risk through their self-employed work. The vast majority are trading as individuals and earning income from time spent. They don’t have creditors, and they have no risk of defaulting on fixed goods orders.
+In cases where freelancers or contractors work in an industry where there is risk - such as potential accusations of malpractice - or if their clients require them to take further risk mitigation steps, then individuals can take out a Professional Indemnity and Public Liability Insurance policy. Such a policy would cover them in the event of any legal action being taken against them. This insurance is very easy to get, and is far cheaper and more efficient than registering a company.
+Do I pay less tax if I pay myself through a company?
+No. As an individual, the tax rates are all the same, whether you are paying yourself via a registered company, or as an individual.
+Any time you take money out of a company, and pay yourself as an individual, you pay income tax, ACC and any other applicable taxes on that income at the same rate as everyone else.
+It’s true that the Corporation Tax in New Zealand is a flat rate of 28%, which is lower than the individual top rate of tax, which is 39%. However, this does not mean that you as an individual can pay less tax by earning through a company. As soon as you take any money out of the company for yourself, you would pay the standard rates of individual income tax.
+For example, if you registered a company, and earned $50,000, you would most likely want to take that money out of the company and pay yourself. When you did so, you would pay income tax at around 16%. If you were to leave that money in the company instead, at the end of the financial year you would have to pay 28% on it.
+Given that most contractors and freelancers will want to take the majority of the money they earn and use it to fund their home life (pay the mortgage, bills, buy food etc), having a company is of no tax benefit whatsoever, and is actually just an unnecessary barrier between you and your income.
+If it’s not required, why do so many people do it?
+Many years ago, it used to be the case that you could ‘fiddle’ the system by registering a company, and paying yourself minimum wage, before taking ‘dividends’ out of the company at the end of the year at a lower rate of tax.
+IRD clamped down on these tax avoidance practices a long time ago, however some people are still under the impression that it is possible.
+It has also been a standard practice in the accounting industry for accountants to register contractors and freelancers as companies, because most accountants are more used to dealing with ‘small business’ clients rather than individuals.
+These days most accountants will concede that there is no legal, financial or tax-related benefit to contractors or freelancers registering a company, and quite a few now recommend that contractors and freelancers avoid doing so.
+Do IRD and MBIE advise individual contractors and freelancers to register companies?
+No. IRD and MBIE are currently going to great lengths to discourage individuals from unnecessarily registering companies. The advice from the government is very clear - that you should only register a company when necessary, and that for most freelancers and contractors, this is not required.
+IRD are aware that in some industries, it is common for sole individuals to register companies in order to trade as contractors, and they are currently taking steps to stop such practices and educate individuals that it is unnecessary.
+If in doubt, check out the MBIE’s Choose a Business Structure Tool on their website.
+What are my options if I’ve registered a company unnecessarily?
+If you’ve registered a company by yourself, or you have had someone register a company on your behalf, and you now realise that you don’t need to operate as a company, you have a couple of options:
+
+
+You can make the company dormant, and trade as an individual instead. This gives you the option of ‘reviving’ the company at some point, should your business grow to the level of complexity where a company is required.
+
+
+You can close and ‘strike off’ the company from the Companies Office register, thereby closing the company entirely and ceasing the company from trading altogether. You can then continue trading as an individual instead.
+
+
+If you need any further information about how to trade as a contractor, freelancer or sole trader, speak to the team at Hnry.
+Hnry is a service designed for contractors and freelancers. Our specialist accountants and tax experts are backed by a revolutionary new software that automates tax & other financial admin for self-employed workers - so they don’t have to think about tax ever again. 

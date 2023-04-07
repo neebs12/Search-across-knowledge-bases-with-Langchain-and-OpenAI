@@ -1,0 +1,81 @@
+We turned to freelance copywriter, Sam Grover, for his thoughts on why a sales pipeline is critical to your success as a freelancer. Sam also offers up his method of designing an effective pipeline that helps him to nurture leads and manage his workload.
+
+Unpredictability is one of the most stressful things about being a freelancer. When is your next job coming in? How much will it be worth?
+
+A sales pipeline can remove a lot of that unpredictability.
+
+What is a sales pipeline anyway?
+The word “sales” is scary to lots of freelancers because it conjures up images of things like cold calls and chasing up people who aren’t interested in your service. For me, sales isn’t like that at all. Rather, sales is just about keeping track of your potential work, and systematically nudging it along.
+
+The sales pipeline is the key component of that system. It’s just a list of all the work and potential work you have on. It’s called a pipeline because you have potential projects on one end, and finished, paid-for work on the other.
+
+You probably have an informal system for this, where you just try to remember who you’ve been talking to and what your next steps are. By formalising this process and keeping it all in one place, you get much better direction about what you need to do today to keep yourself busy in the future.
+
+How to build one
+You can just use a basic spreadsheet to build your sales pipeline. Here’s how mine works:
+
+First, every project and potential project gets assigned one of six stages:
+
+Prospects: these are people who I have proactively reached out to, or who have reached out to me to have a general conversation about doing some work. We haven’t figured out details like a specific project or budget. My goal with prospects is to work out the specifics of what they need, whether they want to work with me, and how much they want to spend.
+Scoped: these are specific projects that have been scoped out for a prospect. We have figured out a general budget, and figured out what they want to achieve. The next stage from here is for me to write a proposal.
+Proposal sent: These are exactly what they sound like: I’ve written and sent a proposal, giving details around what I will do, cost and timings. My goal here is to get them to make a decision to either go ahead with the proposal, agree on changes to the proposal, or decline to move forward.
+Confirmed work: This is work that is either scheduled or underway. We’ve agreed what I’m going to do, a price, deadlines and other specific details.
+Completed work: This is work that has been finished and paid for. I don’t move someone into this category until the money has arrived in my bank account (thru Hnry, incidentally!).
+Inactive: These are people who fell out of the pipe at one of the stages before “confirmed work.” They either declined to move forward, or stayed in one stage for 90 days or more. Once this happens, I move them to “inactive,” and just keep in touch by sending them an email every six months or so.
+For each project, I have six pieces of information as column headers:
+
+Name of the organisation
+Current stage
+Project details
+Date they entered current stage
+Date of last contact
+Number of days since they entered the current stage
+Number of days since last contact
+It looks like this:
+
+
+
+(I use basic formulas to give me numbers for those two columns on the right-hand side. I’ll show you why that’s important in a second).
+
+Then I use some formulas to count how many people I have in each of the six stages. That gives me a little dashboard that looks like this:
+
+
+
+This shows me how busy I am right now, and, more importantly, how busy I will be in the future. As you can see, I’m pretty busy right now - seven pieces of work on the go! That’s great for the moment.
+
+But if you look at the other stages, you get a different story. There’s not really many prospects, scoped projects or proposals to follow up on. This tells me that if I’m not careful, I’m going to end up sitting on my hands in a few weeks, once the 7 confirmed pieces of work are done and dusted.
+
+So I have a few options:
+
+Follow up the four outstanding proposals to see I can convert them into confirmed work.
+Follow up the five prospects to try to turn them into scoped work.
+Email some people in the “inactive” stage and see if anything has changed.
+Do some cold-emailing (argh)
+The point is, my pipeline gives me visibility over the fact that while I’m busy now, I’m not going to be busy in a few weeks if I don’t take action now.
+
+What kind of action to take?
+My sales pipeline can also tell me what action to take to best-use my time. This is where those “days since entered stage” and “days since last contact” come into play.
+
+Here’s one example. This person is in the “prospecting” stage. He’s a marketing manager who got in touch with me to talk about writing some content for their sales team:
+
+
+
+It’s been 33 days since we first spoke - quite a while! But as you can also see, I followed him up yesterday. So it would be pointless - not to mention a little creepy - to follow him up again today.
+
+Now here’s another example. I sent this person a proposal to write their website more than a month ago:
+
+
+
+They’ve taken a little while to get their ducks in a row, and I’ve been following them up routinely. But as you can see here, I haven’t followed them up for 17 days - nearly 3 weeks.
+
+That means that a good use of my time would be to follow them up again today. Once I do that, their “days since last contact” will reset to 0, and I’ll give them a breather for a little while.
+
+(And remember, once that “days since entered stage” number hits 90, this person will be moved to the “inactive” stage).
+
+Make a habit
+The key here is to get into the habit of working in your sales pipeline every morning:
+
+Add any new potential projects that have come in on their own (through referrals, website lead generations forms, etc.)
+Change the stage of any projects that have progressed since you last checked
+Follow up anyone who hasn’t been followed up in awhile.
+If you stick to this habit, you’ll not only keep yourself busy, you’ll also start to collect some really valuable information, such as how many prospective projects you need to have on the go to be busy. This makes your business less stressful, more predictable and just generally more fun.

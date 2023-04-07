@@ -1,0 +1,28 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "initialize": "export MY_URL=\"http://localhost:3000\" && touch .env && echo \"VITE_BASE_URL=$MY_URL\" > .env ",
+    "dev": "npm run initialize && vite",
+    "build": "npm run initialize && tsc && touch .env && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.1",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}

@@ -1,0 +1,65 @@
+Whether you work for an employer or work for yourself as a contractor, freelancer, or self-employed tradie, taxes are unfortunately a fact of life. As much as we would all like to find ways to pay less tax, we’re sorry to confirm that if you’re earning an income, you’re obliged to pay the tax man. Ouch.
+To make matters more complicated, figuring out how much you owe the IRD can involve a fair bit of maths. Instead of a flat tax rate where you hand over a set percentage of your taxable income every year, New Zealand operates using a progressive tax system with several tax brackets.
+So what does this mean, exactly? Better yet, how can you make the most of this system to (legally) pay less in taxes? Don’t worry, we’ve got you. In this article, we’ll explain:
+
+What tax rates are
+What tax brackets are
+How tax brackets and rates work
+How claiming expenses can make a difference to your effective tax rate
+How much tax you’ll need to pay annually as a sole trader
+
+Let’s get stuck in!
+What’s a tax rate?
+We’re so glad you asked! A tax rate is defined as the ratio between a sum of money and the tax owed on that money, calculated as a percentage. Don’t worry; it’s not as confusing as it sounds.
+For example, if you had $100 of taxable income, and paid $10 of that in tax, the ratio between income and tax would be 10:100, simplified to 1:10. This ratio in percentage form is 10% – the tax rate.
+If you wanted to simplify that even further, you could take the maths out of it and think of it like this: A tax rate is the percentage at which a person or business is taxed.
+
+Some tax rates are easy to calculate – for example, GST (Goods and Services Tax). It’s levied at a flat rate of 15% on top of the cost of most goods and services. Fairly straightforward.
+Other tax rates change depending on the circumstances. For example, income in Aotearoa is taxed progressively, meaning that the tax rate is different for different tax brackets. Which leads us nicely to our next section:
+What’s a tax bracket?
+In Aotearoa, income tax is a progressive tax, meaning that the more you make, the higher your overall tax-to-income ratio.
+To this end, income levels are split into bands or brackets, each taxed at a different rate. Income tax brackets are the same for everyone, whether you’re a PAYE employee, a business owner, or a sole trader
+
+Tax brackets and their corresponding tax rates are decided on by the New Zealand government – they’re not set in stone. Different parties have different views on what fair taxation looks like, and economic factors (like inflation) can change the value of money to the point where the system isn’t working as designed. Although it doesn’t happen often, the government could change the bracket thresholds, the tax rates, or even add a new bracket into the mix (like the top 39% tax bracket created in the financial year 2021-22).
+Because of this, it’s a good idea to make sure you’re across the different tax rates and tax brackets each financial year – just in case.
+Income Tax Rates (From 1 April 2021)
+Income BracketTax Rate %0 to $14,00010.5%$14,001 to $48,00017.5%$48,001 to $70,00030%$70,001 to $180,00033%$180,001 and over39%
+Source: IRD
+How tax brackets and tax rates work
+Income tax is calculated based on all your taxable income, whether you earn your income from a salary, a business, a side hustle, or any combination of all the above. You’re required to pay income tax on any dollar you earn.
+With that in mind, here’s where it gets more complicated: Not every dollar you earn will be taxed at the same rate. And that’s where tax brackets come into play.
+It’s a common misconception that your entire salary is taxed at the rate of the top tax bracket you qualify for, but this isn’t actually true.
+For example, if you earn $50,000 a year, you may think you need to set aside 30% for tax, eg. $15,000. But our progressive tax rate system means that you actually pay 10.5% on the first $14k you earn, 17.5% on your earnings from $14,001 to $48,000, and 30% on anything over $48,001 (and under $70k):
+Bracket 1: 10.5% of $14,000 = $1,470
+Bracket 2: 17.5% of $34,000 = $5950
+Bracket 3: 30% of $2,000 = $600
+Total income tax bill: $8,020
+This makes your effective tax rate 16.04% - far less than paying 30% across the board!
+📄 An effective tax rate is exactly what it says on the tin: the actual percentage of your total income that you pay in taxes.
+Your effective tax rate is unique to your situation, and is a better metric for tracking your taxation levels than the tax rates and brackets. It will vary wildly depending on where your income falls within the bracket system – the closer you are to the top end of the bracket threshold, the higher your effective tax rate will be. For example:
+Sam and Ella are both freelance designers. Sam only recently started designing full time, and has a yearly income of $49,000. In contrast, this isn’t Ella’s first rodeo; she’s been at this a while, and will make around $70,000.Even though both their annual incomes fall within the same tax bracket of 30%, Sam’s effective tax rate is 15.76%, while Ella's is 20.3%. This is because only $1,000 of Sam’s income is taxed at 30%, in contrast to $22,000 of Ella’s income.At the end of the financial year, Sam’s tax bill is $7,720. Ella’s tax bill is $14,020. Sam commiserates with Ella by taking her out for a beer. He picks up the bill.
+
+📖 Curious about your own effective tax rate? Check out our tax calculator for sole traders!
+But wait! There’s actually some good news here, especially if you’re a sole trader. You can reduce your taxable income – and therefore your effective tax rate – by claiming tax deductions for approved business expenses (🎉).
+
+How claiming business expenses affects your tax rate
+To help sole traders and small businesses keep more of their money, the IRD allows some business expenses to be claimed as tax deductions. What this essentially means is that you’re rewarded for putting money into your business, AND you don’t have to pay as much income tax come tax day. Win-win!
+Here’s how it works:
+
+You purchase a good or a service that directly relates to earning your sole-trader income
+You claim the cost of the expense as a tax deduction
+The cost of the expense is excluded from your taxable income, which reduces the income you pay tax on and lowers your effective tax rate
+You pay less in taxes at the end of the financial year.
+
+
+This is oversimplifying it – the IRD won’t accept purchases made willy-nilly – but if you’re clever about it and the stars align, you could make a real difference to your final income tax bill.
+After her surprise $14k tax bill, Ella is determined to reduce her effective tax rate. Realising that her business could do with a refresh, she pays a freelance friend to design her a new logo and business cards. She puts money into Facebook ads, and a few new tech subscriptions that help streamline her business processes (including Hnry!). Ella also meticulously records all business expenditure through the Hnry app, from little purchases like work stationery, to big expenses like rent for her dedicated home office. It all adds up. By the end of the next financial year, Ella has earned $75,000 in freelance income. But she’s claimed $15,000 in valid expenses. This lowers her taxable income to $60k. Her tax bill is $9,520, making her effective tax rate 17.31%.Ella takes Sam out for a beer. This time, it’s on her.
+
+📖 Ready to get expense-y? Find out everything you need to know in our monster guide to expenses.
+📖 You can also use our tax calculator to see how claiming expenses reduces your effective tax rate.
+💡 If you’re not sure whether an expense will be accepted by the IRD, it’s always a good idea to check with a tax specialist (like the Hnry team!)
+How Hnry Helps
+Hnry is a registered tax agent that can take the pain out of managing your taxes. We automatically calculate, deduct and pay all of your taxes on every invoice you’re paid, so you aren’t caught out with a massive tax bill come tax time. We’ll even file your annual tax return for you all as part of the service.
+Our app models your income throughout the year and predicts your effective tax rate based on what you earn. We only ever deduct what we estimate you’ll owe, meaning you won’t get behind (or ahead!) on tax payments. You also won’t have to set money aside yourself – in fact, you’ll barely have to think about taxes at all.
+Better still, using the Hnry platform costs less than using a traditional accountant, and is entirely tax deductible.
+If that sounds good to you, join Hnry today and never think about tax again!

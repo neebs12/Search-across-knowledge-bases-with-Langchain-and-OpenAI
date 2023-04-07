@@ -1,0 +1,29 @@
+### GET users
+GET http://localhost:3000/
+
+### question and namespace
+POST http://localhost:3000/question
+Content-Type: application/json
+
+{
+    "question": "What is a tax deduction in New Zealand? And how can Hnry help with that?",
+    "namespace": "hnry-co-nz-tax-resources"
+}
+
+### question and namespace
+POST http://localhost:3000/question
+Content-Type: application/json
+
+{
+    "question": "What does it mean to be a freelancer in NewZealand?",
+    "namespace": "hnry-co-nz-freelancer-resources"
+}
+
+### question and namespace
+GET http://localhost:3000/question-sse
+Content-Type: application/json
+
+{
+    "question": "What is a tax deduction in New Zealand? And how can Hnry help with that?",
+    "namespace": "hnry-co-nz-tax-resources"
+}

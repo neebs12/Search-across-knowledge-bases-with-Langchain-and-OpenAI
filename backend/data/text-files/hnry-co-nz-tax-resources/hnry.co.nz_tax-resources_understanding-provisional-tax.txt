@@ -1,0 +1,71 @@
+Most self-employed contractors and freelancers have, at some point, felt the pain of a big, unexpected tax bill.
+Whether you’re a first-time sole trader or a seasoned self-employed taxpayer, the end of the tax year is a nervous time.
+But it’s not just taxpayers - the IRD gets nervous too.
+The IRD doesn’t want people to be hit with massive bills at the end of the tax year - it’s bad for tax collection, bad for cash flow.
+What is Provisional Tax?
+Provisional tax is the IRD’s tool to prevent these sorts of tax bills. The purpose of the payments is to help you, the taxpayer, avoid getting too far behind on your taxes.
+Provisional tax is not a separate tax. It’s income tax, paid in instalments throughout the current tax year in order to help taxpayers avoid those big tax bills. The amount of each instalment is calculated using your previous year’s earnings. For contractors or freelancers who have irregular earnings, this can create some cash flow problems.
+Do I need to pay Provisional Tax?
+If you owed tax at the end of the previous financial year, then you may be on the hook for provisional tax in the current financial year.
+It all comes down to how much residual income tax you owed on your 2020 tax return.
+If, on your 2020 tax return, you discovered that you underpaid your taxes by more than $5,000, then you will likely need to pay provisional tax during the 2021 tax year.
+As part of the IR3 return, you will be asked to predict your income for the forthcoming year. Be aware - getting these predictions wrong, or deliberately fiddling your provisional tax predictions can result in fines and penalties. Being subject to provisional tax means that you will need to estimate your future income, and make 3 payments throughout the financial year, on a set schedule, to ensure that you’re paying your taxes in advance
+When are Provisional Tax payments due?
+Your provisional tax due dates will depend on two things:
+
+which payment option you choose (see below) and
+if you’re GST registered
+
+The four payment options you can choose from are:
+
+The standard option;
+The estimation option;
+The ratio option; and
+The accounting income method (AIM)
+
+The standard option
+The standard option is the default option if you do not choose to use the estimation or ratio options; it is often the better option for those who know their income will increase over the next year.
+Under the standard option, provisional tax payments are calculated by taking your previous year’s Residual Income Tax (RIT), adding a 5% uplift, and then dividing by the number of instalments. The number of instalments is usually three, but if you’re registered for GST and file semi-annual returns, then you’ll only pay two instalments.
+The estimation option
+If you know your income will decrease over the next year then the estimation option could be right for you.
+Under the estimation option, provisional tax payments are calculated by adding up all the taxable income you think you’ll receive in the next year, calculating the tax on that sum, and then deducting any PAYE and other tax credits you’ll be entitled to. This results in your estimated residual income tax - which is also your provisional tax for the year.
+As per the IRD’s website, “if you do not think you’ll have any Residual Income Tax to pay, you can estimate your provisional tax at $0.”
+As with the standard option, the number of provisional tax payments under the estimation option is usually three.
+Key Dates to Remember (for standard and estimation)
+
+August 28: The deadline for the first provisional tax payment of the financial year. There are Provisional Tax due dates all throughout the year, so keep an eye out for these dates to ensure you don’t fall behind even further and risk gathering additional penalties and interest.
+The ratio option
+If you’re registered for GST and want to pay your provisional tax payments at the same time as your GST payments, then the ratio option could be right for you.
+However, there is some fairly strict criteria around who can and can’t use the ratio option. To use the ratio option, you must:
+
+Have been registered for GST for the whole of the previous tax year - and part of the tax year before that!
+Have a Residual Income Tax greater than $5,000 from 2020.
+File your GST returns monthly or 2-monthly.
+Not have a partnership business structure
+Have a ratio percentage (calculated by IRD) between 0% - 100%.
+
+Under the ratio option, you’ll pay provisional tax in 6 instalments according to the schedule below.
+Payment dates under the ratio option
+
+Furthermore, to use the ratio option you must let IRD know before the start of the tax year if you want to use this option.
+Finally, IRD will calculate the ratio percentage for you by using the information they have from your GST returns and Residual Income Tax - so this option will only work when your tax and GST returns are up to date!
+The accounting income method (AIM)
+The least common option is the accounting income method. The idea behind AIM is to prevent businesses with irregular or unpredictable income from having to make large payments at the end of the tax year.
+Under the accounting income method, you only pay provisional tax when your business earns a profit. For this to work, however, your business has to maintain excellent financial records. AIM uses an AIM-capable accounting software to automatically calculate your provisional tax payments for you, so this method only works as long as your financial records are up-to-date.
+AIM provisional tax payments are paid in three installments, whose due dates align with your GST due dates. If you file monthly GST returns, you’ll pay these monthly. If you pay your GST every two or six months, then you’ll make 2-monthly instalment payments.
+Making payments/Filing your tax returns
+As long as you file your tax return on time - by 7 July - you’ll know your Residual Income Tax before your instalments are due for the following year.
+The Residual Income Tax value is what you need to work out how much provisional tax to pay. If you have that number by 7 July, then then that gives you a little more than 7 weeks to prepare for your first provisional tax payment, which is due on 28 August.
+If you file your returns late, you’ll still need to pay your provisional tax instalments on time, you’ll just have less time to prepare for that first payment. Note that if you miss that first payment, penalties and charges can apply.
+How to get it right every time
+Hnry pays taxes throughout the year for self-employed contractors and freelancers, so they don’t have to ever think or worry about provisional tax again.
+Hnry monitors your income throughout the year and automatically adjusts your income tax rate as you go to ensure that you pay the exact right amount of all your taxes - whenever you get paid.
+That means:
+
+No more under or over-paying your Income Tax - you get the right amount of money in your pocket every time
+No more worrying about your other taxes like GST or ACC - Hnry takes care of all your taxes for you, and files all your returns on your behalf
+No more eye-watering provisional tax payments, and no more uncertainty about how much money to hold back for taxes
+No need to pay for a separate accountant and multiple software tools to handle your financial admin - Hnry is an all-in-one service.
+
+We’re a team of accountants and tax experts, providing you exceptional service and revolutionary software to save you time, money and hassle.
+Find out more about how Hnry helps self-employed Kiwis below.

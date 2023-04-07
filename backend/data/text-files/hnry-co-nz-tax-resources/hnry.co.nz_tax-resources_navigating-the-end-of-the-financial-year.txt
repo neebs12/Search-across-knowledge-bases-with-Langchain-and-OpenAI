@@ -1,0 +1,302 @@
+For many sole traders, the end of the financial year (EOFY) can be a stressful and confusing time.
+From calculating your taxes, to filling out the right forms, to claiming expenses, to filing returns, there’s a lot to do and remember.
+How do you know what your tax rate is? How do you calculate how much tax you owe? Which tax forms do you need to fill out, and by when? Old mate Gary claimed his weed whacker as a business expense – should you be claiming yours?!
+Well firstly, unless you and Gary are landscapers or similar, it’s probably best to leave the weed whacker out of it.
+Secondly, the end of the financial year can absolutely be complicated. That’s why we’ve created this end-of-financial-year survival guide. It contains a full walkthrough of dates, forms, common financial terms you might come across, helpful tips, and real-life examples. 
+Basically, you’ll find everything you need to fly through the end of the financial year. Or at the very least, saunter.
+Roll up your sleeves, and let’s begin!
+
+Intro to tax returns
+Prepping your tax return
+Claiming business expenses
+Key IRD forms
+Dates and deadlines
+How Hnry Helps
+Glossary
+
+
+Intro to tax returns
+Before we start getting into the tax return trenches, let’s start with why we’re doing this in the first place. Don’t worry, it won’t take long.
+Everyone who makes a living in New Zealand is subject to income tax. Income tax helps keep our government and public services running – basically, most of the common goods we enjoy (safe roads, sturdy bridges, Outrageous Fortune) are funded in part by the taxes we pay.
+Most PAYE (Pay As You Earn) employees have a set salary, or work a set number of hours every week. This makes their income regular and predictable, meaning that the amount of tax they owe is also regular and predictable. 
+PAYE employees also generally can’t claim business expenses. Anything they need in order to perform their role should be provided by their employer, so in theory they have nothing to claim.
+Because of this, paying tax as a PAYE employee is so straightforward that they usually don’t have to think about it all. All they have to do is fill in an IR330 form when they start working, and the rest is handled by their company’s payroll.
+For sole traders, it’s a whole different ball game. To begin with, sole trader income can be quite variable, so the Inland Revenue Department (IRD) won’t know how much you earn until you tell them. Sole traders can also claim business expenses to lower their taxable income, meaning they can potentially lower their overall tax bill.
+That’s where tax returns come in. At the end of every financial year (FY), the IRD will need to know:
+
+How much income you’ve made
+The different sources of your income (self-employed income, rental income, dividends etc)
+The business expenses you’re claiming
+
+Your tax return will tell them all these things. Think of it like a bar tab – you’re figuring out who owes what, settling your account, and starting the new year with a clean slate. 
+(Don’t think too hard about that analogy.)
+
+Prepping your tax return
+To get your tax return done and dusted, you’ll need a few things:
+
+Your bank account details
+Details of your income over the past year
+A list of your business expenses for the FY (including receipts)
+
+1. Your bank account details
+You’ll need to provide the IRD with the name on your bank account, your bank account number, and your IRD number (if you’re filling in a paper form).
+It’s pretty straightforward. Just make sure you have the information on hand when you’re filling in your tax return, so you won’t have to take a detour. It’s easy to get distracted when you’re preparing a tax return.
+2. Your income over the past year
+For this, you’ll need to know how much you’ve earned exactly, and from where. Income streams can include things like:
+
+A PAYE salary
+Self-employed income
+Rental income
+Interest
+Dividends
+A family trust
+… and even cryptocurrency!
+
+All of these different types of income will need to be declared to the IRD in your IR3 form. Some of these income streams might need you to fill in a separate form (eg. an IR3R for rental income), but we’ll get to that later.
+💡If you have a PAYE salary, you’ll already have paid some of your income tax. You can see this balance in MyIR, under “credit balance” – this is the amount of tax you’ve already paid.
+Once you have a full list of your income streams, you can figure out your taxable income for the financial year. But before you figure out your tax rate and calculate how much income tax you owe, you’ll need to subtract…
+3. Your business expenses
+Here’s where things get even more complicated – but in a good way!
+Claiming business expenses is a great way to reduce your overall tax bill, by lowering your taxable income. You don’t get a refund for your expenses, but you can use them to reduce the total tax you need to pay.
+Less taxable income means less tax owed. That’s why lowering your taxable income can result in lowering your effective tax rate.
+
+Bridgette is a custom furniture maker. She receives an order for a bespoke dining table and cabinet sets, which requires a purchase of $7,000 worth of wood and other materials to complete. She claims these purchases as a tax deduction when lodging her taxes, as they meet the IRD’s requirements for a valid claim (cost of goods sold).
+
+Bridgette makes $75,000 a year selling her furniture, excluding GST, which is income before expenses. By claiming the cost of materials as a tax deduction, she reduces her taxable income from $75,000 to $68,000.
+
+At $75k, Bridgette’s effective income tax rate was 20.9%, and she would have had to pay the IRD $15,670 in income tax. By claiming a tax deduction and reducing her taxable income to $68k, her effective tax rate becomes 19.7%, and her tax bill is $13,420. That’s a tax saving of $2,250 just from this one deduction claimed!
+To make a real difference to your final tax bill, you’ll need to be claiming everything you (legally) can. This means storing receipts (the IRD requires you to keep expense receipts for 7 years), recording expenses, and depreciating more expensive assets – the whole shebang.
+For this reason, making sure your expense records are up to date can save a lot of time when it comes to filing your tax return at the end of the financial year. And we’re probably biased, but we reckon the easiest way to do this is by using Hnry.
+Forget the shoebox full of receipts – use Hnry, and we’ll do all the heavy lifting for you. Here’s how it works:
+You take a picture of your receipt, and raise it as an expense in the Hnry app.
+Our team of experts will review and approve your expense claim
+We then factor your expense claim into the amount of tax we deduct from your future pay, for immediate tax relief
+AND we store your digital expense receipts for the required 7 years.
+
+Simple! Download the Hnry app and get claiming.
+📖For more information on effective tax rates, check out our article on tax brackets and tax rates.
+📖 Learn how to expense claim like a tax veteran with our sole trader guide to expenses.
+📖 If you just want to skip to the good stuff, you can calculate your approximate tax rate using our self-employed tax calculator.
+Key IRD forms
+Now that you know what info you’ll need to provide to IRD, here’s a list of the forms you might need to use.
+We’ve already touched on a few of these already, but there are plenty of others that might apply to your business (lucky you!):
+
+
+Code
+Name
+Description
+
+
+IR3
+Individual income tax return
+If you’re earning self-employed income, you’ll need to fill out an IR3
+
+
+IR3NR
+Non-resident individual income tax return
+If you earn self-employed income in Aotearoa, but don’t live here and are not considered a tax resident, this is the form for you.
+
+
+IR3B
+Business Income schedule
+If you’re earning self-employed income, you’ll also need to complete an IR3B to summarise your self-employed income and expenses. This form needs to be filed with your individual tax return (IR3/IR3NR)
+
+
+IR3R
+Rental income schedule
+If you earn money from rental properties, you’ll need to complete an IR3R for each individual property. This form needs to be filed with your individual tax return (IR3/IR3NR)
+
+
+IR3F
+Farming income
+An IR3, but for farmers. We’re not sure why they’re singled out here, but it’s probably something to do with keeping track of the number of sheep in New Zealand.
+
+
+This is just the tip of the iceberg – the IRD has dozens more forms, and a heckton of notes and guides to go alongside them. The total number of forms you’ll need to fill in will depend on things like:
+
+Your income sources 
+Your occupation
+The number of expenses you’d like to claim
+Your residency status
+
+To make sure you’re on top of everything you need to submit, it’s worth checking out the IRD’s handy list of forms, just in case.
+For most people however, the main (and only) form they’ll have to submit is the IR3.
+IR3
+An IR3 form tells the IRD:
+
+what your personal income was during the last financial year (across all sources, including PAYE income)
+how much tax, if any, you have already paid on your income
+any business expenses you have claimed
+whether you have any outstanding tax to pay, or if you’re due a refund
+
+If you’re a sole trader earning self-employed income, or if you earn any income other than wages, interest, significant dividends, and/or taxable Māori authority distributions, you’ll need to fill out an IR3.
+(Those other income streams will need to be recorded in different IR forms.)
+If you’re in the IRD system as earning any self-employed income (even if it was a one-off job, and even if that one-off job included withholding tax), you’ll be sent an IR3 form in early April.
+They’ll also provide you with information about taxes that have already been deducted from your income (eg. through PAYE wages, or withholding or provisional tax), in a separate Summary of Income statement. If you’re filling in a paper copy of the IR3, you’ll need to manually transfer these details over.
+Alternatively, you can complete your tax return online using MyIR. If you decide to do it this way, any information the IRD already has will be auto filled for you. It makes the process a lot easier (but not as easy as it would be if you used Hnry).
+
+Dates and deadlines
+Now you know what to submit, let’s take a look at when you’ll need to submit it.
+The bad news is that there’s not one single tax deadline you have to be prepared for – there are several.
+The good news is that we’ve created a basic list of dates for you to note down in your calendar. There are more deadlines you’ll need to prepare for if you collect GST, or pay provisional tax or withholding tax, but for now, this is a good starting point.
+Big tax deadlines are spread throughout the financial year, and you’re going to have to hit every single one of them (unfortunately). It’s also slightly complicated because some tax deadlines are for the previous financial year. As in, the FY before last.
+Certain deadlines will also depend on whether you’re self-filing your tax return, or if you have a tax agent (hi!) filing on your behalf.
+Key
+
+
+ 
+Deadlines for self-filing your tax return
+
+
+ 
+Deadlines for filing your tax return through a tax agent/accountant
+
+
+
+
+
+Date
+Deadline
+Description
+
+
+31st March
+EOFY
+The financial year runs from the 1st of April to the 31st of March the next year. That’s why FYs include a range of two years – “FY 2022-2023” – instead of just one.
+Income tax rates are based on the income you make in a financial year, not a conventional year. 
+
+
+31st March
+FY before last’s tax return due(filing through a tax agent)
+If you have a tax agent (like us) or accountant filing on your behalf, your tax return for the previous financial year is due on the 31st of March.
+By previous financial year, we mean the FY before the year that’s just ended. Eg. the tax return for FY 2021-2022 would be due on the 7th of April 2023.
+(Why the IRD has decided that the end of one financial year is the perfect time to receive a filing for a different financial year, we have no idea).
+
+
+1st April
+NFY begins
+From 1st April onwards, you can file tax returns and apply for tax refunds from the financial year that just ended.
+🙋 At Hnry, we start filing your tax return in early May, after employers have finalised all their IRD submissions. This means when we file, we have the most accurate and up-to-date information on hand.
+
+
+7th April
+FY before last’s taxes due(filing through a tax agent)
+If your tax agent/accountant is filing your return, you’ll need to pay your residual taxes for the previous FY by the 7th of April each year.
+For example, if you have an outstanding tax bill of $500 from FY 2021-2022, that $500 will need to be paid before the 7th of April 2023.
+
+
+7th July
+Last FY’s tax return due(self-filing)
+If you’re filing your own tax return, you have until the 7th of July to submit it.
+This deadline is for the most recent FY return. Eg. the 2021-2022 tax return would be due on the 7th of July 2022.
+
+
+7th February
+Last FY’s taxes due
+If you’re filing your own tax return, you’ll need to pay your residual taxes for the last FY by the 7th of February.
+For example, if you have an outstanding tax bill of $500 from FY 2021-2022, that $500 will need to be paid before the 7th of February, 2023.
+
+
+Once your IR3/IR3NR is filed, any tax you owe will be due. If you’re owed a refund, you’ll only be able to receive it after you’ve filed.
+Basically, the sooner you file your IR3, the sooner your tax obligations will be done and dusted. And then you can then focus on the next tax deadline (just kidding. Kinda).
+GST Returns
+If you’re registered for GST, you will have different due dates for GST payments, depending on your chosen schedule (monthly, bimonthly, or six-monthly).
+The last due date for GST payments each financial year is the 30th of March.
+Provisional and Withholding Tax
+Similarly, if you pay provisional or withholding tax, your due dates will depend on the schedule you’ve confirmed with the IRD.
+Other payment deadlines
+
+ACC levies
+
+ACC levy invoices will usually be sent from September onwards each year, for the previous financial year.
+
+
+
+📖 For more information on calculating and paying ACC levies, check out our guide to the ACC.
+
+Student loan interim payments
+
+These are usually due on the 7th of May, 28th of August, and 15th of January each year
+
+
+Charitable donations tax credit
+
+To claim tax credits on income spent on charitable donations, you’ll need to submit donation receipts by the 31st of March (EOFY)
+(You can actually submit your receipts within four years of the original donation – the EOFY is just when the IRD calculates and applies your tax credit.)
+
+
+
+📖 For more information on charitable donations and tax credits, check out this guide written by our friends at Supergenerous.
+
+How Hnry makes the EOFY easy
+Hnry is an award-winning service that helps sole traders spend less time on financial admin, and more time doing what they love (unless what they love is financial admin).
+If you’re a Hnry customer, when the EOFY arrives:
+
+All of your taxes will have been already paid (we do it for you throughout the year)
+You confirm your details are correct, and your expense claims are up to date
+And then we’ll prepare your tax return, and once it’s ready, file it for you
+
+No huge, unexpected tax bill, no stack of paperwork, no tax calculations – Hnry does it all for you.
+Get your tax ducks (and deductions!) in a row by joining Hnry today.
+Glossary
+Because no survival guide is complete without a glossary!
+
+
+Term/acronym
+Definition
+
+
+EOFY
+End of the Financial Year.
+In New Zealand, the financial year ends on the 31st of March.
+
+
+FY
+Financial year.
+
+
+NFY
+New Financial Year.
+In Aotearoa, the new financial year begins on the 1st of April.
+
+
+Income tax
+Income tax is the tax levied on your income. Income tax rates are based on the income you make in a financial year, not a conventional year.
+
+
+Provisional tax
+Provisional tax is a way of paying income tax in instalments over a financial year, instead of paying a lump sum at the very end.
+If you default on a tax bill of over $5000, you’ll be required to pay provisional tax the following financial year.
+
+
+Withholding tax
+Some sole traders and contractors work for clients who withhold a percentage of their pay as tax for the IRD. This is called withholding tax.
+It’s different from PAYE income tax because it’s not based on the sole trader’s tax rate, but rather a flat rate assigned to the sole trader’s industry.
+Because of this, sole traders and contractors who pay withholding tax often pay too much or too little tax overall.
+💡 You can use Hnry’s services even if you pay withholding tax. Hnry includes the amount of withholding tax you pay in our tax calculations, you’re less likely to have a surprise tax bill at the end of the year!
+
+
+GST
+Goods and Services Tax.
+GST is a 15% tax levied on certain goods and services sold in New Zealand.
+You only need to register for GST after you’ve made more than $60,000 in self-employed income in a 12 month period.
+
+
+IRD
+Inland Revenue Department. They’re who you send your tax forms/funds to.
+
+
+PAYE employee
+PAYE is an acronym, short for “Pay As You Earn”.
+PAYE employees generally have their taxes handled for them by their employer, who deducts taxes for them every pay cycle. Hence they Pay taxes As You(they) Earn.
+
+
+Tax return
+A tax return is the form you fill declaring your income, expenses you’re claiming, and the amount of taxes you owe/should be refunded.
+For sole traders, this form is the “individual income tax return”, or the IR3.
+
+
+Tax agent
+Tax agents are people or businesses who prepare the annual tax returns of 10 or more people.
+The IRD maintains a list of organisations and people who have tax agent status, and regularly removes those who no longer qualify.
+Not to brag, but Hnry is very much on that list.

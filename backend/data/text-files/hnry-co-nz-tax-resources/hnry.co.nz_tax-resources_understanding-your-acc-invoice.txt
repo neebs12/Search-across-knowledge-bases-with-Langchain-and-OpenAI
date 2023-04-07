@@ -1,0 +1,86 @@
+ACC sends out invoices to self-employed earners once every year. This used to happen after the 1st of July, but due to the pandemic, ACC invoices are now issued in September/October.
+Seasoned self-employed individuals know to expect this invoice and budget in advance for it. But newbies are often taken by surprise. They might not have been aware that they needed to pay ACC, and are caught off guard when they’re invoiced for thousands of dollars in the middle of the year.
+It’s especially discouraging for contractors and freelancers who are just starting their journey into independent earning. The last thing they need is an unexpected levy.
+To make this system less confusing, we’ve broken down and explained the different components of an ACC invoice. Learn about the different levies, what your obligations are, and make sure that you’re being charged correctly.
+Don’t want to deal with ACC invoices? Hnry automatically calculates and pays your ACC levies (and taxes!) every time you’re paid, meaning you’ll never have to think about them again!Find out more.
+What are ACC levies?
+ACC levies are collected from all New Zealanders who work or own a business. This money is then used to fund ACC’s universal coverage for injury claims for all New Zealanders, regardless of employment status.
+Permanent/salaried earners pay their ACC levies as part of their PAYE Income Tax. It’s all automatic, meaning that they don’t need to think or worry about ACC.
+But if you’re self-employed, you’ll need to manually pay ACC levies in addition to your income tax, GST, and student loan payments.
+This is true even if you don’t earn much self-employed income, and mainly rely on your permanent/salaried role. You’re still required to pay ACC levies in proportion to your self-employed income.
+The three different levies
+For self-employed people, your ACC payment is made up of three different levies:
+
+the Working Safer levy, a flat rate of $0.08 per $100 of your liable income
+
+this helps fund Worksafe NZ, New Zealand’s primary workplace health and safety regulator
+
+
+the Earner’s levy, a flat rate of $1.21 per $100 of your liable income
+
+this helps funds cover for injuries that happen during everyday, non-work activities
+
+
+the Work levy, which is based on what kind of business you run
+
+this helps funds cover for injuries that happen at work
+the riskier your line of work, the higher this levy will be
+
+
+
+💡 Note: the term “liable income” refers to income that is subject to the ACC levies. ACC sets a minimum and maximum threshold for liable income every financial year, and you’re only required to pay levies on your taxable earnings between these thresholds. You can read more about these thresholds on the ACC website.
+Declaring Your Industry or Type of Work
+This is important.
+Your ACC Work levy rate is based on the type of work you do, because some industries are more high-risk than others. A skydiving instructor, for example, will have a higher levy rate than a bookkeeper.
+When IRD passes your details to ACC, they include the Business Industry Classification (BIC) code from your tax return or GST registration. ACC then uses this BIC code to assign you a classification unit (CU). This is the code that best describes your business activity and determines your Work levy rate.
+If ACC doesn’t know what you do for a job then this code will default to a Manufacturing code, which has one of the highest levy rates.
+Paying too high a rate with ACC is one of the most common mistakes we see self-employed people make, and it’s usually because ACC assigned them the default Manufacturing code. You can check what CU you’ve been assigned using the MyACC for Business website.
+If you need to change your CU, you can find the correct code using the Business Industry Classification Code website.
+If you’ve already received an invoice using the incorrect CU, you’ll need to contact ACC to update your account with the correct code. Wait for them to issue you a credit before paying the remaining balance.
+Understanding your ACC documents
+There are three types of documents you might receive from ACC depending on your ACC product and payment status. These documents are:
+
+ACC CoverPlus Invoice
+ACC CoverPlus Credit
+ACC Coverplus Extra Invoice
+
+####
+Understanding your ACC CoverPlus Invoice:
+
+Classification Unit (CU):
+This is the code that best describes your business activity and determines your Work levy rate. If ACC doesn’t know what you do for a job then this code will default to a Manufacturing code with one of the highest levy rates.
+Assuming you are not in Manufacturing, you can find out your correct code using the Business Industry Classification Code website.
+If you’ve already received an invoice using the incorrect CU, you’ll need to contact ACC to update your account with the correct code. Wait for them to issue you a credit before paying the remaining balance (see “Understanding your ACC CoverPlus Credit”).
+Employment status:
+If you work an average of less than 30 hours per week (including both self-employed and PAYE hours), your invoice should say “Part-time”. In all other cases, “Full-time” is correct.
+If you’re full-time, you’ll be charged levies based on the minimum income amount of $36,816, even if you earn less than this in self-employed income. If you earn over $36,816 then your levy rates will be based on your actual earnings as declared to ACC by IRD.
+If you work part-time you won’t be affected by the minimum income amount. ACC will base your levies on your actual liable income.
+Liable income:
+As a self-employed individual, your liable income is based on the income information you declared with Inland Revenue on the IR3 Individual income return.
+###
+Understanding your ACC CoverPlus Credit:
+
+This is where ACC’s system gets confusing, especially for first-time self-employed individuals.
+The most common misunderstanding of an ACC credit is that it means you no longer have a bill to pay - this is NOT correct.
+Any credit note issued is a credit against the original invoice issued to you by ACC.
+For example, let’s say your original invoice was for $984.77,but ACC had the wrong details for you on the invoice (e.g. Classification Unit, or Employment Status). Your first step will be to contact ACC and get those details updated. ACC will subsequently issue you a credit much like the $422.67 ACC CoverPlus Credit in the image above.
+This credit serves to reduce the amount owing to ACC down to $562.10 ($984.77-$422.67), which you will need to pay using the payment reference details included on the original invoice.
+Understanding your ACC Coverplus Extra Invoice:
+
+You will only be on Coverplus Extra if you have arranged this directly with ACC. Coverplus Extra is a more bespoke insurance policy, based on your individual circumstances, rather than the general coverage offered by ACC’s standard Coverplus policy.
+💡 Note: Unlike other ACC invoices that are usually issued in September, the CoverPlus Extra invoice is issued in April.
+CPX option
+This is the name of the ACC policy you are covered by.
+Agreed level of cover
+This is the level of cover that you agreed with ACC and that your levies are paid against. Unlike ACC CoverPlus, this is not based on your liable income but rather an amount of cover that you agree on with ACC.
+Use Hnry and never think about ACC invoices again
+We may be biased, but we reckon that the easiest way to simplify your ACC payments is to just use Hnry.
+Hnry automatically calculates and pays your ACC levies every time you get paid. This means you won’t ever receive an ACC invoice, or have to pay a lump sum of thousands of dollars in levies. Phew!
+But that’s not all. For just 1% of your self-employed income (capped at $1500 a year), Hnry will:
+
+Automatically calculate, pay, and file all other taxes, including income and GST (if you’re GST registered)
+Chase up any late payments from clients (provided you’ve invoiced them using Hnry)
+Store your expense receipts for 7 years - no shoebox required
+Automatically send a set percentage of your earnings to a savings account, KiwiSaver, a charity, a friend or family member - you decide how much, and where!
+
+You’ll be able to rest easy knowing that the money in your personal bank account is yours to spend.

@@ -1,0 +1,36 @@
+{
+  "name": "js-q-and-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:backend": "tsc && rm -rf ./build && tsc",
+    "build:all": "npm run build:backend && cd ../frontend && npm run build && cd ../backend && cp -r ../frontend/dist ./build/public",
+    "start": "npm run build:all && cp -r ./data ./build/data && node ./build/server.js && rm -rf ./build",
+    "dev": "tsc && cp -r ./data ./build/data && concurrently \"tsc -w\" \"nodemon ./build/server.js\" && rm -rf ./build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@dqbd/tiktoken": "^1.0.2",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "langchain": "^0.0.45",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "@types/node": "^18.15.11",
+    "concurrently": "^8.0.1",
+    "cors": "^2.8.5",
+    "csv-writer": "^1.6.0",
+    "d3-dsv": "^3.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "hnswlib-node": "^1.4.2",
+    "openai": "^3.2.1"
+  }
+}

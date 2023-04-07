@@ -1,0 +1,108 @@
+ACC guide for sole traders
+Your complete guide to understanding ACC and the three levies
+
+If you’ve ever, say, accidentally dislocated your shoulder while snowboarding, you’re probably familiar (and grateful for) ACC and their services. But what you might not know is that these services are funded by levies that all working Kiwis pay.
+For those who are newly self-employed, finding out you owe levies to ACC may come as a surprise in your first year of business. And even if you’ve been around for a while, it’s still no fun to receive that once-a-year ACC invoice in the mail.
+Everyone who works or owns a business in New Zealand is subject to paying these levies. But while PAYE employees have their levies automatically deducted from their paycheck and paid by their employers, sole traders are responsible for calculating and paying their levies on their own.
+There are three ACC levies in total, each calculated slightly differently depending on your circumstances. All three levies are due once a year, when ACC sends out their invoices – and they can be a bit pricey.
+The good news is that you can lessen the load by regularly putting aside money for your levies throughout the year. We’ll take you through:
+
+What ACC is and does
+What ACC levies are
+The different levels of ACC cover available for sole traders
+How to calculate your ACC levies
+How Hnry can help (because we really can!)
+
+Let’s get started!
+What is ACC?
+Tl;dr
+The Accident Compensation Corporation, more commonly known as ACC, is a government organisation that essentially acts as a public health insurance company.
+If anyone in New Zealand is injured (including visitors and those who aren’t currently working), ACC will help pay for medical costs, support at home and work, and any loss of income.
+The longer version
+New Zealand has a long, proud history of worker’s compensation, starting with the Worker’s Compensation Act in 1900. It was one of the first of its kind in the world, creating a ‘no fault’ system under which:
+
+Employers were required to take out insurance to cover injuries to employees
+Injured workers received weekly compensation payments
+Families of workers who were fatally injured received compensation.
+
+Because of the ‘no fault’ nature of cover, people were protected without needing to sue anyone, including their employers (although they could sue for carelessness if they wanted to).
+Successive governments expanded the act, often based on feedback from workers, until finally, ACC was born in 1974.
+Today, the modern ACC has several different responsibilities, including:
+
+Helping pay for medical and/or physio bills in case of an accident
+Helping pay for counselling and support for sensitive claims
+Covering loss of income (up to a certain percentage) if someone is unable to work due to an injury
+Working with partners and communities to create resources and help prevent injuries (they even have a quiz to assess your attitude towards risk!)
+
+In short, if you have the misfortune to meet with an accident in Aotearoa, ACC has got your back.
+What are ACC levies?
+Taking care of the injuries of an entire country can get expensive! To help offset the costs, ACC collects levies from all working New Zealanders. These levies are in addition to the income tax you pay each year.
+Once you register as a sole trader, you’ll receive your first invoice after you file your first tax return. Surprise!
+(No, seriously; so many sole traders are surprised by their first ACC invoice because they assume filing their taxes is a one-and-done deal. Spoiler alert: it’s not. Here’s everything you need to know about prepping for the end of the financial year.)
+From then on, an ACC invoice will be sent to you sometime between July and September each year.
+📖Got your invoice, but struggling to decode it? Check out our article on understanding your ACC invoice.
+The three ACC levies
+Everyone who earns income in New Zealand pays the Earners’ levy, no matter what kind of work you do. Businesses pay two other levies, the Work levy and the Working Safer levy.
+Unfortunately, as sole traders count as both earners and businesses, you’ll have to pay all three.
+Each levy is calculated slightly differently (with rates updated every April):
+
+the Earner’s levy is a flat rate of $1.27 per $100 (excluding GST) of your liable income
+
+this helps fund cover for injuries that happen during everyday, non-work activities
+
+
+the Working Safer levy is a flat rate of $0.08 per $100 of your liable income
+
+this helps fund Worksafe NZ, New Zealand’s primary workplace health and safety regulator
+
+
+the Work levy is based on the industry you operate in
+
+this helps funds cover for injuries that happen at work
+the riskier your line of work, the higher this levy will be
+
+
+
+The amount of income assessed by the Earners’ levy is capped, which means for that levy the most you’ll pay is roughly $2,000.
+
+How to calculate your ACC levies
+If this all wasn’t complicated enough, there are a few more things you need to know in order to accurately calculate your ACC levies (phew!).
+Firstly, the levies you pay are all calculated off your liable income, which is based on the information you declare when you do your taxes.
+💡 The termliable income refers to income that is subject to ACC levies. ACC sets a minimum and maximum threshold for liable income every financial year, and you’re only required to pay levies on your taxable earnings between these thresholds. You can read more about these thresholds on ACCwebsite.
+Your levies also depend on the type of cover you have, and your Classification Unit (basically, what type of work you do).
+Here we go!
+The Earner’s levy
+Good news: the Earner’s levy is incredibly straightforward. To calculate your levy, you take your liable income, divide it by 100, and then multiply that number by 1.27. Voila!
+
+The Working Safer levy
+The Working Safer levy is also simple to calculate – in fact, you can use the exact same equation. Only this time, rather than multiplying your liable income by 1.27, you multiply it by 0.8 instead.
+
+The Work levy
+Here’s where things get tricky.
+In order to calculate your Work levy, you’ll need to find your Classification Unit (CU). Each CU has a different Work levy rate – essentially the riskier the profession, the higher the levy.
+
+There’s a CU for every occupation, from “Alpine Recreational Activities” to “Zoological Garden Operation”, so you’ll need to find the exact right code for you. If you fail to provide a CU to ACC, and they’re unable to figure it out from your tax filing, they’ll assign you a code with one of the highest levy rates. To be on the safe side.
+Once you’ve found the right CU, you’ll need to look up the corresponding levy rate in ACC’s levy guidebook. The basic levy rate will be listed in the “EMP or SEP” column.
+
+(Warning: this thing is a whopping 136 pages long. We recommend using the Ctrl+F search function.)
+Once you’ve found the right levy rate, we’re back to mathematical smooth sailing.
+
+CoverPlus vs. CoverPlus Extra
+One last thing…
+When you pay your ACC levies, you’ll be covered for accidents or injuries under a plan called CoverPlus. If you’re unable to work, CoverPlus will pay you up to 80% of your income, calculated based on your reported income from the most recent financial year.
+But depending on your needs, lifestyle, and expenses, you might want even more cover. Makes sense.
+If this is the case, you can opt to be on a plan called CoverPlus Extra (CPX).
+With CPX, you can choose how much you want to receive weekly in the event of an injury or accident (subject to an assessment to determine an appropriate level of cover). This comes in handy if:
+
+Your income fluctuates from week to week
+You want to be covered for more than you’ve earned in the previous financial year
+You want to be covered for less than you earn, and reduce your levy rate
+
+CoverPlusCoverPlus ExtraCovers out 80% of your income, but may be reduced if your business continues to generate income.Based on your earnings during the last financial yearTo receive compensation, you’ll have to prove your loss of earningsCovers 100% of the agreed amount, no questions asked.Lets you choose how much you’re covered forRequires no proof of loss of earnings
+There are significant advantages to upgrading to CoverPlus Extra, especially if you’re newly self-employed with no earnings history, or if your business would have a hard time proving a loss of income.
+If you’re still not sure, you can see a full comparison of the two levels of cover on ACC website.
+How Hnry can help
+Does all this sound like a lot to get your head around? Never fear, your favourite tax automation company is here (that’s us!).
+Hnry is a registered tax agent that can take the pain out of managing your taxes. We automatically calculate, deduct and pay all of your taxes (and ACC levies) on every payment you receive, so you aren’t caught out with a massive tax bill come tax time. We’ll even file your annual tax return (and GST returns!) all as part of the service.
+Basically, for 1% of your sole trader income (capped at $1500), we’ll make it so you never have to think about tax again.
+Join the fastest-growing tax agency in Australasia and sign up for Hnry today!

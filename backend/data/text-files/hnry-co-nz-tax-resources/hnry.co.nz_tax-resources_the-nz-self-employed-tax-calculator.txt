@@ -1,0 +1,18 @@
+Most contractors and freelancers find it hard to work out exactly how much tax they’ll need to pay. Most tax calculators are set up for permanent employees working PAYE jobs, and so aren’t accurate for the self-employed.
+We decided to create our own tax calculator, specifically for self-employed freelancers, contractors and sole traders. It will calculate out how much tax you’ll need to pay across the main tax types.
+Ready to find out how much tax you’ll need to pay? Just use our simple tax calculator below to get the totals 👇
+ 
+Disclaimer: Please note the tax rate shown above is an estimate based on the figures you’ve provided and doesn’t take into account factors such as secondary tax obligations. Once Hnry becomes your tax agent, we can factor these in and ensure you’re always taxed at the correct rate. If you have any questions, please reach out to the team.
+Key Taxes for the Self-Employed:
+Income Tax 
+Any self-employed income you earn will need to have Income Tax paid on it. There is no ‘tax free’ threshold in New Zealand, and therefore any income you earn as a contractor or freelancer will be taxed. IRD calculate your income tax rate by summing the total of all your sources of income (including PAYE/Salary jobs, together with self-employed income, investment income etc) and then applying their standard tax rates. The income tax rates for PAYE earners and self-employed individuals are exactly the same.
+GST 
+If you earn over $60,000 per financial year just from your self-employed income (i.e. not including any Salary/Permanent income) then IRD will require you to register for GST. When you are registered for GST, you will be required to charge your customers an additional 15% on top of the cost of your goods and services, and this 15% is payable to IRD whenever you file your GST returns. If you make business purchases, the GST on any business purchases will reduce the amount of the GST you’ve collected that will be payable to IRD. For more details on GST, check out our Guide to Contractor and Freelancer GST
+ACC 
+Any income you make from self-employment is also subject to ACC levies. The exact cost of your ACC levies will depend on the type of work you do. If you also earn income from PAYE/Salary work, then you will already be making ACC contributions as part of your PAYE taxes, and therefore any ACC levies on your self-employed income will be in addition to that. It’s worth noting that there are annual limits for ACC levies, over which you won’t be required to make any further payments. N.B. For our calculator below, we have assumed an average ACC levy rate, given that there are many various ACC levy rates based on the type of work you do, and the associated risk.
+Student Loan 
+If you currently have a Student Loan, and you are earning over the annual threshold of $20,020, you will be required to make repayments on that loan at the standard IRD rate of 12%. This is the same for your contracting and freelancing income, even if you also have a PAYE job at the same time.
+How Hnry Helps
+Hnry is a registered tax agent that can take the pain out of calculating your tax. We automatically deduct all relevant taxes with every invoice you’re paid, so you aren’t caught out with a massive tax bill come tax time, and we’ll even file your annual tax return for you at no additional cost.
+Better still, using the Hnry platform costs less than using a traditional accountant, and is entirely tax deductible.
+If that sounds good to you, join Hnry today and never think about tax again!

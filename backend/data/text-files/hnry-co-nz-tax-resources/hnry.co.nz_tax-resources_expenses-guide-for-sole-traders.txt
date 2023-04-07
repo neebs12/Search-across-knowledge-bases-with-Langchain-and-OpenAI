@@ -1,0 +1,129 @@
+“I think I should pay more taxes,” said no sole trader ever.
+If you’re self-employed and/or running your own business, you know how hard it is to set aside a percentage of your hard-earned income to pay your taxes. Maybe you find yourself itching to use some of these funds to grow your business, or even take a well-deserved break (imagine!).
+Luckily, there is a way to (legally) pay less taxes each year. 
+To help sole traders and small businesses keep more of their money, the IRD allows some business expenses to be claimed as tax deductions. What this essentially means is that you’re rewarded for investing in your business, AND you get to keep more of your money come tax day. Woohoo!
+Unfortunately, the tax deduction system isn’t as straightforward as buying an asset, paying less tax. For starters, only certain business expenses qualify for a deduction, claimable expenses differ from industry to industry, and some purchases are only partially claimable.
+So how can you make the most of this complicated system? Buckle up team. It’s time to get fiscal. Here’s what we’ll cover:
+
+What is a tax deduction?
+Who can claim tax deductions?
+What expenses are tax deductible?
+Types of deductible expenses
+Keeping records for the IRC
+10 Common business expenses (as raised by Hnry users!
+How Hnry makes claiming tax deductions easier
+
+ 
+What is a tax deduction?
+Despite having “tax” and “deduction” in its name, a tax deduction isn’t money deducted from the taxes you pay, that you then get to keep. Instead, a tax deduction reduces the amount of income you have to pay taxes on, resulting in less tax and a lower effective tax rate.
+💡Your effective tax rate is the average tax rate you pay on your income after applying all the tax rules.
+The IRD allows you to claim certain business expenses (or part of an expense) as tax deductions. This means that you won’t pay tax on the claimed expense, NOT that you get this amount back as a tax refund.
+Sounds confusing? Let’s break it down:
+Bridgette is a custom furniture maker. She receives an order for a bespoke dining table and cabinet sets, which requires a purchase of $7,000 worth of wood and other materials to complete. She claims these purchases as a tax deduction when lodging her taxes, as they meet the IRD’s requirements for a valid claim (cost of goods sold). Bridgette makes $75,000 a year selling her furniture, excluding GST, which is income before expenses. By claiming the cost of materials as a tax deduction, she reduces her taxable income from $75,000 to $68,000. At $75k, Bridgette’s effective income tax rate was 20.9%, and she would have had to pay the IRD $15,670 in income tax. By claiming a tax deduction and reducing her taxable income to $68k, her effective tax rate becomes 19.7%, and her tax bill is $13,420. That’s a tax saving of $2250 just from this one deduction claimed\!
+
+💡You can calculate your own effective tax rates before and after allowable expenses using our tax calculator. For more information about tax rates, see our guide to tax rates for sole traders.
+💡If you’re GST registered, claiming GST expenses happen separately from claiming tax deductions. For more information, check out our guide to GST. 
+Who can claim tax deductions?
+In New Zealand, people who aren’t in business (eg. PAYE employees) can’t claim business expenses. They are eligible to claim tax deduction for a few specific things like: 
+
+charitable donations, 
+commission charged on earning interest or dividends, 
+tax preparation fees
+income protection insurance
+and (ironically) the interest they pay the IRD for late payment of tax.
+
+Companies usually cover all work-related costs for PAYE employees, which is why they aren’t eligible to claim work-related expenses as a general rule. 
+Sole traders however can claim business expenses for costs incurred in relation to their work. As a general rule, you can claim a tax deduction for a business expense as long as: 
+
+the expense relates directly to earning income,
+or running your business.
+
+Claiming expenses are a brilliant way to pay less in taxes, while spending more money on your business. Huge win-win! 
+… just make sure you’re claiming exactly what you spend, and you won’t be done for tax fraud (yikes).
+💡 Remember: if an expense is for both business and personal use, you can only claim costs for the business usage.
+💡 For more information on both business and personal tax deduction, check out the IRD’s handy guide to individual expenses. 
+What expenses are tax deductible?
+Before we get to the good stuff, we need to talk about the exact difference between business expenses and tax deductions. These terms are sometimes used interchangeably, but they’re definitely not the same thing. In fact, contrary to popular belief, not all tax deductions are business expenses, and not all expenses are tax deductible. The more you know!
+
+Simple! Yet confusing. We hear you. Let’s dive in. 
+Business expenses
+Business expenses are the costs you incur as part of running your business day-to-day. Basically, if you need something to help you get the job done, that purchase will be a business expense.
+BUT the IRD won’t automatically accept every expense as a tax deduction. As we’ve already talked about, they have strict criteria for what is and isn’t tax deductible.
+A good example is work clothes. The IRD only allows deductions for mandated uniforms, clothing with logos, and health and safety equipment.. Even if you only use certain clothes for work, if they could feasibly be worn outside of work, you’re out of luck.
+Sameer is a baker, specialising in complex cake art. Because his creations are usually quite delicate, he often cuts and serves his cakes at events as part of the service. He purchased black dress pants and a crisp white shirt to wear for these events, and only uses them while at work. But because he could reasonably wear this outfit to a personal event, it is not tax deductible according to the IRD.
+ 
+Tax deductions
+We’ve already covered what tax deductions are and how they work. But did you know that you can claim tax deductions for things other than business expenses?
+The most common example is charitable donations. Anything you donate to an IRD-approved charity is 33.33% tax deductible, as long as the donation:
+
+is for $5 or more,
+doesn’t directly benefit you or your family,
+and wasn’t made as a way to forgive debt owed.
+
+Donations are a great way to align your sole-trader brand with some fantastic causes – all while reducing your taxable income.
+With all this in mind, let’s update that snazzy venn diagram:
+
+💡You can use Hnry’s Allocation feature to donate a percent of every pay to your favourite charity. For more information, check out this article written by our partners at Supergenerous on charitable giving and tax deductions. 
+Examples of deductible expenses
+Industry-specific deductions
+The IRD’s guidelines are actually just a starting point, and claimable expenses differ between industries and contexts. For example:
+
+A musician can claim funky outfits they wear when performing
+A tradie can claim a hard hat they need to keep them safe.
+
+Because of this, you can’t automatically claim everything your friends and family claim – their deductions might not be applicable to your industry. 
+Partially-deductible expenses
+Some business expenses are also only partially tax deductible. For example, you can only claim a deduction for:
+
+The business use of a work vehicle, not the personal.
+The percentage of your internet bill you used for business purposes while working from home.
+50% of certain entertainment expenses.
+
+💡You need to be able to prove that an eligible expense was partly or solely for business use. Otherwise, it might not fly with the IRD.
+If in doubt about an expense, you should run it by your accountant or tax agent (or the friendly Hnry team!). 
+Depreciating Assets
+Finally, there are depreciating assets, which are claimed a little differently.
+A depreciating asset is an asset worth more than $1000 that declines in value over time as it’s used. This might include cars, tools, computers, even buildings! With these assets, you’re not actually claiming the cost of the asset itself, you’re claiming the amount it drops in resale value each year – the depreciation.
+💡Remember, like with all expenses, you can only claim depreciation for the business use of an asset.
+If you purchase a depreciating asset, there are two ways you can claim this as a tax deduction:
+
+Straight line method
+
+With this method, you can claim the same amount each year. It’s calculated as a percentage of the original cost of the asset.
+
+
+Diminishing value method
+
+With this method, depreciation is calculated each year using a constant percentage relative to the current value of the asset. It’s more reflective of the actual value of the asset, and means you’ll claim more up front but less in later years.
+
+
+
+Both methods will have rates and timelines set by the IRD. You can make sure you’re calculating depreciation accurately using their depreciation calculator.
+If you sell an asset partway through its depreciation, stop using it for business purposes, or even stop being a sole trader altogether, there will be tax and GST implications. Be sure to let your accountant (or Hnry tax specialist!) know as soon as anything changes.
+Using Hnry means never having to think about depreciation again 🎉 Simply raise the asset like a regular expense, and we’ll automatically claim the depreciation for you. See how it works.
+ 
+Keeping records for the IRD
+There’s nothing worse than putting hours of blood, sweat, and tears into your financial admin, only to realise at the end of the financial year that you lost the receipts!
+Keeping clear, organised records of purchases and goods/products sold will help make tax time as stress-free as possible. It’s also good practice; the IRD requires you to save a record of your expenses (receipts) for seven years after purchase, either physically or digitally. Imagine seven years of receipts strewn across your office floor, and you’ll appreciate the value of a good filing system.
+Alternatively, if you’re a Hnry customer, you can take a quick photo of your receipts and upload them to the Hnry app. We’ll calculate your expenses and claim your tax deductions for you, AND store your receipts for you for seven years from purchase. No shoebox full of records required – ever again!
+ 
+10 most common business expenses (as raised by Hnry users!)
+Now we get to the fun stuff! Here are the top 10 most-raised expenses for our users in the last financial year:
+
+DepreciationAs already mentioned, any business asset purchased for over $1000 must be depreciated. If it’s for both business and personal use, you can only claim the business use.
+Subscription feesAny recurring subscription costs for business-related products e.g. recurring software costs, online magazines, newspaper magazine subscriptions, licensing fees.
+Light, power, heatingIf you work from home, you can claim the business percentage of your light, power, and heating bills. Calculate the percentage by figuring out the percentage of your home dedicated to your home office.
+Mobile phone billsRemember, if the phone is for both business and personal use, you can only claim the percentage of the bill that was for business use.
+Equipment purchasesAny equipment purchased that you need in order to do your job e.g. mobile phones, software, camera equipment, tools. And again, if the equipment is for both business and personal use, you can only claim the business portion of the cost (but remember if the equipment is over $1,000 it needs to be depreciated!)
+Internet billJust like your mobile phone bill, you can only claim for the cost of business use of your internet. You also can’t claim a deduction for installation or set-up costs.
+Mortgage interestFor those who work from home, this one is again calculated based on the size of your home office.
+Professional insuranceProfessional indemnity insurance is absolutely tax deductible. Claim away!
+RentLike with mortgage interest, the deductible portion of your rent depends on the size of your home office.
+ACC leviesIt feels counterintuitive, but your ACC levies are fully tax deductible. Good news for loggers everywhere!
+Motor vehicle expensesYou can claim all vehicle costs as business expenses. If a vehicle is for both business and personal use (say it with us now), you can only claim the business percentage of the costs.
+
+ 
+How Hnry makes claiming expenses easier
+We may be biased, but we believe that the best way for sole traders to maximise their tax deductions (legally) is to use Hnry. Hnry is an award-winning service that’s helping sole traders spend less time on financial admin, and more time doing what they love (unless what they love is financial admin). Once you’re up and running with Hnry, we’ll automatically deduct all relevant tax payments and levies every time you’re paid, so you won’t accidentally end up with a massive tax bill at the end of the financial year. We’ll even file your annual tax return for you, at no additional cost.
+Raising expenses through our app is as simple as taking a photo of your receipt and inputting a few extra details. From there, our accountants will review and claim your expenses straight away, so you get the tax relief back in your pocket in real time (rather than having to wait until the end of the financial year). Easy as!
+Get your tax ducks (and deductions) in a row by joining Hnry today!

@@ -1,0 +1,50 @@
+The IR330C (Tax rate notification for contractors) form is an IRD form filled out by contractors, freelancers, and other self-employed individuals when they are working for large ‘labour hire’ organisations in New Zealand.
+A ‘labour hire’ organisation might be a recruitment agency, a large construction company, a film studio, or any other company that employs large numbers of independent contractors. For these labour hire organisations, it is mandatory for them to collect an IR330C form from you before they can pay you.
+On starting a contract working for a labour hire organisation you may be asked to fill in IR330C form. This form notifies your employer what rate of Income Tax you would like them to withhold from you each time they pay you. It is up to the individual contractor or freelancer to fill in, sign, and return this form to their employer. Failure to do so will result in your employer having to deduct up to 45% of your earnings as Income Tax before they pay you!
+Whenever you get paid through one of these organisations, they will then deduct that rate from your income as Income Tax, and they will also declare your total income to IRD.
+DOWNLOAD THE FORM
+##
+How do you fill in the IR330C form?
+The IR330C form can be filled out on your computer and saved as a PDF - or printed and filled out manually. It should then be sent to your labour hire via email or delivered in person. An overview of how to fill in each section of the form is below:
+Section 1. Your Details
+
+Name:enter your full legal name, as it would appear with IRD
+IRD Number: enter your IRD number (if your IRD number is 8 digits, start from the second box from the left)
+
+Section 2. Your Tax Rate
+
+Tax Rate:enter the percentage of Income Tax that you would like your employer or labour hire to deduct and pay to IRD every time you get paid. Unless you have an IRD exemption certificate, the lowest number you can enter is 10% (15% if you are a non-resident). The guide on the reverse of the IR330C form as to which rate to choose is simply a guide - nothing more. This means that you can specify any rate you like above the minimum, regardless of your Activity Number or the type of work you do.
+Schedular Payment Activity Number:refer to the table on the reverse of the IR330C form to find your Activity Number, which is based on the closest match to the sort of work you do. Most individuals working through a Labour Hire organisation will have an Activity Number of 19. Those in the Film & TV industry will be Activity Number 24. If you are unsure, you may wish to ask your employer or labour hire which activity number their contractors usually choose.N.B. This activity number does not affect the amount of Income Tax you will end up paying overall.
+
+Section 3. Declaration
+
+Name: enter your full name as you did for Section 1
+Designation or title (if applicable):you can leave this blank if you are an individual contractor or freelancer trading as a sole trader
+Signature: your personal signature (electronic signatures are accepted)
+Date: the date you are filling in this form
+
+
+The tax rate you select on the IR330C form is always wrong. You will always either end up overpaying your Income Tax, or underpaying your Income Tax.
+
+Common Mistakes with the IR330C form
+When completing an IR330C form, make sure that you are aware of these common misconceptions and mistakes:
+
+The tax deducted is only the first part of your Income Tax. Depending on the percentage rate you choose, there may be further Income Tax to pay at the end of the year based on your total annual earnings. As a contractor, it is up to you to keep track of where further Income Tax is owing throughout the year, and put aside the relevant funds.
+The tax that is deducted from your pay is sometimes called Withholding Tax - which is identical to Income Tax. They are both one and the same.
+The tax deducted is only Income Tax - it does not cover your full tax liability as a self-employed individual. For example, Withholding Tax does not contribute to GST, ACC, or Student Loan repayments. You will need to set funds aside separately to cover your obligations for these taxes, as well as any additional Income Tax owing.
+You have to fill in the IR330C form yourself, and choose the Tax Rate yourself. Your recruiter or employer is not allowed to influence the rate you choose, and they cannot fill this form out for you or tell you which rate to select. It is your choice.
+Even if you have been granted a certificate of exemption (COE) from IRD, you are still required to fill out and sign the IR330C form. An exemption certificate would just permit you to elect a rate of 0%, rather than the standard minimum of 10%.
+The tax rate you select on the IR330C form is always wrong. You will always either end up overpaying your Income Tax, or underpaying your Income Tax. Your rate of income will most likely fluctuate throughout the year, and so the tax rate you select at the start of the year will be very unlikely to end up being accurate.
+
+##
+How to get it right every time
+If contractors and freelancers want to ensure they pay only the exact right amount of tax every time, they should use Hnry. Hnry monitors your income throughout the year, and automatically adjusts your income tax rate to ensure that you’re paying the exact right amount of all your taxes, and that what you get paid is yours to keep.
+That means:
+
+No more under or over-paying your Income Tax - you get the right amount of money in your pocket every time
+No more worrying about your other taxes like GST or ACC - Hnry takes care of all your taxes for you, and files all your returns on your behalf
+No more eye-watering Provisional Tax payments, and no more uncertainty about how much money to hold back for taxes
+No need to pay for a separate accountant and multiple software tools to handle your financial admin - Hnry is an all-in-one service.
+
+We’re a team of accountants and tax experts, providing you exceptional service and revolutionary software to save you time, money and hassle.
+To find out more about why thousands of Kiwis are upgrading to Hnry, click the buttons below.

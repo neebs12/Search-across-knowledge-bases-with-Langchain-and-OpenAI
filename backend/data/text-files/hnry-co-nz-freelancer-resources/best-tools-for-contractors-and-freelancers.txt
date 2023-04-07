@@ -1,0 +1,61 @@
+When you work independently as a contractor or freelancer, it becomes really obvious just how much your time is worth.
+That’s why it’s important to have the right tools, to maximise your efficiency and get the most out of your time. You also need to grow and maintain a strong network to win new clients and keep the work coming in. You can’t rely on someone else to get you your next role, so taking the time to engage with your network is essential.
+
+Finally, you’ll need to ensure that your clients and prospective clients see you as being organised and professional, taking the time to choose tools and ways of working that ensure their precious time isn’t wasted either.
+
+So we’ve put together a list of 5 key tools that’ll help you stay at the top of your game:
+
+1. LinkedIn
+https://www.linkedin.com/
+
+This may seem like an obvious one, however it’s amazing how few people are actually getting the full value out of LinkedIn. It’s not just a place to hold your job history or read articles - it can be used for so much more than that. Here are our tips for getting the most from LinkedIn:
+
+Create and post content to your network: Upload videos, or use LinkedIn’s in-built Articles feature to publish your own content to your network. Tell people what you think, write out a list of tips, or take a stand on an issue - all of this can demonstrate your expertise in your field. Articles don’t need to be long - maybe 500 words or so - and videos should be short and to the point. If you create something engaging and original, your network will see you as someone worth listening to. Avoid creating clickbait content, vlogging from the drivers’ seat of your car or posting ‘motivational’ quotes - your network won’t thank you for it!
+
+Monitor and maintain your network: When you meet someone in a professional situation, add them on LinkedIn - add a comment to that invitation so that people remember you. LinkedIn is a professional network, so unless you have a professional reason for connecting with someone, don’t look to add them on LinkedIn. Look out for people in your network changing jobs, as it could lead to new opportunities. Remember - the larger your network, the larger the number of people that will be able to see your activity. At least once a day, it’s really valuable to spend some time on LinkedIn, engaging with your network. You never know - it could lead to your next piece of paid work.
+
+Comment and share content: It’s no good just reading other people’s posts - you need to be active on LinkedIn and engage with your network. That means commenting on others’ posts, share others’ content to your network, and show your network that you’re participating. LinkedIn is a two-way street - if you engage with others’ content, they’ll engage with yours.
+
+Keep your profile up-to-date: It’s really important that your LinkedIn profile is accurate and up-to-date. LinkedIn can be a fantastic way of showcasing your experience to potential clients and recruiters, so always make sure your job history is accurate and clear. As and when you gain new qualifications and certifications, make sure you add them to LinkedIn. Remember, it’s a place for professional qualifications - so your swimming badges probably aren’t relevant here…
+
+2. Zapier
+https://zapier.com/
+
+Zapier is a fantastic online tool to help you automate your professional life. Zapier allows you to connect one piece of software with another, triggering automated tasks (called ‘Zaps’) based on a set of rules that you define. It has an ever-growing list of different integrations, allowing you to connect tools together like Gmail, Facebook, Google Sheets, Trello, Slack, Mailchimp, Streak, Typeform and many more.
+
+Creating a ‘Zap’ is quick and simple, and is a fantastic way of saving yourself time and effort. Our 3 favourite uses of Zapier for contractors and freelancers are:
+
+Save new Gmail attachments to Google Drive: When you receive emails, it can be easy to forget to store those attachments in your Google Drive. That means you’re forever trying to search Gmail to find the email, and then dig out the attachment. With Zapier, you can automatically save any attachment someone emails you into your Google Drive, into a folder of your choice.
+Add new Google Contacts to MailChimp audiences: If you’re someone who often sends out emails to your network, providing updates on your activity, you might want to consider automatically adding any new Google Contacts to your MailChimp audience. You then simply need to add a Contact in Google, and you don’t have to worry about manually keeping your MailChimp lists up to date.
+Connect LinkedIn to Livestorm Webinars: Creating and publishing webinars is becoming a really useful way of connecting with your network - particularly if you have skills or experiences that others would be interested in. By using LinkedIn Lead Gen Forms you can publicise an upcoming Webinar on LinkedIn, and have each respondent registered for your Livestorm webinar automatically.
+But these examples are just the tip of the iceberg. Zapier lets you connect thousands of different apps together, so the possibilities are endless. Regardless of what industry you work in, or what sort of work you do, Zapier can save you a lot of time, and ensure you can focus on doing the things that are really important.
+
+3. Streak
+https://www.streak.com/
+
+If you’ve been on the hunt for a lightweight CRM tool, look no further than Streak. Streak is seamlessly integrated into Gmail - which is really important given that you probably spend most of your time in your email client! Streak allows you to manage a pipeline of leads, manage tasks, organisations, contacts, all from within the standard Gmail interface. They’ve also got really useful mobile apps, that provide that same functionality whilst you’re on the go - great for taking notes in meetings or setting follow-up tasks after the meeting.
+
+Some of our favourite features of Streak CRM are:
+
+Email Tracking: As standard, Streak comes with the ability for you to see when your emails have been read, where they were read from, and on which type of device. This is incredibly useful if you want to check that your recipient has read your email - as well as allowing you to see all the different places it might have been forwarded to!
+Streak Tasks: When using Streak within Gmail, it’s really simple to set follow-ups and reminders. These get automatically created as Google Calendar entries, to ensure you’re always on top of following up with your network. If you’re someone who often needs to follow up with emails at a later date, this is a great way of keeping your inbox clean, whilst also not forgetting those all-important follow-up tasks.
+Social Media Profiles: Whenever you add a new Contact in Streak, it will automatically look to fetch the latest information from LinkedIn or Twitter about that person’s profile, and add that information into Streak. That means you can easily find, connect with and maintain networks with new contacts.
+Template Emails: How often have you found yourself sending identical emails to contacts, or using the same paragraph over and over again in emails - thanking someone for their time or introducing yourself? Whether it’s for a standard introductory or follow-up email, Streak has the ability for you to create custom ‘snippets’ that you can insert into your emails, to save you time when dealing with multiple clients and contacts.
+4. Notion
+https://www.notion.so/
+
+For anyone that deals with a lot of documents and notes, it can be really unwieldy to use tools like Google Docs, and even OneNote and Evernote can get really messy, really quickly. Notion is a fantastic tool to help take notes, keep things organised, plan tasks, publish content and even for collaborating with others.It’s fast to use, and is powerful for both beginners and advanced users alike. Here are some of the ways that freelancers and contractors are getting the most out of Notion:
+
+Taking structured notes: When it meetings, it can be hard to take structured notes, create tables or keep things formatted nicely. Often your meeting notes consist of a sporadic set of bullet points with very little structure. With Notion, it’s easy to create tables, insert links, embed documents and even assign yourself follow-up tasks.
+Publishing content online: With Notion, you don’t need to pay for separate web hosting costs - any of your Notion pages can be published online at the click of a button. You can publish whole sets of interconnected pages out to the public - whether that’s sharing meeting notes, a profile of yourself, or even showcasing your work with others.
+Managing tasks and projects: Notion has in-built templates to help you create project plans, spreadsheets and Kanban boards quickly and easily. You no longer need to think about storing meeting notes separately from tasks and plans - Notion can bring it together all in one place.
+5. Calendly
+https://calendly.com/
+
+If you’re someone who offers your time out to your clients, it can be really hard to ensure meetings get scheduled only at times when you’re available. If you have multiple email addresses, (perhaps working across a few different clients) then this becomes even more tricky. Enter Calendly - a fantastic tool to help you manage across multiple calendars, and help people book times with you. Every meeting someone schedules with you through Calendly will be added to your primary calendar, and their calendar, with clear instructions on who will be calling whom, and what the context of the meeting is. This makes it really easy for you to manage your time, your availability and also set expectations with your clients and prospects.
+
+Here are some great ways that Calendly can help you maximise your efficiency as a contractor or freelancer:
+
+Multiple Calendar Management: Managing meetings across multiple different online calendars can be stressful. Calendly brings together all your calendar availability into one place, so that anyone booking meetings with you can see the times you’re free, taking into account all the different calendars you operate with. You can let people know the duration of each time slot, and collect emails and phone numbers - great for ensuring people don’t book 2-hour meetings in your calendar!
+Sharing your Calendly URL: When you sign up for Calendly, you’ll get given your own unique URL to give to your clients. Anyone visiting that URL will be presented with a few different time slots for booking a half-hour (or hour) with you. By adding your unique URL to your email signature, social media profile, and even embedding it in your website, you can make it really easy for people to see your availability. Perhaps you’re offering a free initial consultation to clients, or perhaps you’re offering clients a time for a callback. Sharing your availability with Calendly can help you keep on top of your meetings, as well as ensuring you look professional in front of your clients.
+Charging for your time: If you’re someone who charges for their time, perhaps for online consultations or phone calls, then Calendly has some great integration with the likes of Stripe and Paypal. Anyone booking a meeting can pay the relevant cost up front at the time of scheduling, to ensure you’re never in the situation of no-shows costing you time and money.

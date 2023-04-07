@@ -1,0 +1,55 @@
+Registering for GST is super easy. It’s all done online through the IRD website so all you will need is your myIR details on hand to get set up.
+If you are going to be earning more than $60,000 per annum, you will need to be GST registered as per IRD’s legislation. If you are going to be (or are currently) earning under $60,000, you are not required to be GST registered.
+This guide will take you through the step-by-step process of how to register for GST, when you’re a freelancer, contractor, sole trader or self-employed individual.
+1. Go to the IRD website
+You will need to log into your IRD ‘myIR’ account to get the process started. Go onto www.ird.govt.nz and hit the Login button on the homepage. If you don’t have an account for myIR, you will need to create one first.
+
+2. Enter your myIR user ID and password
+Enter your MyIR user ID and password into this screen, or select the option to ‘Login with RealMe’
+
+3. Open up the “I Want To…” menu
+Once you have logged in, head to the “I Want To…” section box in the top right and click the “More” button.
+
+4. Register for a new tax account
+You’ll find the GST registration link under the ‘Register for new tax accounts’, in the ‘Other Actions’ section towards the bottom.
+
+5. Confirm your IRD Number
+From there, you’ll have to confirm that you are registering for a new account, and select your IRD number. Unless you are trading under a business, partnership, or trading trust, you should be using your personal IRD number. Click “Next” to carry on.
+
+6. Select ‘Goods and services tax (GST)’
+Go ahead and select that you want to register for Goods and Services Tax and carry on with the form.
+
+7. Edit your Address and Contact Information
+Now IRD might ask you to edit, clarify and/or provide some information, such as contact details, address and bank details
+
+8. Enter your BIC Code
+You will also need to put in your Business Industry Classification (BIC) code. This is really important, as it will determine the ACC levies that you will need to pay on your taxable income. Click the ‘Find my BIC Code’ button on this page to look up what your code is. You might not get an exact match on your job description, but you will hopefully find something similar on the Business Industry Classification website:
+
+9. Confirm the information so far
+Once you have that figured out and keyed in, you’re ready to move on to the next step: confirm your information and hit the “Next” button:
+
+10. Confirm that you’re conducting a taxable activity
+Have a quick read through the points made by the IRDon this next page, and once you are comfortable that you are eligible to register for GST, click ‘Yes’ and then hit the next button.
+
+11. Provide information about your turnover and GST start dates
+You will need to answer some generic questions about your current or estimated income. Select what you feel is most appropriate. Remember, if you are earning over $60,000 it is mandatory that you register yourself for GST with the IRD.
+
+Put in the start date for your GST, in most cases this will be the date of the day that you are registering. Click ‘Yes’ to IRD’s statement about filing GST returns from your start date
+12. Select a GST return filing frequency and accounting basis
+You’ll then need to select a GST return filing frequency for GST filing, and the accouunting basis on which to declare GST.
+
+For example, if you were going to select a Six-Monthly, Payments Basis for GST, you would select the options indicated above.
+13. Describe the nature of your business
+You will now be required to declare to the IRD a little bit about why you are registering for GST, and a brief description of what your work will be.
+
+
+If you are new to self-employment, you would select ‘I’m starting a new business’.
+If you are an existing contractor or freelancer, but you are soon going to start earning or nearing $60,000, you would select ‘My business has or will go over the $60,000 GST threshold’.
+
+
+You can also arrange for the IRD to provide a free advisory service on your tax obligations after registering - just click the ‘Yes’ button at the bottom of the screen.
+14. Review and submit your GST registration
+Have a quick look at the summary and make sure you are comfortable with all the details you have put in. When you’re happy, click the box and hit submit to finalise!
+
+Awesome, you’ve done your part and now it is all in the hands of the IRD. It can take a few working days for your registration to take effect. Once your GST registration is confirmed and complete, you will then be able to start adding GST to the price of your products and services, and collecting GST from your clients.
+For more information about how GST works, and get great tips and facts, check out our Guide to GST.

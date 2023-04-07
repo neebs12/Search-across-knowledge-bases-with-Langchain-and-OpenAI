@@ -1,0 +1,93 @@
+Goods and Services Tax (GST) is an additional tax that is charged on some goods and services in New Zealand.
+When you buy and sell goods, you may need to charge or pay GST if you - or the person you are purchasing from - are registered for GST.
+At Hnry, our team of accountants and tax experts often get asked many questions about GST, so we’ve put together this comprehensive GST guide - written specifically for contractors and freelancers.
+You’ll find an index of the guide below:
+
+How do I know if I need to be registered for GST?
+How does GST work?
+How are GST returns calculated?
+Do I need to be registered as a company to be GST-registered?
+How do I register for GST?
+What is the difference between ‘Payments’ and ‘Invoice’ as a GST basis?
+How often do I need to file GST returns?
+Do I charge GST when I sell goods or services to clients who operate outside of New Zealand?
+Do I pay GST when I buy goods and services from people who operate outside of New Zealand?
+How do I show GST on my invoices?
+GST Calculator
+Quick GST Facts
+
+How do I know if I need to be registered for GST?
+You are required to register for GST if you are an individual or a company that is earning over $60,000 in a single financial year.
+For individuals, the $60,000 threshold is only applicable to the total of their self-employed, contracting and freelancing income - therefore any PAYE/Salary income is not counted towards this total.
+For example:If you have a PAYE/Salary job of $50,000 per year, and you also earn $20,000 from freelance income, you are not required to register for GST
+If you earn less than $60,000 in self-employed income, registering for GST is totally optional. If you do register for GST voluntarily, be aware that this will have an impact on the amount that you charge for your services, and you will also be required to file GST returns on a regular basis.
+How does GST work?
+GST can be charged on top of the sales and income that you make, and you may also make purchases and incur business expenses that will have GST within the price. Here’s how it works.
+For Sales and Income
+If you are registered for GST, you will be required to charge an additional 15% on top of the costs of your services.
+For example:If you sold an item for $100, you would need to charge an additional $15 on top for GST, taking the total price to $115
+For Purchases and Expenses
+If you purchase something from a person or company that is GST registered, you will pay an additional 15% on top of their prices.
+For example:If you bought an item costing $115 from someone who was GST-registered, $15 of the price you paid would be GST
+N.B. You are still required to pay the GST portion of any goods and services you purchase, even if you are not GST-registered yourself.
+It is essential that you keep accurate records of all the GST you have collected and paid throughout a GST period. This is usually done by keeping records of all invoices, receipts and transactions where GST was either collected or paid. You will need all of this supporting information when filing GST returns.
+How are GST returns calculated?
+When you are GST-registered, you are required to file GST Returns on a regular basis. This requires you to declare to IRD both the total GST you have collected on your sales/income, as well as the total GST you have paid when making business purchases. The balance of the two is then payable to IRD.
+For example:If over a period of 2 months, you collected $1,000 of GST on all your sales, and you made purchases of which the GST portion was $250, you would pay IRD the balance of the two - $750
+In certain circumstances, you may find that within a GST period, you have paid more in GST than you have collected in GST on your sales. In these instances, you would receive a GST refund from IRD.
+N.B. Any GST you collect on your sales and income should be held separately pending being paid to IRD. When it comes time to file GST returns, if you do not have the GST funds available to pay straight away to IRD, you will be hit with penalties and fines.
+Do I need to be registered as a company to be GST-registered?
+No. You can register for GST as an individual contractor, freelancer or sole trader - there is no need to register a company with the Companies Office. As an individual, you can raise the same business expenses as a registered company would.
+N.B. You also do not need to have an NZBN number to be registered for GST. Having an NZBN is completely optional in New Zealand, and for contractors and freelancers it is often unnecessary.
+Read our comprehensive guide on when and how to register a New Zealand business as a contractor or freelancer.
+How do I register for GST?
+If you need to register for GST, you can log in to MyIR and select the option within your profile to ‘Register for a new tax account’.
+From here you can select the option to register for Goods & Services Tax (GST), and you will then be required to submit information about your business, your predicted earnings, how often you expect to file GST, as well as whether you wish to register for GST on a ‘Payments’ or ‘Invoice’ basis.
+N.B. If you’re a Hnry customer, check out our handy Guide to Registering for GST
+What is the difference between ‘Payments’ and ‘Invoice’ on a GST basis?
+When you register for GST, you will need to decide whether to register on a ‘Payments’ or ‘Invoice’ basis. Which one you choose will have a direct impact on when you will be required to pay GST - so choose carefully.
+The key difference between them is all about when the GST you are collecting is recognised for tax purposes, and therefore when IRD will expect payment of those GST funds.
+Payments Basis
+When you have registered for GST on a ‘Payments’ basis, the date that you ‘recognise’ the GST on your sales and income will be the date that you receive the money.
+For example:Let’s imagine that you are due to file GST returns monthly. You send someone an invoice on the 20th of February, and they pay it on the 20th of March. You would therefore declare the GST you have collected, as part of your GST return at the end of March, at which point you would be required to pay that amount to IRD
+Invoice Basis
+When you are registered for GST on an ‘Invoice’ basis, the date that you ‘recognise’ the GST on your sales and income will be the date that you send the invoice to your client.
+For example:Let’s imagine that you are due to file GST returns monthly. You send someone an invoice on the 20th of February, and they pay it on the 20th of March. You would therefore declare the GST you will be collecting, as part of your GST return at the end of February, at which point you would be required to pay that amount to IRD
+Therefore when you use an ‘Invoice’ basis, you may end up having to pay GST funds to IRD before you have actually received them. For registered companies this may have some benefits, however, for self-employed contractors and freelancers, it can sometimes result in cash flow issues and unnecessary stress.
+It is common for individual contractors and freelancers to choose a ‘Payments’ basis when registering for GST.
+How often do I need to file GST returns?
+When you register for GST, you can decide how often you would like to file GST returns, by choosing from 3 different frequencies: monthly, 2-monthly or 6-monthly.
+How often you choose to file returns is totally up to you (although if you earn over $500,000 per year you will be unable to choose the 6-monthly filing option).
+Any time your GST return is due you will be required to fill out a GST return, declaring your income and expenditure to IRD. You will also be required to make any payments of GST through to IRD as soon as your return has been filed.
+Do I charge GST when I sell goods or services to clients who operate outside of New Zealand?
+Any client that operates outside of New Zealand, who has no local NZ presence is often deemed to be ‘Zero Rated’ for GST, and therefore you are not required to charge GST on the goods and services you sell to them.
+For example:If you’re a freelancer working for a company in the UK that has no trading presence in New Zealand when you invoice them, you will not charge or collect GST on that invoice
+N.B. You will still be required to supply a total of your ‘Zero Rated’ sales and income as part of your regular GST returns
+Do I pay GST when I buy goods and services from people who operate outside of New Zealand?
+Sometimes, yes. When making purchases or incurring business expenses from suppliers based overseas, you should always look carefully at the proof of purchase they provide you, to see if you have been charged New Zealand GST.
+This is particularly relevant when incurring subscription expenses from online software providers such as Google and Facebook. The legislation for these organisations has recently changed in New Zealand, and they are not required to charge GST on any subscription or advertising costs incurred by people in New Zealand.
+How do I show GST on my invoices?
+If you’re someone who invoices their clients in order to collect a payment, and you register for GST, your invoices are then deemed to be ‘Tax Invoices’ and therefore are required by IRD to feature certain things:
+
+The words ‘Tax Invoice’ in a clear and prominent place
+Your name (or Trading Name)
+Your GST Number
+The date of the invoice
+A description of the goods or services you are selling
+
+N.B. When invoicing, the above elements are mandatory and must be on every invoice you send. If you need further information about how to create professional invoices, check out our Guide to Invoicing Like a Pro
+Calculate your GST
+
+Quick GST Facts
+
+You don’t need to register for GST to be a contractor, freelancer or sole trader - if your income is below $60,000 per year, registering for GST is optional
+You can be registered for GST as an individual sole trader, contractor or freelancer - you don’t need to register a company
+You cannot charge GST on your goods and services unless you have registered for GST with IRD, and have received written confirmation from them to that effect. Charging GST without being GST registered is illegal.
+If you register for GST part way through a financial year, this will have no impact on any income you have earned already in that year
+You only begin charging your clients GST once you are confirmed as registered for GST
+If you are not registered for GST, you can still claim the ‘inclusive of GST’ amount of all your business expenses when you file your Income Tax (IR3) return at the end of the year
+GST is completely separate from Income Tax - they are entirely different taxes and need to be paid and filed individually
+Being registered for GST has no impact on any rate of Withholding Tax that you might elect when filling out an IR330C Form
+
+If you’re tired of having to think about GST payments and filings, take a look at Hnry - the all-in-one service that takes care of all your tax, GST, ACC, and other financial admin automatically, so you never need to think about it.
+Check out the links below to find out more about why thousands of self-employed Kiwis are upgrading to Hnry.
