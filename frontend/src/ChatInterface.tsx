@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import axios from 'axios'
 import Sidebar from './components/SideBar'
 import Inputbar from './components/Inputbar'
 import MessageBox from './components/MessageBox'
@@ -6,16 +7,36 @@ import Namebar from './components/NameBar'
 
 import { URL, MODES, DEFAULT_MODE } from './constants'
 
-import type { History, Modes, ModesTypes } from './types'
+import type { History, ModesTypes } from './types'
 
 const ChatInterface: React.FC = () => {
 
   const [history, setHistory] = useState<History>([{
     sender: "system",
-    message: `Ready to receve messages from: ${DEFAULT_MODE.name}`
+    message: "Loading..."
   }])
   const [question, setQuestion] = useState("");
-  const [mode, setMode] = useState<ModesTypes>(DEFAULT_MODE.name)
+  const [modeName, setModeName] = useState<ModesTypes>(DEFAULT_MODE.name)
+
+  useEffect(() => {
+    const healthCheck = async () => {
+      try {
+        await axios.get(`${URL}/health-check`)
+        setHistory(_ => [{
+          sender: "system",
+          message: `Ready to receve messages from: ${DEFAULT_MODE.name}`
+        }])
+
+      } catch (e) {
+        setHistory(_ => [{
+          sender: "system",
+          message: "Unfortunately, the server doesnt seem to be responding 😔... refresh?"
+        }]
+        )
+      }
+    }
+    healthCheck();
+  }, [])
 
   useEffect(() => {
     if (!question) {
@@ -23,7 +44,7 @@ const ChatInterface: React.FC = () => {
     }
 
     const extension = question.includes("health") ? "health-check-sse" : "question-sse"
-    const source = new EventSource(`${URL}/${extension}?question=${question}&namespace=${(MODES.find(m => m.name === mode) ?? DEFAULT_MODE).namespace}`);
+    const source = new EventSource(`${URL}/${extension}?question=${question}&namespace=${(MODES.find(m => m.name === modeName) ?? DEFAULT_MODE).namespace}`);
 
     source.addEventListener('message', (event) => {
       const eventData = event.data as string;
@@ -57,7 +78,7 @@ const ChatInterface: React.FC = () => {
       setHistory(currentHistory => {
         return [...currentHistory, {
           sender: "system",
-          message: "Unfortunately, there has been an error."
+          message: "Unfortunately, there has been an error... \n Refresh the page to try again"
         }]
       })
       source.close()
@@ -69,27 +90,25 @@ const ChatInterface: React.FC = () => {
     }
   }, [question, URL])
 
-
   return (
-    // <div className="container mx-auto">
     <div className="container mx-auto">
       <div className="min-w-full rounded border lg:grid lg:grid-cols-3">
-        <Sidebar modes={MODES} currentMode={mode} handleSetMode={(mode: ModesTypes) => {
+        <Sidebar modes={MODES} currentModeName={modeName} handleSetMode={(newModeName: ModesTypes) => {
           setHistory(currentHistory => {
-            if (currentHistory[currentHistory.length - 1].message.includes(mode)) {
+            if (currentHistory[currentHistory.length - 1].message.includes(newModeName)) {
               return currentHistory
             } else {
               return [...currentHistory, {
                 sender: "system",
-                message: `Changed systems to receive from: ${mode}`
+                message: `Changed systems to receive from: ${newModeName}`
               }]
             }
           })
-          setMode(mode)
+          setModeName(newModeName)
         }} />
         <div className="hidden lg:col-span-2 lg:block">
           <div className="w-full">
-            <Namebar currentMode={MODES.find(m => m.name === mode) ?? MODES[0]} />
+            <Namebar currentMode={MODES.find(m => m.name === modeName) ?? DEFAULT_MODE} />
             <MessageBox history={history} />
             <Inputbar handleSubmit={(question: string) => {
               setQuestion(question)

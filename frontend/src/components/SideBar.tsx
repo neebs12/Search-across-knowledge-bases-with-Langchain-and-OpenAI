@@ -2,11 +2,11 @@ import type { Mode, ModesTypes } from "../types"
 
 type Props = {
   modes: Mode[],
-  currentMode: Mode["name"],
+  currentModeName: Mode["name"],
   handleSetMode: (mode: ModesTypes) => void
 }
 
-const Sidebar: React.FC<Props> = ({ modes, currentMode, handleSetMode }) => {
+const Sidebar: React.FC<Props> = ({ modes, currentModeName, handleSetMode }) => {
   return (
     <div className="border-r border-gray-300 lg:col-span-1">
       <div className="mx-3 my-3">
@@ -26,7 +26,7 @@ const Sidebar: React.FC<Props> = ({ modes, currentMode, handleSetMode }) => {
           anchorClassName = anchorClassName + " " + (ind === 0 ? "border-t" : "")
 
           // hover or not based on if it is the "current" mode
-          anchorClassName = anchorClassName + " " + (currentMode === mode.name ? "" : "hover:") + "bg-gray-100"
+          anchorClassName = anchorClassName + " " + (currentModeName === mode.name ? "" : "hover:") + "bg-gray-100"
 
           return (
             // hover:bg-gray-100

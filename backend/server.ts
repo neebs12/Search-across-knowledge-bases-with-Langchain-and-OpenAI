@@ -21,9 +21,9 @@ app.use((req, res, next) => {
   next();
 });
 
-// app.get("/", (req, res) => {
-//   res.send("Hello World!");
-// });
+app.get("/health-check", (req, res) => {
+  res.send("Hello World!");
+});
 
 app.post("/question", async (req, res) => {
   // console.log({ question: req.body.question, namespace: req.body.namespace });
