@@ -1,18 +1,8 @@
-import { useState, useEffect } from 'react'
-
-type ModesTypes = "Tax Resources" | "Freelancer Resources" | "Multi Resources"
-
-type Mode = {
-  name: ModesTypes,
-  namespace: string,
-  image: string
-}
-
-type Modes = Mode[]
+import type { Mode, ModesTypes } from "../types"
 
 type Props = {
-  modes: Modes,
-  currentMode: ModesTypes,
+  modes: Mode[],
+  currentMode: Mode["name"],
   handleSetMode: (mode: ModesTypes) => void
 }
 

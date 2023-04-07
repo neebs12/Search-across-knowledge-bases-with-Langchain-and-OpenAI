@@ -4,38 +4,18 @@ import Inputbar from './components/Inputbar'
 import MessageBox from './components/MessageBox'
 import Namebar from './components/NameBar'
 
-type History = {
-  sender: "system" | "ai" | "user",
-  message: string
-}[]
+import { URL, MODES, DEFAULT_MODE } from './constants'
 
-type ModesTypes = "Tax Resources" | "Freelancer Resources" | "Multi Resources"
-
-// CONSTANTS
-const URL = import.meta.env.VITE_BASE_URL as string
-// debugger
-const MODES = [{
-  name: "Tax Resources",
-  namespace: "hnry-co-nz-tax-resources",
-  image: "https://cdn.pixabay.com/photo/2023/03/21/09/53/willow-catkin-7866866_960_720.jpg"
-}, {
-  name: "Freelancer Resources",
-  namespace: "hnry-co-nz-freelancer-resources",
-  image: "https://cdn.pixabay.com/photo/2016/11/18/12/14/owl-1834152_960_720.jpg"
-}, {
-  name: "Multi Resources",
-  namespace: "hnry-co-nz-multi-resources",
-  image: "https://cdn.pixabay.com/photo/2014/05/20/21/20/bird-349026_960_720.jpg"
-}] as { name: ModesTypes, namespace: string, image: string }[]
+import type { History, Modes, ModesTypes } from './types'
 
 const ChatInterface: React.FC = () => {
-  // Use state to store the question, the submitted question, and the answer
+
   const [history, setHistory] = useState<History>([{
     sender: "system",
-    message: "Ready to receve messages..."
+    message: `Ready to receve messages from: ${DEFAULT_MODE.name}`
   }])
   const [question, setQuestion] = useState("");
-  const [mode, setMode] = useState<ModesTypes>(MODES[0].name)
+  const [mode, setMode] = useState<ModesTypes>(DEFAULT_MODE.name)
 
   useEffect(() => {
     if (!question) {
@@ -43,7 +23,7 @@ const ChatInterface: React.FC = () => {
     }
 
     const extension = question.includes("health") ? "health-check-sse" : "question-sse"
-    const source = new EventSource(`${URL}/${extension}?question=${question}&namespace=${"hnry-co-nz-tax-resources"}`);
+    const source = new EventSource(`${URL}/${extension}?question=${question}&namespace=${(MODES.find(m => m.name === mode) ?? DEFAULT_MODE).namespace}`);
 
     source.addEventListener('message', (event) => {
       const eventData = event.data as string;
@@ -52,6 +32,7 @@ const ChatInterface: React.FC = () => {
         setQuestion('')
         source.close();
       } else if (eventData.includes("[CONTEXT]")) {
+        // TODO: placeholder for context streaming
       } else {
         setHistory(currentHistory => {
           const newHistory = JSON.parse(JSON.stringify(currentHistory)) as History;
@@ -94,6 +75,16 @@ const ChatInterface: React.FC = () => {
     <div className="container mx-auto">
       <div className="min-w-full rounded border lg:grid lg:grid-cols-3">
         <Sidebar modes={MODES} currentMode={mode} handleSetMode={(mode: ModesTypes) => {
+          setHistory(currentHistory => {
+            if (currentHistory[currentHistory.length - 1].message.includes(mode)) {
+              return currentHistory
+            } else {
+              return [...currentHistory, {
+                sender: "system",
+                message: `Changed systems to receive from: ${mode}`
+              }]
+            }
+          })
           setMode(mode)
         }} />
         <div className="hidden lg:col-span-2 lg:block">

@@ -2,11 +2,7 @@ import { useState, useEffect } from 'react'
 import AIMessage from './_AIMessage';
 import UserMessage from './_UserMessage';
 import SystemMessage from './_SystemMessage';
-
-type History = {
-  sender: "system" | "ai" | "user",
-  message: string
-}[]
+import type { History } from '../types';
 
 type Props = {
   history: History

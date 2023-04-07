@@ -1,18 +1,8 @@
-import { useState, useEffect, StrictMode } from 'react'
-
-type ModesTypes = "Tax Resources" | "Freelancer Resources" | "Multi Resources"
-
-type Mode = {
-  name: ModesTypes,
-  namespace: string,
-  image: string
-}
+import type { Mode } from "../types"
 
 type Props = {
   currentMode: Mode
 }
-
-// type Modes = Mode[]
 
 const Namebar: React.FC<Props> = ({ currentMode }) => {
   return (
