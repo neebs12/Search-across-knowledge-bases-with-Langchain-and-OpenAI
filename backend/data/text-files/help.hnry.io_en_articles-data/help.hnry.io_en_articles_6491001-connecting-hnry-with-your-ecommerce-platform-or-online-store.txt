@@ -1,0 +1,48 @@
+Setting up your eCommerce system with Hnry is as easy as changing your bank account details in your platform of choice.
+
+
+
+Here are the general steps to follow across the board:
+
+
+
+Add your Hnry Bank Details to your platform of choice
+
+These can be found in Hnry by navigating to My Account > Settings > Financial.
+
+If your platform transaction fees are charged outside of your payments, you can claim these as an expense.
+If these are deducted before you are paid, there's no need to raise these in Hnry as you're already receiving the income after expenses.
+
+You're all done!
+
+
+
+We've written a series of articles to help you with whatever system you use:
+
+
+
+Connecting Paypal
+Here is a quick list on some things to note when you are using Hnry to make Paypal transactions, helping you accept payments from anyone, anytime.
+
+
+
+Connecting Wise
+Here's how to connect Hnry and Wise together, to allow for international transactions when using Hnry. Keep in mind - Hnry supports international transactions too!
+
+
+
+Connecting Stripe
+Here's how to connect Hnry with Stripe - letting you accept payments from a wide range of different sources - both device-based and cloud-based.
+
+
+
+Connecting EFTPOS
+Here is how to use Hnry with an EFTPOS machine - ideal when you're providing POS purchases.
+
+
+
+Interested in understanding more about the Hnry Bank Account? We've got an article for that too.
+
+
+
+As always, we'd love to hear if you have any questions, or if there's anything you'd like to see added to this list. Feel free to reach out using the chat in the right-hand corner!

@@ -1,0 +1,52 @@
+What is the difference between permanent and contract staff?
+What are your responsibilities when it comes to hiring staff on a permanent or contract basis
+
+Permanent Staff - What are Your Responsibilities?
+If you are employing someone on a Permanent/Salary basis, you as the employer would be responsible for:
+
+paying PAYE taxes on their behalf
+
+managing their tax code
+
+making KiwiSaver contributions
+
+tracking and paying annual leave
+
+tracking and paying sick leave
+
+paying employer ACC levies
+
+distributing regular payslips
+
+etc...
+
+When employing someone in this way, you are responsible for paying their income regularly and submitting PayDay filing files to IRD on a regular basis (usually monthly). These files provide IRD with a breakdown of all the employees you currently employ, how much they have earned in the month, and the amount of tax funds you will be transferring to IRD on their behalf.
+
+Permanent Staff - Managing Your Responsibilities
+
+The only way of managing tax calculations, IRD lodgements, tax codes, KiwiSaver and Annual Leave balances is to use some form of dedicated Payroll Software. This software is designed to make it simple for those PayDay filing declarations to be lodged with IRD, and to help you keep track of annual leave accruals, tax codes and other staff-related matters.
+N.B. This is not something that Hnry can be used for unfortunately, as we are not Payroll software that has such features within our platform.
+
+
+
+Contract Staff - What are Your Responsibilities?
+If you were to employ someone on a Contract basis (perhaps due to the variable, or specialist nature of their work) then you would not be responsible for any of their tax affairs.
+
+As an individual sole trader, you would also not be liable to make schedular payments or Withholding Tax deductions on their behalf (Schedular or Withholding Tax payments would only be required if you were operating as a Labour Hire - essentially if you are running a large business which requires you to make payments to a large number of contract staff).
+
+If hiring sub-contractors, you essentially just need to pay them the full amount of their invoice, into their nominated bank account with no deductions required, just as you would any other supplier of a good or service.
+
+The responsibility and liability for all tax, ACC, Student Loan payments, tax filings etc would rest solely with the contractor themselves (as yours do with you). In most instances, where a sole trader using Hnry contracts the services of another sole trader or contractor, the process is quite simple:
+
+The contractor would send you an invoice (perhaps using Hnry if they were a Hnry user)
+
+You would pay that invoice directly to them
+
+You could then raise the cost of this invoice as a Business Expense in Hnry, under the category of ‘Subcontractors’ (this ensures that you get the relevant tax relief on the cost of that contractor)
+
+If that contractor happened to be a Hnry user, you would be paying them into their Hnry Bank Account - at which point all of their tax would be deducted and paid through to IRD/ACC as part of our service, just as yours does. They would be provided with a Hnry Payslip showing a breakdown of their earnings, and you would therefore have confidence that all of the contractor’s tax and compliance would be taken care of without any effort required from you.
+
+Should you hire someone Permanent or Contract?
+Whether or not you need to employ someone on a Permanent or Contract basis is entirely up to you, and will most likely be based on the nature of the work, and whether you are in a position to require a permanent member of staff rather than a contractor.
+
+Should you choose to employ someone on a Permanent/Salary basis, you wouldn’t be able to manage the relevant tax payments and submissions through Hnry, and you would need to procure separate Payroll software. Should you choose to employ someone on a contract basis, no further software would be required, and there would be no additional administration required on your part.

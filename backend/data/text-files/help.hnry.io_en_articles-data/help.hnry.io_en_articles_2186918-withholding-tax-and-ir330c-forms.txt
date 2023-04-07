@@ -1,0 +1,52 @@
+As a contractor or freelancer, you may come across some clients (employers, recruiters or other 3rd parties) who will need to deduct 'Withholding Tax' before they pay you.
+
+
+
+This is an IRD policy, and is perfectly compatible with Hnry, and very normal. Essentially, all it means is that they will deduct and pay the first small percentage of your Income Tax, and Hnry will take care of the rest.
+
+
+
+Hnry still takes care of all your remaining tax obligations on your behalf - such as the remainder of your Income Tax, as well as GST, ACC, Student Loan, Allocations etc.
+
+
+
+
+
+
+
+IR330C Forms
+When you start working for your employer or recruiter, you may be asked to provide them with a signed IR330C form, electing a percentage of your income for them to deduct as Income Tax. You can find a copy of this IRD form here.
+
+
+
+When filling in this form, you can elect any rate greater than or equal to the minimum standard tax rate of 10%* (15% for Non-Residents)
+
+
+
+If you choose the minimum of 10%, Hnry will still be able to get your Income Tax rate exactly right - as your Client will deduct the first 10% of Income Tax, and we will deduct the remainder.
+
+
+
+For instance, if your actual Income Tax rate determined by Hnry should be 17.45%, your employer or recruiter will deduct the first 10%, and Hnry will deduct the remaining 7.45%. Electing a rate of 10% ensures that Hnry can continue to get your tax rate exactly right over time.
+
+
+
+If you choose too high a rate on your IR330C, you could end up over-paying tax. For instance, in the same example above, if you had elected a rate of 20% on your IR330C, your client would deduct 20% from your income every time you get paid, which is higher than the actual tax rate determined by Hnry of 17.45% - leaving you out of pocket. Any over-payment of income tax deducted by your client cannot be retrieved from IRD until the end of the tax year, therefore we suggest choosing the minimum rate of 10% on the IR330C, to ensure Hnry can continue to ensure you always pay the right amount of Income Tax.
+
+
+
+N.B. No-one (including Hnry, your client, employer or recruiter) can mandate that you have to write a certain number on your IR330C form. It is always your choice - as long as you elect 10%* or over, there is no set number that you need to choose, and you are not required to provide any sort of exemption certificates. As a self-employed individual it is your choice as to how to fill in the IR330C form. We've heard instances in the past where contractors have been told 'you have to fill in 20% as that's what we have everyone do' - this is incorrect practice, and is essentially your employer giving tax advice, which is highly risky. If you are unsure on how to fill in an IR330C form, please get in touch with one of the Hnry team.
+
+
+
+If your employer or recruiter is deducting Withholding Tax, please indicate this on the Client Details screen, which you'll find under 'Clients' on your Hnry Dashboard.
+
+
+
+
+
+
+
+
+
+We have also come across instances where some recruiters or employers have asked for Withholding Tax amounts to be itemised as a negative line on an Invoice. This is not the correct accounting procedure and will lead to significant complications for both you and your employer at the end of the financial year. If you are being asked to do this and you're a Hnry customer, please see this article here.

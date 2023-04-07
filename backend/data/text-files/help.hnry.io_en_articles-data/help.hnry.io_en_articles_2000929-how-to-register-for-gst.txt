@@ -1,0 +1,130 @@
+Registering for GST is super easy. It's all done online through the IRD website so all you will need is your myIR details on hand to get set up. If you are going to be earning more than $60,000 in a 12 month period, you will need to be GST registered as per IRD's legislation. If you are going to be (or are currently) earning under $60,000, you are not required to be GST registered – although it doesn't hurt to be. (Please note, you don't need to be GST registered in order to use Hnry.)
+
+
+
+If you are wanting to register for GST and use Hnry, follow this quick how-to guide so that you're 100% set up. It can all be done in a few minutes with these 5 easy steps.
+
+
+
+N.B we don't go into any exhaustive details on GST here, but we do show the sign-up process through the IRD website. If you have any questions or concerns regarding GST or the sign-up process, please get in touch with us.
+
+Go to the IRD website and log into 'myIR'
+
+You will need to log into your IRD 'myIR' account to get the process started. Go onto www.ird.govt.nz and hit the login button on the homepage. If you don't have an account for myIR, you will need to create one first.
+
+
+
+
+Key in your user ID and password, and then login.
+
+
+
+
+2. Open up the GST Registration form
+
+
+
+Once you have logged in, head to the "I Want To..." tab and click the "Register for new tax accounts" link.
+
+
+
+
+You'll find the GST registration link under the 'Register for new tax accounts', in the 'Registration, application and enrolment' section towards the bottom.
+
+
+
+
+
+From there, you'll have to confirm that you are registering for a new account, and select your IRD number. Unless you are trading under a business, partnership, or trading trust, you should be using your personal IRD number. Click "Next" to carry on.
+
+
+
+
+3. Fill in the information and answers for the IRD to complete your registration
+
+
+
+Go ahead and select that you want to register for Goods and Services Tax and carry on with the form.
+
+
+
+
+Now IRD might ask you to edit, clarify and/or provide some information, such as contact details, address and bank details (NB: on the "Bank Details" screen, please enter your personal Bank Account number, NOT your Hnry Bank Account).
+
+
+
+
+
+
+
+
+
+
+You will also need to put in your Business Industry Classification (BIC) code. This is super important, as ACC levies that we pay on your behalf are based off the code you enter. It should also match what you put down when you signed up for Hnry. Click the link supplied by the IRD to see what your code is. You might not get an exact match on your job description, but you will find something similar:
+
+
+
+
+
+
+Once you have that figured out and keyed in, you're ready to move on to the next step: confirm your information and hit the "Next" button:
+
+
+
+
+Have a  quick read through the points made by the IRD, and once you are comfortable that you are eligible to register for GST, click 'Yes' and then hit the next button.
+
+
+You will need to answer some generic questions about your current or estimated income. Select what you feel is most appropriate. Remember, if you are earning over $60,000 it is mandatory that you register yourself for GST with the IRD. Under $60,000 is optional, but there is no harm in registering.
+
+
+
+Put in the start date for your GST, in most cases this will be the date of the day that you are registering. Click 'yes' to IRD's statement about filing GST returns from your start date
+
+
+
+You'll then need to select a frequency for GST filing. This is a personal choice, but we recommend the 6 monthly option (it doesn't matter which months you choose).
+
+
+
+
+Select 'payments (cash) basis' option for your accounting basis. This option means that you are not obligated to pay GST until you receive payments from your clients.
+
+
+
+You will now be required to declare to the IRD a little bit about why you are registering for GST, and a brief description of what your work will be.
+
+
+
+If you are new to contracting, you would select 'I'm starting a new business'.
+
+If you are an existing contractor, but you are soon going to start earning or nearing $60,000, you would select 'I've been conducting business and getting near the GST threshold'.
+
+If you are looking to be a Hnry customer and think that another option is more relevant, please get in touch with us so we can understand your situation a little bit more. You can also arrange for the IRD to provide a free advisory service on your tax obligations after registering, but your friendly Hnry team are here too!
+
+
+
+
+
+You're almost there! For the question asking who will be dealing with your GST, select 'My accountant or bookkeeper' if you are planning to use Hnry - we're WAY better than that, but it is as close as you will get. Chuck in your bank account details, so if the IRD ever has money that they owe you they can directly credit it to you. Don't worry: they won't be able to take anything out.
+
+
+
+4. Review and submit your GST registration
+
+
+
+Have a quick look at the summary and make sure you are comfortable with all the details you have put in. When you're happy, click the box and hit submit to finalise!
+
+
+Awesome, you've done your part and now it is all in the hands of the IRD. It can take a few working days for your registration to take effect. Once your GST registration is confirmed and complete, you will need to make sure that this is updated against your Hnry profile.
+
+
+
+ 5. Make sure your Hnry account reflects any changes!
+
+
+
+Now that you're registered for GST, we'll need to know so that we can deduct GST from the pays your receive in Hnry. All you need to do now is get in touch with the Hnry team, and we can update this for you on your Hnry Dashboard.
+
+And that's it - you're all done!  🙌

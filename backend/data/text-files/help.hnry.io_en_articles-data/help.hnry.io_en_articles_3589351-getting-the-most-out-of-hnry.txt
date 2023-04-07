@@ -1,0 +1,24 @@
+First things first, we’ll need to know where to pass your payment to once Hnry has deducted and paid your tax. This ensures that you’ll get your payment as quickly as possible.
+
+
+
+
+
+Confirming Your Income Sources
+As soon as you're paid for the first time through Hnry, we'll have some information about your income sources, provided to us by IRD. You'll need to confirm these income sources, such as PAYE/salary, and enter in sources of income that you haven't declared to IRD.
+
+
+
+Ensuring all of your income sources are up-to-date is incredibly important, as it helps us get you on the most accurate tax rate possible. If we don’t have all of the right information from you, we can’t guarantee that the Hnry service will help you to avoid a big tax bill at the end of the year. And if you aren't regularly checking that the information on the 'Income Sources' tab of your Dashboard ('My Account' > 'Income Sources') is correct, there's a chance you're overpaying your tax.
+
+
+
+Note: you can always update your income sources in your Hnry Dashboard (‘My Account’ > ‘Income Sources’)
+
+
+
+
+
+What's Next?
+
+Check out our 'Getting to Know Hnry' guide to familiarise yourself with the ins and outs of your Hnry Dashboard.

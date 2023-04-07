@@ -1,0 +1,83 @@
+Back in April 2017, Inland Revenue NZ introduced their new policies around ‘Withholding Tax’ - essentially requiring a number of recruitment agencies and large employers of independent workers to deduct some portion of the worker’s tax before paying them.
+
+When the policy was first announced, there was a great deal of confusion in the industry as to how it worked, who it would apply to, and what the impacts were. It required forms to be signed, tax rates to be selected, and it led to a huge amount of misunderstanding of what was required and by whom. In some cases, we heard that recruiters actually had to employ new staff to deal with the extra workload this policy placed on their agency.
+
+ 
+
+ 
+
+So how does ‘Withholding Tax’ actually work?
+
+
+  When a self-employed individual starts work for a new employer or through a recruiter, that recruiter or employer may require them to select a rate of ‘Withholding Tax’
+  That individual will need to fill in and sign an IR330C form, selecting an elected rate of income tax anywhere between 10-40% for the recruiter/employer to deduct and pay on the individual’s behalf whenever they get paid
+  That individual is then responsible for managing all further income tax calculations, payments, filings etc themselves, as well as managing any other taxes they’re subject to (GST, ACC and others)
+
+
+The process seems simple enough, until you start to hear how it is actually being applied by some recruiters and large employers.
+
+In some instances, independent workers are being recommended a tax rate to select. In other cases, they’re not actually being given a choice by their employer or recruiter as to which rate to select.
+
+But that’s just the tip of the iceberg. Over the last couple of years or so, we’ve heard some real horror stories. 
+
+ 
+
+The perils of Withholding Tax ‘advice’
+
+1. In one example, a small employer of casual labourers was getting themselves embroiled in contractors’ tax affairs. They were mandating rates of withholding tax based on the type of work being done, and even varying the rate of withholding tax they deducted based on whether the individual was GST-registered. That’s the tax equivalent of paying extra money to your electricity provider because your grocery spending increased!
+
+2. In another incident, a brand new contractor took on a job for a large organisation and he was getting everything set up, the organisation told him the rate of tax he should be using. As he was new to contracting, he just assumed that this meant that the organisation was taking care of the entirety of his tax affairs. As he described it:
+
+
+  They’re a big organisation - it seemed logical to me that they would just take care of all of this stuff. I had no idea what my responsibilities were, and the organisation made it sound as though this was all standard process for contractors
+
+
+As you can imagine, the contractor ended up underpaying income tax throughout the year, never held back any money for GST or ACC, and is currently trying to unpick a rather grisly situation with government agencies.
+
+3. In maybe the most negligent of Withholding Tax stories, one recruiter wasn’t actually paying the tax through to IRD at all before paying their contractor. Instead, they directly passed on the gross amount. This contractor then went on to spend the money, thinking it had already been taxed. He didn’t set aside money for tax either, because througout the whole year he was under the impression that he was being compliant. So at the end of the financial year, he was hit by a massive tax bill that he was not at all prepared for, and was eventually placed on provisional tax. 
+
+All of these are not isolated incidents.
+
+Time and time again we hear from contractors and freelancers who have effectively been given unqualified and inaccurate tax advice by their employer or recruiter. Most employers or recruiters seem unaware they are doing it, and don’t realise the risk it has for both their organisation and for the individual.
+
+ 
+
+Why are recruiters and organisations giving tax advice?
+
+When we talk to recruitment agents and organisations about this issue, the vast majority are just trying to be helpful in providing this advice. A lot of the time it is prompted by the individual themselves. Those working as contractors and freelancers can’t be expected to know the details of every piece of tax legislation, and when they’re asked, it’s human nature for these recruiters and organisations to try and be as supportive as possible by helping the individual out.
+
+There’s also the added incentive that if you can get forms filled out faster, you can get the contractor or freelancer onboard faster. Providing tax recommendations can short-cut the time it takes to get someone placed in a role, meaning they can start work faster. One of the benefits of using contractors and freelancers is the ability to scale up your workforce very quickly - having to wait for each individual to work out an appropriate rate of tax themselves can be time-consuming, and therefore sometimes it is just seen as easier to provide a recommendation.
+
+For some however, this all comes down to a misunderstanding of how the policy actually works. There are some organisations out there that incorrectly believe it is their responsibility to determine and specify a tax rate for their contractors and freelancers, and they therefore voluntarily take on all this extra risk and effort.
+
+ 
+
+Why is this a problem?
+
+As mentioned in some of the examples above, having a rate of income tax recommended by a trusted agency or employer can give the individual false confidence that their income tax is taken care of - and in some cases that all their other taxes are taken care of as well.
+
+Added to this, because most self-employed people take on numerous different jobs at different rates throughout the year for many different agencies and employers, their income fluctuates greatly over time. Having some of those employers deduct a flat rate of tax is completely inappropriate and inaccurate, and will always leave the individual either overpaying or underpaying tax. This is made all the more difficult by the fact that each different employer will have no knowledge or context of the financial situation (or other income) of the individual - so they couldn’t possibly recommend an accurate rate of tax.
+
+Given this income fluctuation, selecting a linear rate of tax for some jobs significantly impacts the individual, who is then required at the end of the year to work out what tax was deducted by whom at which stage of the year. This always ends up with a big ‘wash-up’, and in our experience, resulting in the individual having to find money to pay a tax deficit.
+
+ 
+
+What are the impacts?
+
+We’re coming up to the second financial year where these withholding tax policies have been in place, so the true impacts are just beginning to emerge. For some, it comes as a shock that their income tax hadn’t been taken care of by their recruiter or employer, leading to stress, anger, and confusion over which taxes have and haven’t been paid, and ultimately leading to late filing penalties.
+
+Some contractors weren’t even aware that they needed to file taxes in the first place - assuming that since tax was being deducted by their employer, they were effectively being paid PAYE.
+
+A lot of new freelancers and contractors have no idea that they needed to retain further money for tax, not to mention that quite a few have no idea how much to retain at all - particularly when it comes to some of the more complex taxes such as ACC levies.
+
+We’ve started to hear a few examples where contractors and freelancers are coming after the recruiters or employers, as they have been hit with a big income tax bill despite after following advice for a ‘recommended’ rate of tax. On more than one occasion, relationships between recruiters and their contractors seem to have soured, simply because the contractor believed they were provided bad tax advice by their recruiter.
+
+ 
+
+So what’s next?
+
+At the end of the day, it isn’t the responsibility of the recruiter or employer to select or recommend a rate of tax for the individual - nor should it be. It is for the individual to nominate a rate of tax that is appropriate for them based on their income.
+
+Recruiters and employers need to stay as far away from providing tax advice as they possibly can, as the repercussions of not doing so are huge. Alongside this, recruiters and employers still need to be able to onboard contractors quickly, and know that they are meeting all of their obligations.
+
+That’s part of the reason we started Hnry. We wanted to make sure we could work collaboratively with the recruiters, the employers, and the individuals to ensure that all the compliance responsibilities were taken care of quickly and easily - without burdening the employer or the individual by having them need to learn the complexities of all the policies themselves, and without the risk of making mistakes and being fined.

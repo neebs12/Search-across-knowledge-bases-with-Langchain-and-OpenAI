@@ -1,0 +1,25 @@
+Zero-Rated GST: What does it mean? Does it apply to me?
+If you conduct business in New Zealand but for a client based primarily overseas, then Zero-rated GST applies to "exported" goods & services
+Sammie Price avatar
+Written by Sammie Price. Updated over a week ago
+When your work is conducted in New Zealand but your business primarily involves exporting goods and services to overseas clients, your products do not incur a GST charge (these are taxed at 0% GST, or are "zero-rated").
+
+
+
+Zero-rated supplies still need to be declared on GST returns, but you won't incur a charge.
+
+
+
+Invoices sent to Clients based overseas will display 'Hnry Limited' rather than your own name – this is required, otherwise payments will bounce. Although rest assured: your unique Hnry Bank Account is still listed on your Invoices so payments will still be processed as usual.
+
+
+
+Note: if you work for an international client with offices in multiple countries (such as a recruiter), check with your client to see if you need to declare zero-rated GST.
+
+
+
+If you don't primarily export your goods or services then zero-rated GST isn't something you need to worry about.
+
+
+
+If you are GST registered you will need to indicate that this client is Zero-Rated for GST in the Advanced Options of the Client Profile. Note if you are not GST registered, this option will not be shown to you under the Advanced Options as it is not required for you to let us know of this.

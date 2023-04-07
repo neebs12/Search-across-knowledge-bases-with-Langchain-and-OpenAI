@@ -1,0 +1,16 @@
+What is an NZBN?
+The New Zealand Business Number (NZBN), refers to a digital and globally recognized number that holds key information on businesses, the self-employed and larger corporations.
+
+
+
+Having an NZBN adds you to a register, and allows anyone who wants to use/know more about your services, to easily access core information relating to your details, i.e trading name, phone etc. You can also update your business details at any given time, which in turn will provide businesses and agencies with the correct information at all times.
+
+
+
+Do you need an NZBN to be a sole trader?
+No. You do not need to have a registered NZBN as a sole trader, it just allows others to find information about the services you provide easier. An NZBN number for a sole-trader can provide others confidence in dealing with you, as it shows you are a registered and validated business.
+
+
+
+Where can I enter my NZBN in Hnry?
+If you have an NZBN and you would like it to be displayed on your Quotes and Invoices through Hnry, you can enter it onto the 'Financial' tab in your 'Settings' page on your Hnry dashboard:

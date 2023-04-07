@@ -1,0 +1,128 @@
+Getting started with Hnry is super easy. It only takes a few minutes to set up your profile and get a Hnry Bank Account. Every time you get paid through this unique Bank Account, we'll automatically:
+
+
+
+calculate and pay your income tax
+
+deduct and pay all your ACC levies
+
+get you the right tax relief on any expenses you raise
+
+collect GST and file when the time comes (if required)
+
+provide you with financial insights and reports
+
+set aside income to savings and investments ('Allocations')
+
+Here's a step-by-step walkthrough for each screen:
+
+
+
+1. Getting to know you
+
+First things first, you’ll be asked to provide some basic information. Enter your first and last name, how you heard about Hnry, and your phone number.
+
+
+
+
+
+2. What sort of work do you do?
+Next, enter the type of work you do. This helps us determine the right ACC levy to put you on.
+
+
+
+
+You can select an industry – anything from Animal & Agriculture Services to IT & Technology. If you don’t see your industry or work type in the menu, simply click ‘I can't find a close match' and enter one in the open field.
+
+
+
+3. Self-Employed Income earned so far this Financial Year
+After this, we'll ask you how much self-employed income you've earned so far in the current financial year. This helps us figure out how much tax you currently owe.
+
+
+If you select 'yes', we'll also ask you how you've been tracking this income - which we'll use to help get you caught up when filling out the mid-year switch form later on.
+
+
+
+4. PAYE/Salary job + other sources of income
+
+
+You’ll also need to indicate whether you have a PAYE (ie, salary) job, and any other sources of income. If you select 'yes' to a PAYE job, you can also specify an end date. We use all of this information when calculating how much to deduct on your behalf.
+
+
+
+5. Income Information
+
+Next, we’ll ask you for an income estimate for the year. This info helps Hnry work best for you. The more accurate the information you provide, the more accurate your starting tax rate with Hnry will be.
+
+
+
+6. GST Registration
+
+We need to know if you’re GST-registered so that we can file GST returns on your behalf. Please note: unless you expect to earn more than $60,000 from self-employment in a year, you aren’t required to be GST-registered to use Hnry.
+
+
+
+If you've already registered for GST, you will be due to file regular GST returns with IRD, which we’ll do on your behalf. You’ll also need to be charging 15% GST on top of the products and services you sell.
+
+
+
+Not sure if you should be GST-registered? If it looks like you’ll earn over that threshold, we’ll let you know how and when to register.
+
+
+
+7. Student Loan
+
+We'll then ask you if you have a student loan. If you answer 'yes', we'll factor this into your deductions with each pay.
+
+
+
+6. Registered as a Company/Business?
+Hnry will take care of all your personal income tax payments and filings, however, we don't make payments on behalf of registered companies. If you file a company tax return at the end of the year, you’ll need to make other arrangements.
+
+
+
+
+Did you know? It’s not mandatory to operate as a registered company if you’re a sole trader, and it could be the case that you’re unnecessarily burdened with more financial admin. If you’ve got some questions about this, check out our guide on whether or not to register – and if you’d like to inquire about our services for registered companies, please contact experts@hnry.co.nz.
+
+
+
+7. (Optional) Creating a Client
+We’ll then ask you if you know who'll be paying you into your Hnry Bank Account. These are called 'Clients' in Hnry. If you don't have a Client yet, no worries – you can just skip this step until you have a clearer idea of who might be paying you.
+
+
+
+If you do have a Client, you'll be asked to provide some basic information about them.
+
+
+
+
+Under 'Client name', you can indicate the name and email address of the contact person who will be paying you. You can enter multiple email addresses separated by a comma if you have more than one Client.
+
+If your client or recruiter deducts a percentage of your income for tax prior to paying you (called ‘Withholding Tax’), you can indicate this using the Yes/No buttons illustrated. You’ll just need to let us know how much they’re deducting, as this will affect the tax rate we’ll have you on.
+
+ If you have anything else you'd like to specify about this client, such as if they're a recruiter, outside of NZ, or customise their invoice options, you can do so under the 'advanced' section.
+
+NB: later on, you can add some more specific details about your client and how you work with them.
+
+
+
+Don’t have a client yet? No worries! You can enter your own name or ‘Unknown’ to get started, or you can click ‘Next’ and we’ll create a default client for you. Just remember to come back to add in some Client info once you know a bit more about who will be paying you.
+
+
+And that's all it takes to set up your Hnry Profile!
+
+
+Now that you've got your Hnry Bank Account details, you can easily share your Bank Account Details with your clients by clicking the 'Share details' or 'Copy' buttons. Or you can start creating your first invoice which your Hnry Bank Account details are automatically included in.
+
+
+
+
+Helpful hint: you can also find these Bank Details in the 'Financial' tab on the 'Settings' page in your profile.
+
+As soon as your Clients pay into this Account, we’ll automatically calculate, deduct and pay all of your taxes, and make any necessary deductions on your behalf, before passing the rest of the payment on to you!
+
+
+
+What's Next?
+Be sure to check out our 'Making the Most Out of Hnry' article for ways you can make the Hnry service work even better for you.

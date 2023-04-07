@@ -1,0 +1,77 @@
+With regards to the current situation, we are receiving information as and when the Government announces different measures to support individuals and businesses during this time of uncertainty.
+
+You can find any information regarding the types of payments you can apply for and the eligibility criteria here and we will continue to update this as we learn more.
+
+
+
+Please be aware that not all payments are considered taxable income. If you receive the Resurgence Support Payment this should not be paid to your Hnry bank account, as it is not subject to Income Tax, ACC, or Student Loan repayments. Please make sure to add your personal bank account details when applying for this payment. You will need to let Hnry know how much you received if you are GST registered, as this payment is subject to GST and needs to be included in your next GST filing.
+
+
+
+If you apply for the Covid Wage Subsidy Scheme, this is subject to Income Tax and Student Loan Repayments, which is not deducted prior to you receiving this.
+
+We do understand that you may need the full amount upfront, so we do have two methods for this payment to be recorded in Hnry and to assist you with paying the tax off either straight away or eventually.
+
+
+
+1. If you want to pay the tax later
+In order to receive the full subsidy payments, we recommend providing your Personal Bank account details on the Application form, as any payments coming into your Hnry account will automatically have Income Tax, Student Loan (if applicable) and Hnry fee  deducted.
+
+We can then look at spreading the cost of the tax owing over the next 12 months to help reduce any impact by setting up an Allocation in Hnry.
+
+If you choose the above approach then you MUST add the total amount of the subsidy you are set to receive as an Income Source on your Hnry platform
+
+ Under the 'My Account' dropdown on your menu panel, head to the 'Income Sources' tab:
+
+
+
+
+Name your income source as the MSD - Covid Subsidy and elect from the drop down options for the Income Type 'COVID-19 Wage Subsidy'
+
+We will need to know how much you have received in total from MSD to ensure we have you on the correct tax rate on your self employed income.
+
+Once stored in the system you can let us know to set up an Allocation to help pay the tax on this off moving forward.
+
+
+
+
+
+2. If you want to pay all tax upfront:
+
+
+
+You can have your subsidy paid directly into your Hnry bank account (or transfer it yourself) and it will be processed as a regular payment.
+
+You must first raise a Client on your profile prior to receiving or transferring this subsidy payment into your Hnry account and label this client 'MSD - COVID 19'
+
+Select 'No' to the question 'Does this Client Deduct Tax prior to payment'
+
+
+
+
+
+
+
+
+If you are GST-Registered, you MUST select that the Client (MSD - Covid-19) is zero-rated for GST in the 'Advanced Options' otherwise GST will be deducted from your payment which is incorrect as it is not subject to GST
+
+
+
+
+
+
+
+
+Once you have saved this as a new Client, you MUST get in touch with the Hnry team so that we can mark this income as 'Passive' income for you (as the Covid Wage Subsidy is not subject to ACC levies and this is the only way we can prevent the system from automatically deducting ACC from the payment).
+
+
+
+Please note that if you choose this approach, we are unable to prevent the Hnry fee being deducted from the payment as this is an automatic deduction for any income received into your Hnry account.
+
+
+
+Are you experiencing difficulties with your application? Please see here for more assistance.
+
+
+
+If you have any questions, please do not hesitate to get in touch with the team on support@hnry.co.nz.

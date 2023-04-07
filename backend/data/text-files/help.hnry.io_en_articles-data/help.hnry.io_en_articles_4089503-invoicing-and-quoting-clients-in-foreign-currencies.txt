@@ -1,0 +1,43 @@
+Invoicing and Quoting Clients in Foreign Currencies
+You can send Invoices and Quotes to Clients based overseas, in the local currency of those Clients. Just update this in the Client's info.
+In the Client's details screen, just navigate to the 'Advanced Options' selector to choose the currency you'd like your Invoices and Quotes to that Client to be in.
+
+
+
+
+You can select from the following options:
+
+Australian Dollars (AUD)
+
+Canadian Dollars (CAD)
+
+Chinese Yuan (CNY)
+
+Japanese Yen (JPY)
+
+Euros (EUR)
+
+Fijian Dollars (FJD)
+
+Pound Sterling (GBP)
+
+Singapore Dollars (SGD)
+
+Swiss Francs (CHF)
+
+United States Dollars (USD)
+
+Please note: currency selection will apply to the Client, so any Invoices you send to them will be in that chosen currency. Client Reimbursements – costs that you incur while completing work for a Client – will be in NZD.
+
+
+
+Once you've chosen a currency for that Client, you can send an Invoice or Quote to them and the price amounts will display in that currency:
+
+
+
+
+
+
+
+
+Then, just send that Quote or Invoice like you normally would. If you have any questions about how Quoting or Invoicing in a foreign currency might work for you, please don't hesitate to get in touch with the team!
