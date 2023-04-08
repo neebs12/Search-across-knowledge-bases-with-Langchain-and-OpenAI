@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Test Data",
+    "namespace": "test-data",
+    "description": "this knowledge base is for testing purposes only",
+    "image": "https://cdn.pixabay.com/photo/2016/11/23/18/27/hummingbird-1854225_960_720.jpg"
+  },
+  {
+    "name": "FAQ Resources",
+    "namespace": "help.hnry.io_en_articles-data",
+    "description": "this knowledge base is for help in using the Hnry application",
+    "image": "https://cdn.pixabay.com/photo/2018/08/12/16/59/parrot-3601194_960_720.jpg"
+  },
+  {
+    "name": "Freelancer Resources",
+    "namespace": "hnry.co.nz_freelancer-resources",
+    "description": "this knowledge base is freelancer-related help",
+    "image": "https://cdn.pixabay.com/photo/2016/11/18/12/14/owl-1834152_960_720.jpg"
+  },
+  {
+    "name": "Tax Resources",
+    "namespace": "hnry.co.nz_tax-resources",
+    "description": "this knowledge base is tax-related help",
+    "image": "https://cdn.pixabay.com/photo/2023/03/21/09/53/willow-catkin-7866866_960_720.jpg"
+  },
+  {
+    "name": "The Leap Resources",
+    "namespace": "hnry.co.nz_theleap",
+    "description": "this knowledge base outlines other freelancer's experiences transitioning to freelancing",
+    "image": "https://cdn.pixabay.com/photo/2018/05/27/18/19/sparrows-3434123_960_720.jpg"
+  }
+]

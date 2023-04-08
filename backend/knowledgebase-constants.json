@@ -1,0 +1,22 @@
+[
+  {
+    "namespace": "test-data",
+    "description": "this knowledge base is for testing purposes only"
+  },
+  {
+    "namespace": "help.hnry.io_en_articles-data",
+    "description": "this knowledge base is for help in using the Hnry application"
+  },
+  {
+    "namespace": "hnry.co.nz_freelancer-resources",
+    "description": "this knowledge base is freelancer-related help"
+  },
+  {
+    "namespace": "hnry.co.nz_tax-resources",
+    "description": "this knowledge base is tax-related help"
+  },
+  {
+    "namespace": "hnry.co.nz_theleap",
+    "description": "this knowledge base outlines other freelancer's experiences transitioning to freelancing"
+  }
+]

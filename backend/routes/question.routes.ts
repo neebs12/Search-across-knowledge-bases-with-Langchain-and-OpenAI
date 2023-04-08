@@ -37,7 +37,7 @@ router.get("/sse", async (req, res) => {
     namespace: string;
   };
   const context = await getContext(namespace, question);
-  const response = await getStreamResponse(
+  await getStreamResponse(
     question,
     context,
     () => {
