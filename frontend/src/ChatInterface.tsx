@@ -7,7 +7,7 @@ import Namebar from './components/NameBar'
 
 import { URL, MODES, DEFAULT_MODE } from './constants'
 
-import type { History, ModesTypes } from './types'
+import type { History } from './types'
 
 const ChatInterface: React.FC = () => {
 
@@ -16,7 +16,7 @@ const ChatInterface: React.FC = () => {
     message: "Loading..."
   }])
   const [question, setQuestion] = useState("");
-  const [modeName, setModeName] = useState<ModesTypes>(DEFAULT_MODE.name)
+  const [modeName, setModeName] = useState<string>(DEFAULT_MODE.name)
 
   useEffect(() => {
     const healthCheck = async () => {
@@ -94,7 +94,7 @@ const ChatInterface: React.FC = () => {
   return (
     <div className="container mx-auto">
       <div className="min-w-full rounded border lg:grid lg:grid-cols-3">
-        <Sidebar modes={MODES} currentModeName={modeName} handleSetMode={(newModeName: ModesTypes) => {
+        <Sidebar modes={MODES} currentModeName={modeName} handleSetMode={(newModeName: string) => {
           setHistory(currentHistory => {
             const mostRecentMessage = currentHistory[currentHistory.length - 1]
             if (mostRecentMessage.message.includes(newModeName)) {

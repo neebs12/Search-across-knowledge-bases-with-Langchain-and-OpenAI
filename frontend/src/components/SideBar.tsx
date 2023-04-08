@@ -1,9 +1,9 @@
-import type { Mode, ModesTypes } from "../types"
+import type { Mode } from "../types"
 
 type Props = {
   modes: Mode[],
   currentModeName: Mode["name"],
-  handleSetMode: (mode: ModesTypes) => void
+  handleSetMode: (mode: string) => void
 }
 
 const Sidebar: React.FC<Props> = ({ modes, currentModeName, handleSetMode }) => {
