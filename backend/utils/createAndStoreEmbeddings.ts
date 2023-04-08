@@ -25,6 +25,7 @@ async function createAndStoreEmbeddings(name: string) {
   const vectorStore = await HNSWLib.fromTexts(
     output,
     output.map((_, ind) => {
+      // this is the metadata for each document
       return { id: ind };
     }),
     new OpenAIEmbeddings()
