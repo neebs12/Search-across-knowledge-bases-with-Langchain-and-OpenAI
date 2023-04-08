@@ -27,7 +27,7 @@ await client.init({
 });
 const pineconeIndex = client.Index(process.env.PINECONE_INDEX);
 
-const embedAndUpload = async () => {
+const loadJSONData = async () => {
   await loadAndWriteDocumentToJSON();
 
   const localpath = "./data/json-files";
@@ -71,4 +71,21 @@ const embedAndUploadToPinecone = async (nestedDoc: NewDocumentType[][]) => {
   }
 };
 
-await embedAndUploadToPinecone(await embedAndUpload());
+await embedAndUploadToPinecone(await loadJSONData());
+
+const uploadAllDocumentsToPinecone = async () => {
+  const nestedDoc = await loadJSONData();
+  for (const docArry of nestedDoc) {
+    const currentNamespace = docArry[0].metadata.namespace;
+    const documents = docArry.map((doc) => new Document(doc));
+
+    // await PineconeStore.fromDocuments(documents, new OpenAIEmbeddings(), {
+    //   pineconeIndex,
+    //   namespace: currentNamespace,
+    // });
+
+    // // wait for 100ms to avoid rate limit
+    await new Promise((resolve) => setTimeout(resolve, 100));
+    console.log(`${currentNamespace} has been uploaded to Pinecone!`);
+  }
+};

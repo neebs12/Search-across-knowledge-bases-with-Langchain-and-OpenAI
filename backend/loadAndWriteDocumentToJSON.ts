@@ -3,13 +3,23 @@ import { TokenTextSplitter } from "langchain/text_splitter";
 import fs from "fs";
 import path from "path";
 
+export type Metadata = {
+  namespace: string;
+  filename: string;
+  link: string;
+};
+
 export type NewDocumentType = {
   pageContent: string;
-  metadata: {
-    namespace: string;
-    filename: string;
-    link: string;
-  };
+  metadata: Metadata;
+};
+
+export type ExtendedMetadata = Metadata & {
+  id: string;
+};
+
+export type NewDocumentTypeChunked = Omit<NewDocumentType, "metadata"> & {
+  metadata: ExtendedMetadata;
 };
 
 const ENCODING = "cl100k_base";
@@ -57,7 +67,7 @@ const loadNewDocumentArray = async (
 const writeToJSONToFile = (
   path: string,
   name: string,
-  data: NewDocumentType[]
+  data: NewDocumentType[] | NewDocumentTypeChunked[]
 ) => {
   try {
     fs.writeFileSync(
@@ -105,16 +115,20 @@ const loadAndWriteDocumentToJSON = async () => {
       const { pageContent, metadata } = document;
       const pageContentChunks = await splitter.splitText(pageContent);
       // return an array of documents based on the new split page content
-      return pageContentChunks.map((pageContentChunk) => {
+      return pageContentChunks.map((pageContentChunk, ind) => {
+        const id =
+          removeFileExtension(metadata.filename) + "_" + ind.toString();
         return {
           pageContent: pageContentChunk.trim(),
-          metadata,
+          metadata: { ...metadata, id },
         };
       });
     });
 
     // flatten
-    const chunkedDocument = (await Promise.all(chunkedPromises)).flat();
+    const chunkedDocument: NewDocumentTypeChunked[] = (
+      await Promise.all(chunkedPromises)
+    ).flat();
     // .filter((document) => document.pageContent.length > 750);
 
     writeToJSONToFile(root + "/json-files", namespace, chunkedDocument);
