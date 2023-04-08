@@ -6,3 +6,6 @@ build
 /data/json-files/*.json
 /data/vectorestore-files/*/*.json
 /data/vectorestore-files/*/*.index
+
+# constants
+knowledgebase-constants.json
