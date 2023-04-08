@@ -1,26 +1,29 @@
 [
   {
-    "pageContent": "ACC guide for sole traders Your complete guide to understanding ACC and the three levies ",
+    "pageContent": "ACC guide for sole traders Your complete guide to understanding ACC and the three levies",
     "metadata": {
       "namespace": "test-data",
       "filename": "hnry.co.nz_tax-resources_acc-guide-for-sole-traders.txt",
-      "link": "https://hnry.co.nz/tax-resources/acc-guide-for-sole-traders"
+      "link": "https://hnry.co.nz/tax-resources/acc-guide-for-sole-traders",
+      "id": "hnry.co.nz_tax-resources_acc-guide-for-sole-traders_0"
     }
   },
   {
-    "pageContent": "Many sole traders or freelancers think that they have to register a limited liability company in order to trade. This is a common misconception. ",
+    "pageContent": "Many sole traders or freelancers think that they have to register a limited liability company in order to trade. This is a common misconception.",
     "metadata": {
       "namespace": "test-data",
       "filename": "hnry.co.nz_tax-resources_do-contractors-and-freelancers-need-to-register-a-company.txt",
-      "link": "https://hnry.co.nz/tax-resources/do-contractors-and-freelancers-need-to-register-a-company"
+      "link": "https://hnry.co.nz/tax-resources/do-contractors-and-freelancers-need-to-register-a-company",
+      "id": "hnry.co.nz_tax-resources_do-contractors-and-freelancers-need-to-register-a-company_0"
     }
   },
   {
-    "pageContent": "Many self-employed contractors, freelancers, and tradies think that they have to register a Limited Liability Company (LLC) in order to operate. This is a common misconception.  In fact, there is little advantage in registering a company when you’re ",
+    "pageContent": "Many self-employed contractors, freelancers, and tradies think that they have to register a Limited Liability Company (LLC) in order to operate. This is a common misconception. In fact, there is little advantage in registering a company when you’re",
     "metadata": {
       "namespace": "test-data",
       "filename": "hnry.co.nz_tax-resources_do-you-need-to-register-a-company.txt",
-      "link": "https://hnry.co.nz/tax-resources/do-you-need-to-register-a-company"
+      "link": "https://hnry.co.nz/tax-resources/do-you-need-to-register-a-company",
+      "id": "hnry.co.nz_tax-resources_do-you-need-to-register-a-company_0"
     }
   }
 ]

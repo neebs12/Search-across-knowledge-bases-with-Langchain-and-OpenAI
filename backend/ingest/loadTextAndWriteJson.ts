@@ -1,26 +1,8 @@
 import { DirectoryLoader, TextLoader } from "langchain/document_loaders";
+import type { NewDocumentTypeChunked, NewDocumentType } from "./ingest.d.ts";
 import { TokenTextSplitter } from "langchain/text_splitter";
 import fs from "fs";
 import path from "path";
-
-export type Metadata = {
-  namespace: string;
-  filename: string;
-  link: string;
-};
-
-export type NewDocumentType = {
-  pageContent: string;
-  metadata: Metadata;
-};
-
-export type ExtendedMetadata = Metadata & {
-  id: string;
-};
-
-export type NewDocumentTypeChunked = Omit<NewDocumentType, "metadata"> & {
-  metadata: ExtendedMetadata;
-};
 
 const ENCODING = "cl100k_base";
 const splitter = new TokenTextSplitter({
