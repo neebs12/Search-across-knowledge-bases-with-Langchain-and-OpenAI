@@ -114,7 +114,7 @@ const loadAndWriteDocumentToJSON = async () => {
       // return an array of documents based on the new split page content
       return pageContentChunks.map((pageContentChunk) => {
         return {
-          pageContent: pageContentChunk,
+          pageContent: pageContentChunk.trim(),
           metadata,
         };
       });
@@ -131,4 +131,4 @@ const loadAndWriteDocumentToJSON = async () => {
   await Promise.allSettled(chunkedWritePromises);
 };
 
-loadAndWriteDocumentToJSON();
+await loadAndWriteDocumentToJSON();
