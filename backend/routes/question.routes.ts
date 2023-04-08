@@ -62,4 +62,23 @@ router.get("/sse", async (req, res) => {
   });
 });
 
+router.get("/multi-sse", async (req, res) => {
+  // Set headers for SSE
+  res.setHeader("Cache-Control", "no-cache");
+  res.setHeader("Content-Type", "text/event-stream");
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Connection", "keep-alive");
+
+  // Send headers to establish SSE connection
+  res.flushHeaders();
+
+  res.write(`data: ${"Hello world!"}\n\n`);
+  res.write(`data: ${"[END]"}\n\n`);
+  console.log("hit the multi-sse endpoint");
+  res.on("close", () => {
+    console.log("Client disconnected");
+    res.end();
+  });
+});
+
 export default router;

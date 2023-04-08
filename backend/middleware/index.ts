@@ -30,7 +30,10 @@ export const namespaceMiddleware = (
   next: NextFunction
 ) => {
   const { namespace } = req.query as { namespace: string };
-  if (!knowledgebaseJSON.map((n) => n.namespace).includes(namespace)) {
+  if (
+    !knowledgebaseJSON.map((n) => n.namespace).includes(namespace) &&
+    namespace !== "multi-resource"
+  ) {
     const error: CustomError = new CustomError(
       `${namespace} is not a valid namespace!!`,
       400
