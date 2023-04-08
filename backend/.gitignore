@@ -1,6 +1,4 @@
 node_modules
 build
 .env
-
 # data
-/data/json-files/*.json

@@ -11,8 +11,7 @@
     "build:all": "npm run build:backend && cd ../frontend && npm run build && cd ../backend && cp -r ../frontend/dist ./build/public",
     "start": "npm run build:all && cp -r ./data ./build/data && node ./build/server.js && rm -rf ./build",
     "dev": "tsc && cp -r ./data ./build/data && concurrently \"tsc -w\" \"nodemon ./build/server.js\" && rm -rf ./build",
-    "backend:dev": "npm run build:backend && node ./build/ingest/index.js",
-    "backend:tmp": "npm run build:backend && node ./build/tmp.js"
+    "backend:dev": "npm run build:backend && node ./build/documentLoader.js"
   },
   "author": "",
   "license": "ISC",
@@ -25,7 +24,6 @@
     "ts-node": "^10.9.1"
   },
   "dependencies": {
-    "@pinecone-database/pinecone": "^0.0.10",
     "@types/node": "^18.15.11",
     "concurrently": "^8.0.1",
     "cors": "^2.8.5",
