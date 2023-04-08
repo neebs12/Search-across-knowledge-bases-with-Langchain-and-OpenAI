@@ -8,6 +8,7 @@ import {
   loggerMiddleware,
   notFoundMiddleware,
   errorMiddleware,
+  namespaceMiddleware,
 } from "./middleware/index.js";
 import healthCheckRoutes from "./routes/healthCheck.routes.js";
 import questionRoutes from "./routes/question.routes.js";
@@ -22,7 +23,7 @@ app.use(express.json());
 app.use(loggerMiddleware);
 
 app.use("/health", healthCheckRoutes);
-app.use("/question", questionRoutes);
+app.use("/question", namespaceMiddleware, questionRoutes);
 
 app.use(notFoundMiddleware);
 app.use(errorMiddleware);

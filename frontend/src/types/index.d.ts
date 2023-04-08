@@ -3,13 +3,8 @@ export type History = {
   message: string;
 }[];
 
-export type ModesTypes =
-  | "Tax Resources"
-  | "Freelancer Resources"
-  | "Multi Resources";
-
 export type Mode = {
-  name: ModesTypes;
+  name: string;
   namespace: string;
   image: string;
 };

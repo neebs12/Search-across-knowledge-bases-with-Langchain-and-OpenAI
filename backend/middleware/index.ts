@@ -1,4 +1,5 @@
 import type { Request, Response, NextFunction } from "express";
+import knowledgebaseJSON from "../knowledgebase-constants.json" assert { type: "json" };
 
 export const loggerMiddleware = (
   req: Request,
@@ -22,6 +23,26 @@ class CustomError extends Error {
     this.status = status;
   }
 }
+
+export const namespaceMiddleware = (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
+  const { namespace } = req.query as { namespace: string };
+  if (
+    !knowledgebaseJSON.map((n) => n.namespace).includes(namespace) &&
+    namespace !== "multi-resource"
+  ) {
+    const error: CustomError = new CustomError(
+      `${namespace} is not a valid namespace!!`,
+      400
+    );
+    next(error);
+  } else {
+    next();
+  }
+};
 
 // Create a middleware function for 404 errors
 export const notFoundMiddleware = (
@@ -47,7 +68,9 @@ export const errorMiddleware = (
   next: NextFunction
 ) => {
   // Send a JSON response with the error message and status
-  res.status(err.status || 500).json({
+  const errObj = {
     message: err.message || "Internal Server Error",
-  });
+  };
+  console.log(errObj);
+  res.status(err.status || 500).json(errObj);
 };

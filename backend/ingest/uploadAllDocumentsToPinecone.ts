@@ -2,7 +2,7 @@ import { OpenAIEmbeddings } from "langchain/embeddings";
 import { PineconeStore } from "langchain/vectorstores";
 import { Document } from "langchain/document";
 
-import type { NewDocumentTypeChunked } from "./loadTextAndWriteJson.js";
+import type { NewDocumentTypeChunked } from "../types/ingest.js";
 import type { VectorOperationsApi } from "@pinecone-database/pinecone/dist/pinecone-generated-ts-fetch/index.js";
 
 const uploadDocumentsToPinecone = async (

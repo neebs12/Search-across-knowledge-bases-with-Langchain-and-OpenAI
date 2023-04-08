@@ -5,9 +5,10 @@ import Inputbar from './components/Inputbar'
 import MessageBox from './components/MessageBox'
 import Namebar from './components/NameBar'
 
-import { URL, MODES, DEFAULT_MODE } from './constants'
+import getEventSource from './utils/getEventSource'
+import { URL, MODES, DEFAULT_MODE, MULTI_MODE_NAME } from './constants'
 
-import type { History, ModesTypes } from './types'
+import type { History } from './types'
 
 const ChatInterface: React.FC = () => {
 
@@ -16,12 +17,12 @@ const ChatInterface: React.FC = () => {
     message: "Loading..."
   }])
   const [question, setQuestion] = useState("");
-  const [modeName, setModeName] = useState<ModesTypes>(DEFAULT_MODE.name)
+  const [modeName, setModeName] = useState<string>(DEFAULT_MODE.name)
 
   useEffect(() => {
     const healthCheck = async () => {
       try {
-        const reponse = await axios.get(`${URL}/health`)
+        await axios.get(`${URL}/health`)
         setHistory(_ => [{
           sender: "system",
           message: `Ready to receve messages from: ${DEFAULT_MODE.name}`
@@ -44,8 +45,7 @@ const ChatInterface: React.FC = () => {
       return () => { }
     }
 
-    const extension = question.includes("health") ? "health/sse" : "question/sse"
-    const source = new EventSource(`${URL}/${extension}?question=${question}&namespace=${(MODES.find(m => m.name === modeName) ?? DEFAULT_MODE).namespace}`);
+    const source = getEventSource(modeName, question)
 
     source.addEventListener('message', (event) => {
       const eventData = event.data as string;
@@ -94,7 +94,7 @@ const ChatInterface: React.FC = () => {
   return (
     <div className="container mx-auto">
       <div className="min-w-full rounded border lg:grid lg:grid-cols-3">
-        <Sidebar modes={MODES} currentModeName={modeName} handleSetMode={(newModeName: ModesTypes) => {
+        <Sidebar modes={MODES} currentModeName={modeName} handleSetMode={(newModeName: string) => {
           setHistory(currentHistory => {
             const mostRecentMessage = currentHistory[currentHistory.length - 1]
             if (mostRecentMessage.message.includes(newModeName)) {

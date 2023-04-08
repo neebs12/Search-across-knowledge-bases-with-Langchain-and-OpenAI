@@ -1,5 +1,5 @@
 import { DirectoryLoader, TextLoader } from "langchain/document_loaders";
-import type { NewDocumentTypeChunked } from "./loadTextAndWriteJson.js";
+import type { NewDocumentTypeChunked } from "../types/ingest.js";
 
 const loadJSONData = async () => {
   const localpath = "./data/json-files";

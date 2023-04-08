@@ -1,26 +1,11 @@
 import { DirectoryLoader, TextLoader } from "langchain/document_loaders";
+import type {
+  NewDocumentTypeChunked,
+  NewDocumentType,
+} from "../types/ingest.js";
 import { TokenTextSplitter } from "langchain/text_splitter";
 import fs from "fs";
 import path from "path";
-
-export type Metadata = {
-  namespace: string;
-  filename: string;
-  link: string;
-};
-
-export type NewDocumentType = {
-  pageContent: string;
-  metadata: Metadata;
-};
-
-export type ExtendedMetadata = Metadata & {
-  id: string;
-};
-
-export type NewDocumentTypeChunked = Omit<NewDocumentType, "metadata"> & {
-  metadata: ExtendedMetadata;
-};
 
 const ENCODING = "cl100k_base";
 const splitter = new TokenTextSplitter({
@@ -128,8 +113,9 @@ export const loadTextAndWriteToJSON = async () => {
     // flatten
     const chunkedDocument: NewDocumentTypeChunked[] = (
       await Promise.all(chunkedPromises)
-    ).flat();
-    // .filter((document) => document.pageContent.length > 750);
+    )
+      .flat()
+      .filter((document) => document.pageContent.length > 500); // remove documents that are too short
 
     writeToJSONToFile(root + "/json-files", namespace, chunkedDocument);
   });

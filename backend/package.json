@@ -8,10 +8,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "build:backend": "tsc && rm -rf ./build && tsc",
+    "ingest": "npm run build:backend && node ./build/ingest/index.js",
     "build:all": "npm run build:backend && cd ../frontend && npm run build && cd ../backend && cp -r ../frontend/dist ./build/public",
     "start": "npm run build:all && cp -r ./data ./build/data && node ./build/server.js && rm -rf ./build",
     "dev": "tsc && cp -r ./data ./build/data && concurrently \"tsc -w\" \"nodemon ./build/server.js\" && rm -rf ./build",
-    "backend:dev": "npm run build:backend && node ./build/ingest/index.js",
+    "backend:dev": "npm run build:backend && node ./build/utils/getContext.js",
     "backend:tmp": "npm run build:backend && node ./build/tmp.js"
   },
   "author": "",
