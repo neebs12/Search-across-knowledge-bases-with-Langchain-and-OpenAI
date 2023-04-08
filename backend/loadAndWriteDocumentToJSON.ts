@@ -3,7 +3,7 @@ import { TokenTextSplitter } from "langchain/text_splitter";
 import fs from "fs";
 import path from "path";
 
-type NewDocumentType = {
+export type NewDocumentType = {
   pageContent: string;
   metadata: {
     namespace: string;
@@ -26,13 +26,6 @@ const loadNewDocumentArray = async (
     ".txt": (path) => new TextLoader(path),
   });
   const docs = await loader.load();
-
-  const removeFileExtension = (filename: string): string => {
-    const parsedPath = path.parse(filename);
-    parsedPath.ext = "";
-    parsedPath.base = parsedPath.name;
-    return path.format(parsedPath);
-  };
 
   const newDocumentArray = docs.map((document): NewDocumentType => {
     const metadata = document.metadata;
@@ -131,4 +124,13 @@ const loadAndWriteDocumentToJSON = async () => {
   await Promise.allSettled(chunkedWritePromises);
 };
 
-await loadAndWriteDocumentToJSON();
+// await loadAndWriteDocumentToJSON();
+
+export { loadAndWriteDocumentToJSON };
+
+const removeFileExtension = (filename: string): string => {
+  const parsedPath = path.parse(filename);
+  parsedPath.ext = "";
+  parsedPath.base = parsedPath.name;
+  return path.format(parsedPath);
+};
