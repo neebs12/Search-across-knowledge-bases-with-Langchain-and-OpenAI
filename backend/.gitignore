@@ -4,3 +4,5 @@ build
 
 # data
 /data/json-files/*.json
+/data/vectorestore-files/*/*.json
+/data/vectorestore-files/*/*.index

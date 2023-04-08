@@ -16,5 +16,6 @@ await pineconeClient.init({
   apiKey: process.env.PINECONE_API_KEY,
   environment: process.env.PINECONE_ENVIRONMENT,
 });
+pineconeClient.projectName = "default project";
 
 export { pineconeClient };
