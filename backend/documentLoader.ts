@@ -1,4 +1,5 @@
 import { DirectoryLoader, TextLoader } from "langchain/document_loaders";
+import { TokenTextSplitter } from "langchain/text_splitter";
 import fs from "fs";
 import path from "path";
 
@@ -10,6 +11,13 @@ type NewDocumentType = {
     link: string;
   };
 };
+
+const ENCODING = "cl100k_base";
+const splitter = new TokenTextSplitter({
+  encodingName: ENCODING,
+  chunkSize: 500,
+  chunkOverlap: 50,
+});
 
 const loadNewDocumentArray = async (
   localpath: string
@@ -30,7 +38,9 @@ const loadNewDocumentArray = async (
     const metadata = document.metadata;
     const pageContent = document.pageContent
       .replace(/\r?\n|\r|\s+/g, " ")
-      .replace('"', "'");
+      .replace('"', "'")
+      .replace(/\s+/g, " ")
+      .trim();
     const source = metadata.source.split("/") as string[];
     const namespace = source[source.length - 2];
     const filename = source[source.length - 1];
@@ -47,9 +57,6 @@ const loadNewDocumentArray = async (
     };
   });
 
-  console.log({
-    newDocumentArrayMetadata: newDocumentArray.map((doc) => doc.metadata),
-  });
   return newDocumentArray;
 };
 
@@ -72,13 +79,56 @@ const writeToJSONToFile = (
 };
 
 const loadAndWriteDocumentToJSON = async () => {
-  const getFromPath = "./data/text-files/test-data";
-  const namespace = getFromPath.split("/").slice(-1)[0];
-  // console.log({ fullPath });
-  const newDocumentArray = await loadNewDocumentArray(getFromPath);
-  const writeToPath = `./data/json-files/${namespace}`;
-  const prePath = writeToPath.split("/").slice(0, -1).join("/");
-  writeToJSONToFile(prePath, namespace, newDocumentArray);
+  const root = "./data";
+  const getPrePath = root + "/text-files";
+  // Read the contents of the directory
+  const contents = fs.readdirSync(getPrePath);
+
+  // Filter out the files that are not directories
+  const namespaces = contents.filter((file) =>
+    fs.statSync(getPrePath + "/" + file).isDirectory()
+  );
+
+  // write to a json file... write two types. unchunked(raw) and chunked
+  const unChunkedWritePromises = namespaces.map(async (namespace) => {
+    const getFromPath = root + "/text-files" + `/${namespace}`;
+    const newDocumentArray = await loadNewDocumentArray(getFromPath);
+
+    // unchucked write (raw)
+    // const writeToPath = root + "/json-files" + `/${namespace}`;
+    writeToJSONToFile(
+      root + "/json-files",
+      namespace + "-raw",
+      newDocumentArray
+    );
+  });
+
+  const chunkedWritePromises = namespaces.map(async (namespace) => {
+    const getFromPath = root + "/text-files" + `/${namespace}`;
+    const newDocumentArray = await loadNewDocumentArray(getFromPath);
+
+    // chunked write
+    const chunkedPromises = newDocumentArray.map(async (document) => {
+      const { pageContent, metadata } = document;
+      const pageContentChunks = await splitter.splitText(pageContent);
+      // return an array of documents based on the new split page content
+      return pageContentChunks.map((pageContentChunk) => {
+        return {
+          pageContent: pageContentChunk,
+          metadata,
+        };
+      });
+    });
+
+    // flatten
+    const chunkedDocument = (await Promise.all(chunkedPromises)).flat();
+    // .filter((document) => document.pageContent.length > 750);
+
+    writeToJSONToFile(root + "/json-files", namespace, chunkedDocument);
+  });
+
+  await Promise.allSettled(unChunkedWritePromises);
+  await Promise.allSettled(chunkedWritePromises);
 };
 
 loadAndWriteDocumentToJSON();
