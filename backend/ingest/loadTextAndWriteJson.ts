@@ -81,7 +81,7 @@ const writeToJSONToFile = (
   }
 };
 
-const loadAndWriteDocumentToJSON = async () => {
+export const loadTextAndWriteToJSON = async () => {
   const root = "./data";
   const getPrePath = root + "/text-files";
   // Read the contents of the directory
@@ -138,9 +138,7 @@ const loadAndWriteDocumentToJSON = async () => {
   await Promise.allSettled(chunkedWritePromises);
 };
 
-// await loadAndWriteDocumentToJSON();
-
-export { loadAndWriteDocumentToJSON };
+// export { loadTextAndWriteToJSON };
 
 const removeFileExtension = (filename: string): string => {
   const parsedPath = path.parse(filename);
