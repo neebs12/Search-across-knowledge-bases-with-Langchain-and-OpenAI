@@ -40,14 +40,14 @@ const selectorAgent = async (question: string) => {
     question,
   });
 
-  const responseObj = getNamespaceNamePair(response.text);
+  const responseObj = getNamespaceNamePairs(response.text);
   // TODO: error handling for uncertain incorrect responses
   // console.log({ response: response.text });
   // console.log({ responseObj });
   return responseObj;
 };
 
-const getNamespaceNamePair = (
+const getNamespaceNamePairs = (
   response: string
 ): { name: string; namespace: string }[] => {
   const namespaces = knowledgebaseJSON.map((obj) => obj.namespace);

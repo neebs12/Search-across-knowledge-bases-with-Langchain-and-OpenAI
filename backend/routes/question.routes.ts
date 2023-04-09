@@ -3,6 +3,7 @@ import basicQnAStreamAgent from "../agents/basicQnAStreamAgent.js";
 import selectorAgent from "../agents/selectorAgent.js";
 import summarizerAgent from "../agents/summarizerAgent.js";
 import aggregatorStreamAgent from "../agents/aggregatorStreamAgent.js";
+import questionRefinerAgent from "../agents/questionRefinerAgent.js";
 
 import {
   readCache,
@@ -36,11 +37,15 @@ router.get("/sse", async (req, res) => {
 
   const cache = readCache();
   const conversationHistory = readCacheById(cache, id);
-  console.log({ conversationHistory });
+  let refinedQuestion = question;
+  if (conversationHistory.length) {
+    refinedQuestion = await questionRefinerAgent(conversationHistory, question);
+  }
 
+  console.log({ actualQuestion: question, refinedQuestion });
   const response = await basicQnAStreamAgent(
     namespace,
-    question,
+    refinedQuestion,
     () => {
       res.write(`data: ${"[RESPONSE]"}\n\n`);
     },
@@ -70,24 +75,33 @@ router.get("/multi-sse", async (req, res) => {
   // Send headers to establish SSE connection
   res.flushHeaders();
 
-  const { question } = req.query as {
+  const { question, id } = req.query as {
     question: string;
+    id: string;
   };
+  const cache = readCache();
+  const conversationHistory = readCacheById(cache, id);
+  let refinedQuestion = question;
+  if (conversationHistory.length) {
+    console.log("refining question");
+    refinedQuestion = await questionRefinerAgent(conversationHistory, question);
+  }
 
   // console.log("hit the multi-sse endpoint");
-  const relevantNamespaceNamePair = await selectorAgent(question);
+  const relevantNamespaceNamePair = await selectorAgent(refinedQuestion);
   res.write(
     `data: [SYSTEM]${createSearchMessage(relevantNamespaceNamePair)}\n\n`
   );
   const summaries = await Promise.all(
     relevantNamespaceNamePair.map((obj) => {
-      return summarizerAgent(obj.namespace, question);
+      return summarizerAgent(obj.namespace, refinedQuestion);
     })
   );
 
   // console.log({ summaries });
-  await aggregatorStreamAgent(
-    question,
+  console.log({ actualQuestion: question, refinedQuestion });
+  const response = await aggregatorStreamAgent(
+    refinedQuestion,
     summaries,
     () => {
       res.write(`data: ${"[RESPONSE]"}\n\n`);
@@ -106,6 +120,7 @@ router.get("/multi-sse", async (req, res) => {
   res.write(`data: ${"[END]"}\n\n`);
   res.on("close", () => {
     console.log("Client disconnected");
+    appendToCache(cache, id, question, response.text);
     res.end();
   });
 });

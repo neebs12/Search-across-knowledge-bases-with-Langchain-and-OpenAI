@@ -63,7 +63,7 @@ const aggregatorStreamAgent = async (
   });
 
   console.log({ context, question, response: response.text });
-  return response.text as string;
+  return response;
 };
 
 export default aggregatorStreamAgent;
