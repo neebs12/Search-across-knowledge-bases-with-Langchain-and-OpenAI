@@ -1,4 +1,5 @@
 import express from "express";
+import getContext from "../agents/utils/getContext.js";
 import basicQnAStreamAgent from "../agents/basicQnAStreamAgent.js";
 import selectorAgent from "../agents/selectorAgent.js";
 import summarizerAgent from "../agents/summarizerAgent.js";
@@ -44,7 +45,9 @@ router.get("/sse", async (req, res) => {
   }
 
   console.log({ actualQuestion: question, refinedQuestion });
-  const response = await basicQnAStreamAgent(
+  // TODO: agent/utils should not be called directly from the route
+  const { sources } = await getContext(namespace, question);
+  const { response } = await basicQnAStreamAgent(
     namespace,
     refinedQuestion,
     () => {
@@ -55,6 +58,13 @@ router.get("/sse", async (req, res) => {
     },
     () => {
       // send indication that the stream has ended
+      if (sources.length === 0) {
+        res.write(`data: [SERVER]no relevant sources found...\n\n`);
+      } else {
+        res.write(
+          `data: [SERVER]${Array.from(new Set(sources)).join(", ")}\n\n`
+        );
+      }
       res.write(`data: ${"[END]"}\n\n`);
     }
   );
@@ -94,11 +104,14 @@ router.get("/multi-sse", async (req, res) => {
   res.write(
     `data: [SERVER]${createSearchMessage(relevantNamespaceNamePair)}\n\n`
   );
-  const summaries = await Promise.all(
+  const summarySourcesPairs = await Promise.all(
     relevantNamespaceNamePair.map((obj) => {
       return summarizerAgent(obj.namespace, refinedQuestion);
     })
   );
+
+  const summaries = summarySourcesPairs.map((pair) => pair.response);
+  const sources = summarySourcesPairs.map((pair) => pair.sources);
 
   // console.log({ summaries });
   console.log({ actualQuestion: question, refinedQuestion });
@@ -114,6 +127,13 @@ router.get("/multi-sse", async (req, res) => {
     },
     () => {
       // send indication that the stream has ended
+      if (sources.length === 0) {
+        res.write(`data: [SERVER]no relevant sources found...\n\n`);
+      } else {
+        res.write(
+          `data: [SERVER]${Array.from(new Set(sources)).join(", ")}\n\n`
+        );
+      }
       res.write(`data: ${"[END]"}\n\n`);
     }
   );

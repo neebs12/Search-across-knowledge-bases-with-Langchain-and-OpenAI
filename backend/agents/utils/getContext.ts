@@ -24,8 +24,9 @@ async function getContext(namespace: string, question: string) {
     // console.log({ result });
 
     const context = result.map((res) => res.pageContent).join("\n\n###\n\n");
+    const sources = result.map((res) => res.metadata.link);
 
-    return context;
+    return { context, sources };
   } catch (error) {
     throw new Error(error as string);
   }

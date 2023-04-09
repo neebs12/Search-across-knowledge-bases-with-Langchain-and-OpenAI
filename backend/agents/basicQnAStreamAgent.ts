@@ -64,7 +64,7 @@ const basicQnAStreamAgent = async (
     callbackManager,
   });
 
-  const context = await getContext(namespace, question);
+  const { context, sources } = await getContext(namespace, question);
   const response = await chain.call({
     question,
     context,
@@ -72,7 +72,7 @@ const basicQnAStreamAgent = async (
 
   console.log({ context, question, response: response.text });
   // console.log({ response });
-  return response;
+  return { response, sources };
 };
 
 export default basicQnAStreamAgent;

@@ -33,7 +33,7 @@ const questionRefinerAgent = async (
   const chatPrompt = ChatPromptTemplate.fromPromptMessages([
     SystemMessagePromptTemplate.fromTemplate(systemPrompt),
     HumanMessagePromptTemplate.fromTemplate(
-      "Conversation History: \n{conversationHistory}\n\n###\n\nInput Question: \n{question}"
+      "Conversation History: \n{conversationHistory}\n\n###\n\nInput Question: \n{question} - remember, forward the question if it is irrelevant"
     ),
   ]);
   const chain = new LLMChain({
@@ -50,7 +50,11 @@ const questionRefinerAgent = async (
     conversationHistory: conversationHistoryPrompt,
   });
 
-  console.log({ conversationHistoryPrompt, latestQuestion: question });
+  console.log({
+    conversationHistoryPrompt,
+    latestQuestion: question,
+    unfileteredRefinedQuestion: response.text,
+  });
 
   // TODO: Consider thinking about just forwarding the question if the response.text says that the question is irrelevant, this is difficult due to uncertainty, a binary-returning """meta""" agent can be useful here for keeping 3.5 turbo model
   const txt = response.text.toLowerCase();
@@ -58,7 +62,9 @@ const questionRefinerAgent = async (
     txt.includes(question) ||
     txt.includes("irrelevant") ||
     txt.includes("i don't know") ||
-    txt.includes("preserve")
+    txt.includes("preserve") ||
+    txt.includes("forward") ||
+    txt.includes("no need to refine")
   ) {
     // it would seem here that the agent simply forwarded the question
     console.log("Question is irrelevant, forwarding question");
