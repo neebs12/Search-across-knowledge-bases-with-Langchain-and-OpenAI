@@ -35,13 +35,13 @@ const summarizerAgent = async (namespace: string, question: string) => {
     callbackManager,
   });
 
-  const context = await getContext(namespace, question);
+  const { context, sources } = await getContext(namespace, question);
   const response = await chain.call({
     context,
     question,
   });
 
-  return response.text as string;
+  return { response: response.text, sources };
 };
 
 export default summarizerAgent;

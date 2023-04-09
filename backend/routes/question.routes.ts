@@ -1,11 +1,16 @@
 import express from "express";
-// import getContext from "../agents/utils/getContext.js";
-// import getResponse from "../agents/utils/getResponse.js";
+import getContext from "../agents/utils/getContext.js";
 import basicQnAStreamAgent from "../agents/basicQnAStreamAgent.js";
 import selectorAgent from "../agents/selectorAgent.js";
 import summarizerAgent from "../agents/summarizerAgent.js";
 import aggregatorStreamAgent from "../agents/aggregatorStreamAgent.js";
+import questionRefinerAgent from "../agents/questionRefinerAgent.js";
 
+import {
+  readCache,
+  readCacheById,
+  appendToCache,
+} from "./utils/cacheInterface.js";
 import createSearchMessage from "./utils/createSearchMessage.js";
 
 const router = express.Router();
@@ -25,14 +30,26 @@ router.get("/sse", async (req, res) => {
     return;
   }
 
-  const { question, namespace } = req.query as {
+  const { question, namespace, id } = req.query as {
     question: string;
     namespace: string;
+    id: string;
   };
 
-  await basicQnAStreamAgent(
+  const cache = readCache();
+  const conversationHistory = readCacheById(cache, id);
+  let refinedQuestion = question;
+  if (conversationHistory.length) {
+    refinedQuestion = await questionRefinerAgent(conversationHistory, question);
+    res.write(`data: [SERVER]contextualizing question...\n\n`);
+  }
+
+  console.log({ actualQuestion: question, refinedQuestion });
+  // TODO: agent/utils should not be called directly from the route
+  const { sources } = await getContext(namespace, question);
+  const { response } = await basicQnAStreamAgent(
     namespace,
-    question,
+    refinedQuestion,
     () => {
       res.write(`data: ${"[RESPONSE]"}\n\n`);
     },
@@ -41,12 +58,20 @@ router.get("/sse", async (req, res) => {
     },
     () => {
       // send indication that the stream has ended
+      if (sources.length === 0) {
+        res.write(`data: [SERVER]no relevant sources found...\n\n`);
+      } else {
+        res.write(
+          `data: [SERVER]${Array.from(new Set(sources)).join(", ")}\n\n`
+        );
+      }
       res.write(`data: ${"[END]"}\n\n`);
     }
   );
 
   res.on("close", () => {
     console.log("Client disconnected");
+    appendToCache(cache, id, question, response.text);
     res.end();
   });
 });
@@ -61,24 +86,37 @@ router.get("/multi-sse", async (req, res) => {
   // Send headers to establish SSE connection
   res.flushHeaders();
 
-  const { question } = req.query as {
+  const { question, id } = req.query as {
     question: string;
+    id: string;
   };
+  const cache = readCache();
+  const conversationHistory = readCacheById(cache, id);
+  let refinedQuestion = question;
+  if (conversationHistory.length) {
+    console.log("contextualizing question...");
+    refinedQuestion = await questionRefinerAgent(conversationHistory, question);
+    res.write(`data: [SERVER]contextualizing question...\n\n`);
+  }
 
   // console.log("hit the multi-sse endpoint");
-  const relevantNamespaceNamePair = await selectorAgent(question);
+  const relevantNamespaceNamePair = await selectorAgent(refinedQuestion);
   res.write(
-    `data: [SYSTEM]${createSearchMessage(relevantNamespaceNamePair)}\n\n`
+    `data: [SERVER]${createSearchMessage(relevantNamespaceNamePair)}\n\n`
   );
-  const summaries = await Promise.all(
+  const summarySourcesPairs = await Promise.all(
     relevantNamespaceNamePair.map((obj) => {
-      return summarizerAgent(obj.namespace, question);
+      return summarizerAgent(obj.namespace, refinedQuestion);
     })
   );
 
+  const summaries = summarySourcesPairs.map((pair) => pair.response);
+  const sources = summarySourcesPairs.map((pair) => pair.sources);
+
   // console.log({ summaries });
-  await aggregatorStreamAgent(
-    question,
+  console.log({ actualQuestion: question, refinedQuestion });
+  const response = await aggregatorStreamAgent(
+    refinedQuestion,
     summaries,
     () => {
       res.write(`data: ${"[RESPONSE]"}\n\n`);
@@ -89,6 +127,13 @@ router.get("/multi-sse", async (req, res) => {
     },
     () => {
       // send indication that the stream has ended
+      if (sources.length === 0) {
+        res.write(`data: [SERVER]no relevant sources found...\n\n`);
+      } else {
+        res.write(
+          `data: [SERVER]${Array.from(new Set(sources)).join(", ")}\n\n`
+        );
+      }
       res.write(`data: ${"[END]"}\n\n`);
     }
   );
@@ -97,6 +142,7 @@ router.get("/multi-sse", async (req, res) => {
   res.write(`data: ${"[END]"}\n\n`);
   res.on("close", () => {
     console.log("Client disconnected");
+    appendToCache(cache, id, question, response.text);
     res.end();
   });
 });

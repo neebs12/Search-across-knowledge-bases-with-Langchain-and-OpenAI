@@ -1,9 +1,10 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import axios from 'axios'
 import Sidebar from './components/SideBar'
 import Inputbar from './components/Inputbar'
 import MessageBox from './components/MessageBox'
 import Namebar from './components/NameBar'
+import { v4 as uuidv4 } from 'uuid';
 
 import getEventSource from './utils/getEventSource'
 import { URL, MODES, DEFAULT_MODE, MULTI_MODE_NAME } from './constants'
@@ -12,6 +13,7 @@ import type { History } from './types'
 
 const ChatInterface: React.FC = () => {
 
+  const uuid = useRef<string>(uuidv4())
   const [history, setHistory] = useState<History>([{
     sender: "system",
     message: "Loading..."
@@ -41,11 +43,17 @@ const ChatInterface: React.FC = () => {
   }, [])
 
   useEffect(() => {
+    // refresh uuid on mode change
+    uuid.current = uuidv4()
+    console.log({ uuid: uuid.current })
+  }, [modeName])
+
+  useEffect(() => {
     if (!question) {
       return () => { }
     }
 
-    const source = getEventSource(modeName, question)
+    const source = getEventSource(modeName, question, uuid.current)
 
     source.addEventListener('message', (event) => {
       const eventData = event.data as string;
@@ -54,19 +62,30 @@ const ChatInterface: React.FC = () => {
         setQuestion('')
         source.close();
       } else if (eventData.includes("[CONTEXT]")) {
-        // TODO: placeholder for context streaming
+        // TODO: placeholder for sources used for response
+      } else if (eventData.includes("[SERVER]")) {
+        // TODO: placeholder for messages with system info
+        setHistory(currentHistory => {
+          const newHistory = JSON.parse(JSON.stringify(currentHistory)) as History;
+          let processedEventData = eventData.replace("[SERVER]", "")
+          newHistory.push({
+            sender: "server",
+            message: processedEventData
+          })
+          return newHistory;
+        })
       } else {
         setHistory(currentHistory => {
           const newHistory = JSON.parse(JSON.stringify(currentHistory)) as History;
           const latestHistory = newHistory[newHistory.length - 1]
-
+          let processedEventData = eventData.replace("[RESPONSE]", "")
           if (latestHistory.sender !== "ai") {
             newHistory.push({
               sender: "ai",
-              message: eventData
+              message: processedEventData
             })
           } else {
-            latestHistory.message = latestHistory.message + eventData
+            latestHistory.message = latestHistory.message + processedEventData
           }
           return newHistory;
         })

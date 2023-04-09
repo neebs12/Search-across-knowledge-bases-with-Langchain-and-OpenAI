@@ -13,6 +13,7 @@ if (!process.env.PINECONE_API_KEY) {
 
 const pineconeClient = new PineconeClient();
 await pineconeClient.init({
+  // VERY UNRELIABLE >:(
   apiKey: process.env.PINECONE_API_KEY,
   environment: process.env.PINECONE_ENVIRONMENT,
 });
