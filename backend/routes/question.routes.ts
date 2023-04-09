@@ -1,21 +1,21 @@
 import express from "express";
-import getContext from "../utils/getContext.js";
-import getResponse from "../utils/getResponse.js";
-import getStreamResponse from "../utils/getResponseStream.js";
+// import getContext from "../agents/utils/getContext.js";
+// import getResponse from "../agents/utils/getResponse.js";
+import basicQnAStreamAgent from "../agents/basicQnAStreamAgent.js";
 
 const router = express.Router();
 
-router.get("/", async (req, res) => {
-  const { question, namespace } = req.body as {
-    question: string;
-    namespace: string;
-  };
+// router.get("/", async (req, res) => {
+//   const { question, namespace } = req.body as {
+//     question: string;
+//     namespace: string;
+//   };
 
-  const context = await getContext(namespace, question);
-  const response = await getResponse(question, context);
+//   const context = await getContext(namespace, question);
+//   const response = await getResponse(question, context);
 
-  res.send({ context, response });
-});
+//   res.send({ context, response });
+// });
 
 router.get("/sse", async (req, res) => {
   // Set headers for SSE
@@ -36,16 +36,11 @@ router.get("/sse", async (req, res) => {
     question: string;
     namespace: string;
   };
-  const context = await getContext(namespace, question);
-  await getStreamResponse(
+
+  await basicQnAStreamAgent(
+    namespace,
     question,
-    context,
-    () => {
-      // no `\n` in context allowed, otherwise is stream info cutoff
-      const joinedContext = context.replace(/\n/g, "");
-      console.log({ joinedContext });
-      res.write(`data: ${"[CONTEXT]: " + joinedContext}\n\n`);
-    },
+    () => {},
     (string) => {
       // console.log("token", { myToken: string });
       res.write(`data: ${string}\n\n`);

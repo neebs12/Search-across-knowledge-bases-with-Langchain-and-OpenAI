@@ -6,9 +6,12 @@ export const loggerMiddleware = (
   res: Response,
   next: NextFunction
 ) => {
-  console.log(req.method, req.url);
-  console.log(req.query);
-  console.log(req.body);
+  console.log({
+    method: req.method,
+    url: req.url,
+    query: req.query,
+    body: req.body,
+  });
   next();
 };
 
