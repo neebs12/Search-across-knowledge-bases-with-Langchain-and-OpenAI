@@ -1,11 +1,14 @@
 import express from "express";
-// import getContext from "../agents/utils/getContext.js";
-// import getResponse from "../agents/utils/getResponse.js";
 import basicQnAStreamAgent from "../agents/basicQnAStreamAgent.js";
 import selectorAgent from "../agents/selectorAgent.js";
 import summarizerAgent from "../agents/summarizerAgent.js";
 import aggregatorStreamAgent from "../agents/aggregatorStreamAgent.js";
 
+import {
+  readCache,
+  readCacheById,
+  appendToCache,
+} from "./utils/cacheInterface.js";
 import createSearchMessage from "./utils/createSearchMessage.js";
 
 const router = express.Router();
@@ -25,12 +28,17 @@ router.get("/sse", async (req, res) => {
     return;
   }
 
-  const { question, namespace } = req.query as {
+  const { question, namespace, id } = req.query as {
     question: string;
     namespace: string;
+    id: string;
   };
 
-  await basicQnAStreamAgent(
+  const cache = readCache();
+  const conversationHistory = readCacheById(cache, id);
+  console.log({ conversationHistory });
+
+  const response = await basicQnAStreamAgent(
     namespace,
     question,
     () => {
@@ -47,6 +55,7 @@ router.get("/sse", async (req, res) => {
 
   res.on("close", () => {
     console.log("Client disconnected");
+    appendToCache(cache, id, question, response.text);
     res.end();
   });
 });

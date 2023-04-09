@@ -9,3 +9,4 @@ build
 
 # constants
 knowledgebase-constants.json
+context-cache.json
