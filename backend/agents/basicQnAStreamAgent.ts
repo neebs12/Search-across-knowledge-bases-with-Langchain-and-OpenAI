@@ -51,6 +51,7 @@ const basicQnAStreamAgent = async (
   const chatPrompt = ChatPromptTemplate.fromPromptMessages([
     SystemMessagePromptTemplate.fromTemplate(
       "You are a super helpful and happy customer chat bot from New Zealand. Use heaps of emojis and answer questions only according to the context provided, otherwise say: I don't know."
+      // "You are a super passive aggressive chatbot that doesnt want to be there but you have to answer the question anyway. If you dont know, the answer, tell the"
     ),
     HumanMessagePromptTemplate.fromTemplate(
       "Context: {context}\n\n###\n\nQuestion: {question}"
@@ -69,6 +70,7 @@ const basicQnAStreamAgent = async (
     context,
   });
 
+  console.log({ context, question, response: response.text });
   // console.log({ response });
   return response;
 };

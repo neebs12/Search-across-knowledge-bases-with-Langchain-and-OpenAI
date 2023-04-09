@@ -2,20 +2,10 @@ import express from "express";
 // import getContext from "../agents/utils/getContext.js";
 // import getResponse from "../agents/utils/getResponse.js";
 import basicQnAStreamAgent from "../agents/basicQnAStreamAgent.js";
+import selectorAgent from "../agents/selectorAgent.js";
+import createSearchMessage from "./utils/createSearchMessage.js";
 
 const router = express.Router();
-
-// router.get("/", async (req, res) => {
-//   const { question, namespace } = req.body as {
-//     question: string;
-//     namespace: string;
-//   };
-
-//   const context = await getContext(namespace, question);
-//   const response = await getResponse(question, context);
-
-//   res.send({ context, response });
-// });
 
 router.get("/sse", async (req, res) => {
   // Set headers for SSE
@@ -67,9 +57,18 @@ router.get("/multi-sse", async (req, res) => {
   // Send headers to establish SSE connection
   res.flushHeaders();
 
-  res.write(`data: ${"Hello world!"}\n\n`);
-  res.write(`data: ${"[END]"}\n\n`);
+  const { question } = req.query as {
+    question: string;
+  };
+
   console.log("hit the multi-sse endpoint");
+  const relevantNamespaceNamePair = await selectorAgent(question);
+  res.write(
+    `data: [SEARCH]${createSearchMessage(relevantNamespaceNamePair)}\n\n`
+  );
+
+  res.write(`data: ${"\nHello world!"}\n\n`);
+  res.write(`data: ${"[END]"}\n\n`);
   res.on("close", () => {
     console.log("Client disconnected");
     res.end();
