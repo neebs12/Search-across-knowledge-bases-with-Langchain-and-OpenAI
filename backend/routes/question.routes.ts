@@ -3,6 +3,8 @@ import express from "express";
 // import getResponse from "../agents/utils/getResponse.js";
 import basicQnAStreamAgent from "../agents/basicQnAStreamAgent.js";
 import selectorAgent from "../agents/selectorAgent.js";
+import summarizerAgent from "../agents/summarizerAgent.js";
+
 import createSearchMessage from "./utils/createSearchMessage.js";
 
 const router = express.Router();
@@ -64,8 +66,15 @@ router.get("/multi-sse", async (req, res) => {
   console.log("hit the multi-sse endpoint");
   const relevantNamespaceNamePair = await selectorAgent(question);
   res.write(
-    `data: [SEARCH]${createSearchMessage(relevantNamespaceNamePair)}\n\n`
+    `data: [SYSTEM]${createSearchMessage(relevantNamespaceNamePair)}\n\n`
   );
+  const summaries = await Promise.all(
+    relevantNamespaceNamePair.map((obj) => {
+      return summarizerAgent(obj.namespace, question);
+    })
+  );
+
+  console.log({ summaries });
 
   res.write(`data: ${"\nHello world!"}\n\n`);
   res.write(`data: ${"[END]"}\n\n`);

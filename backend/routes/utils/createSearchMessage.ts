@@ -4,15 +4,17 @@ const createSearchMessage = (
     namespace: string;
   }[]
 ) => {
+  let message = "";
   if (namespaceNamePair.length === 0) {
-    return "no results found";
+    message = "no results found";
   } else {
-    return `searching ... ${namespaceNamePair
+    message = `searching ... ${namespaceNamePair
       .map((pair) => {
         return pair.name;
       })
       .join(", ")}`;
   }
+  return `searching ... ${message}`;
 };
 
 export default createSearchMessage;
