@@ -40,6 +40,7 @@ router.get("/sse", async (req, res) => {
   let refinedQuestion = question;
   if (conversationHistory.length) {
     refinedQuestion = await questionRefinerAgent(conversationHistory, question);
+    res.write(`data: [SERVER]contextualizing question...\n\n`);
   }
 
   console.log({ actualQuestion: question, refinedQuestion });
@@ -83,14 +84,15 @@ router.get("/multi-sse", async (req, res) => {
   const conversationHistory = readCacheById(cache, id);
   let refinedQuestion = question;
   if (conversationHistory.length) {
-    console.log("refining question...");
+    console.log("contextualizing question...");
     refinedQuestion = await questionRefinerAgent(conversationHistory, question);
+    res.write(`data: [SERVER]contextualizing question...\n\n`);
   }
 
   // console.log("hit the multi-sse endpoint");
   const relevantNamespaceNamePair = await selectorAgent(refinedQuestion);
   res.write(
-    `data: [SYSTEM]${createSearchMessage(relevantNamespaceNamePair)}\n\n`
+    `data: [SERVER]${createSearchMessage(relevantNamespaceNamePair)}\n\n`
   );
   const summaries = await Promise.all(
     relevantNamespaceNamePair.map((obj) => {

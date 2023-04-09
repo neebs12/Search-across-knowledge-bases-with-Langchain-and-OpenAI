@@ -62,19 +62,30 @@ const ChatInterface: React.FC = () => {
         setQuestion('')
         source.close();
       } else if (eventData.includes("[CONTEXT]")) {
-        // TODO: placeholder for context streaming
+        // TODO: placeholder for sources used for response
+      } else if (eventData.includes("[SERVER]")) {
+        // TODO: placeholder for messages with system info
+        setHistory(currentHistory => {
+          const newHistory = JSON.parse(JSON.stringify(currentHistory)) as History;
+          let processedEventData = eventData.replace("[SERVER]", "")
+          newHistory.push({
+            sender: "server",
+            message: processedEventData
+          })
+          return newHistory;
+        })
       } else {
         setHistory(currentHistory => {
           const newHistory = JSON.parse(JSON.stringify(currentHistory)) as History;
           const latestHistory = newHistory[newHistory.length - 1]
-
+          let processedEventData = eventData.replace("[RESPONSE]", "")
           if (latestHistory.sender !== "ai") {
             newHistory.push({
               sender: "ai",
-              message: eventData
+              message: processedEventData
             })
           } else {
-            latestHistory.message = latestHistory.message + eventData
+            latestHistory.message = latestHistory.message + processedEventData
           }
           return newHistory;
         })

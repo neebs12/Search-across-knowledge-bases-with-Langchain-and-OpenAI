@@ -1,5 +1,5 @@
 export type History = {
-  sender: "system" | "ai" | "user";
+  sender: "system" | "ai" | "user" | "server";
   message: string;
 }[];
 

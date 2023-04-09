@@ -6,7 +6,7 @@ const createSearchMessage = (
 ) => {
   let message = "";
   if (namespaceNamePair.length === 0) {
-    message = "no results found";
+    message = "no relevant knowledge base found ...";
   } else {
     message = `searching ... ${namespaceNamePair
       .map((pair) => {

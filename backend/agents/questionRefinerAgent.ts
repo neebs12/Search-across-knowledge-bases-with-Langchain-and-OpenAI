@@ -26,7 +26,7 @@ const questionRefinerAgent = async (
   const systemPrompt = constructSystemPrompt();
   const chatModel = new ChatOpenAI({
     modelName: "gpt-3.5-turbo",
-    // modelName: "gpt-4", // <--- this model seems better as abiding to system prompt
+    // modelName: "gpt-4", // <--- consider this model for this agent due to system prompt abidance
     temperature: 0,
     callbackManager,
   });
@@ -52,7 +52,7 @@ const questionRefinerAgent = async (
 
   console.log({ conversationHistoryPrompt, latestQuestion: question });
 
-  // TODO: Consider thinking about just forwarding the question if the response.text says that the question is irrelevant, this is difficult due to uncertainty, a binary-returning meta agent can be useful here
+  // TODO: Consider thinking about just forwarding the question if the response.text says that the question is irrelevant, this is difficult due to uncertainty, a binary-returning """meta""" agent can be useful here for keeping 3.5 turbo model
   const txt = response.text.toLowerCase();
   if (
     txt.includes(question) ||
