@@ -61,6 +61,8 @@ const getNamespaceNamePair = (
   });
 };
 
+export default selectorAgent;
+
 const constructSystemPrompt = (): string => {
   const namespaceDescriptionMap = knowledgebaseJSON
     .filter((obj) => {
@@ -92,5 +94,3 @@ Your response should give me a list of the relvant namespaces ONLY.
 `;
   return systemPrompt;
 };
-
-export default selectorAgent;

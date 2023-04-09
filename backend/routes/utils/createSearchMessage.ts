@@ -14,7 +14,7 @@ const createSearchMessage = (
       })
       .join(", ")}`;
   }
-  return `searching ... ${message}`;
+  return `${message}`;
 };
 
 export default createSearchMessage;

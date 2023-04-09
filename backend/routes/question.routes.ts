@@ -4,6 +4,7 @@ import express from "express";
 import basicQnAStreamAgent from "../agents/basicQnAStreamAgent.js";
 import selectorAgent from "../agents/selectorAgent.js";
 import summarizerAgent from "../agents/summarizerAgent.js";
+import aggregatorStreamAgent from "../agents/aggregatorStreamAgent.js";
 
 import createSearchMessage from "./utils/createSearchMessage.js";
 
@@ -32,9 +33,10 @@ router.get("/sse", async (req, res) => {
   await basicQnAStreamAgent(
     namespace,
     question,
-    () => {},
+    () => {
+      res.write(`data: ${"[RESPONSE]"}\n\n`);
+    },
     (string) => {
-      // console.log("token", { myToken: string });
       res.write(`data: ${string}\n\n`);
     },
     () => {
@@ -63,7 +65,7 @@ router.get("/multi-sse", async (req, res) => {
     question: string;
   };
 
-  console.log("hit the multi-sse endpoint");
+  // console.log("hit the multi-sse endpoint");
   const relevantNamespaceNamePair = await selectorAgent(question);
   res.write(
     `data: [SYSTEM]${createSearchMessage(relevantNamespaceNamePair)}\n\n`
@@ -74,9 +76,24 @@ router.get("/multi-sse", async (req, res) => {
     })
   );
 
-  console.log({ summaries });
+  // console.log({ summaries });
+  await aggregatorStreamAgent(
+    question,
+    summaries,
+    () => {
+      res.write(`data: ${"[RESPONSE]"}\n\n`);
+    },
+    (string) => {
+      // console.log(`token: ${string}`);
+      res.write(`data: ${string}\n\n`);
+    },
+    () => {
+      // send indication that the stream has ended
+      res.write(`data: ${"[END]"}\n\n`);
+    }
+  );
 
-  res.write(`data: ${"\nHello world!"}\n\n`);
+  // res.write(`data: ${"\nHello world!"}\n\n`);
   res.write(`data: ${"[END]"}\n\n`);
   res.on("close", () => {
     console.log("Client disconnected");
