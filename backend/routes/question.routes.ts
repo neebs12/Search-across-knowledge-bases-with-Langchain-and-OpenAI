@@ -83,7 +83,7 @@ router.get("/multi-sse", async (req, res) => {
   const conversationHistory = readCacheById(cache, id);
   let refinedQuestion = question;
   if (conversationHistory.length) {
-    console.log("refining question");
+    console.log("refining question...");
     refinedQuestion = await questionRefinerAgent(conversationHistory, question);
   }
 

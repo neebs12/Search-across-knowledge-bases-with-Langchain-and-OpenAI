@@ -26,7 +26,7 @@ const questionRefinerAgent = async (
   const systemPrompt = constructSystemPrompt();
   const chatModel = new ChatOpenAI({
     modelName: "gpt-3.5-turbo",
-    // modelName: "gpt-4",
+    // modelName: "gpt-4", // <--- this model seems better as abiding to system prompt
     temperature: 0,
     callbackManager,
   });
@@ -52,8 +52,20 @@ const questionRefinerAgent = async (
 
   console.log({ conversationHistoryPrompt, latestQuestion: question });
 
-  // TODO: Consider thinking about just forwarding the question if the response.text says that the question is irrelevant, this is difficult due to uncertainty
-  return response.text;
+  // TODO: Consider thinking about just forwarding the question if the response.text says that the question is irrelevant, this is difficult due to uncertainty, a binary-returning meta agent can be useful here
+  const txt = response.text.toLowerCase();
+  if (
+    txt.includes(question) ||
+    txt.includes("irrelevant") ||
+    txt.includes("i don't know") ||
+    txt.includes("preserve")
+  ) {
+    // it would seem here that the agent simply forwarded the question
+    console.log("Question is irrelevant, forwarding question");
+    return question;
+  } else {
+    return response.text;
+  }
 };
 
 export default questionRefinerAgent;
@@ -65,7 +77,12 @@ const constructSystemPrompt = () => {
 2. If all conversation history is irrelevant, just preserve the current question.
 3. Otherwise, craft a concise and well-structured question that incorporates relevant context from the conversation history.
 
-Your goal is to create a more more accurate and meaningful question.`;
+If you can create a more accurate meaningful question, return:
+- the new question
+
+If the question is irrelevant or you dont know, preserve the question by returning:
+- the current question
+`;
 };
 
 const constructConversationHistoryPrompt = (

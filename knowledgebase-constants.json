@@ -20,7 +20,7 @@
   {
     "name": "Tax Resources",
     "namespace": "hnry.co.nz_tax-resources",
-    "description": "This knowledge base is tax-related help. It contains articles, guides, and resources on how to manage your taxes as a freelancer, including information on deductions, filing requirements, and deadlines. If you're a freelancer looking for tax advice and resources, this knowledge base is a great place to start.",
+    "description": "This knowledge base is tax-related help (like GST, ACC, or other New Zealand related tax). It contains articles, guides, and resources on how to manage your taxes as a freelancer, including information on deductions, filing requirements, and deadlines. If you're a freelancer looking for tax advice and resources, this knowledge base is a great place to start.",
     "image": "https://cdn.pixabay.com/photo/2023/03/21/09/53/willow-catkin-7866866_960_720.jpg"
   },
   {
