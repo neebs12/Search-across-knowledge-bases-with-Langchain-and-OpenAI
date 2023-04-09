@@ -2,31 +2,31 @@
   {
     "name": "Test Data",
     "namespace": "test-data",
-    "description": "this knowledge base is for testing purposes only",
+    "description": "This knowledge base is for testing purposes only. It contains dummy data that can be used for testing and development purposes. This knowledge base is not intended for production use.",
     "image": "https://cdn.pixabay.com/photo/2016/11/23/18/27/hummingbird-1854225_960_720.jpg"
   },
   {
     "name": "FAQ Resources",
     "namespace": "help.hnry.io_en_articles-data",
-    "description": "this knowledge base is for help in using the Hnry application",
+    "description": "This knowledge base is for help in using the Hnry application. It contains frequently asked questions and answers, as well as guides and tutorials on how to use the various features of the application. If you have any issues or questions while using the Hnry application, this knowledge base is a great resource.",
     "image": "https://cdn.pixabay.com/photo/2018/08/12/16/59/parrot-3601194_960_720.jpg"
   },
   {
     "name": "Freelancer Resources",
     "namespace": "hnry.co.nz_freelancer-resources",
-    "description": "this knowledge base is freelancer-related help",
+    "description": "This knowledge base is for freelancer-related help. It contains articles, guides, and resources on how to be a successful freelancer, including tips on finding clients, managing finances, and growing your business. If you're a freelancer looking for advice and resources, this knowledge base is a great place to start.",
     "image": "https://cdn.pixabay.com/photo/2016/11/18/12/14/owl-1834152_960_720.jpg"
   },
   {
     "name": "Tax Resources",
     "namespace": "hnry.co.nz_tax-resources",
-    "description": "this knowledge base is tax-related help",
+    "description": "This knowledge base is tax-related help. It contains articles, guides, and resources on how to manage your taxes as a freelancer, including information on deductions, filing requirements, and deadlines. If you're a freelancer looking for tax advice and resources, this knowledge base is a great place to start.",
     "image": "https://cdn.pixabay.com/photo/2023/03/21/09/53/willow-catkin-7866866_960_720.jpg"
   },
   {
     "name": "The Leap Resources",
     "namespace": "hnry.co.nz_theleap",
-    "description": "this knowledge base outlines other freelancer's experiences transitioning to freelancing",
+    "description": "This knowledge base outlines other freelancer's experiences transitioning to freelancing. It contains articles, guides, and resources on how to make the leap to freelancing, including tips on finding clients, managing finances, and growing your business. If you're considering making the leap to freelancing, this knowledge base is a great resource.",
     "image": "https://cdn.pixabay.com/photo/2018/05/27/18/19/sparrows-3434123_960_720.jpg"
   }
 ]

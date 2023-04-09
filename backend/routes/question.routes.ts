@@ -1,21 +1,14 @@
 import express from "express";
-import getContext from "../utils/getContext.js";
-import getResponse from "../utils/getResponse.js";
-import getStreamResponse from "../utils/getResponseStream.js";
+// import getContext from "../agents/utils/getContext.js";
+// import getResponse from "../agents/utils/getResponse.js";
+import basicQnAStreamAgent from "../agents/basicQnAStreamAgent.js";
+import selectorAgent from "../agents/selectorAgent.js";
+import summarizerAgent from "../agents/summarizerAgent.js";
+import aggregatorStreamAgent from "../agents/aggregatorStreamAgent.js";
+
+import createSearchMessage from "./utils/createSearchMessage.js";
 
 const router = express.Router();
-
-router.get("/", async (req, res) => {
-  const { question, namespace } = req.body as {
-    question: string;
-    namespace: string;
-  };
-
-  const context = await getContext(namespace, question);
-  const response = await getResponse(question, context);
-
-  res.send({ context, response });
-});
 
 router.get("/sse", async (req, res) => {
   // Set headers for SSE
@@ -36,18 +29,14 @@ router.get("/sse", async (req, res) => {
     question: string;
     namespace: string;
   };
-  const context = await getContext(namespace, question);
-  await getStreamResponse(
+
+  await basicQnAStreamAgent(
+    namespace,
     question,
-    context,
     () => {
-      // no `\n` in context allowed, otherwise is stream info cutoff
-      const joinedContext = context.replace(/\n/g, "");
-      console.log({ joinedContext });
-      res.write(`data: ${"[CONTEXT]: " + joinedContext}\n\n`);
+      res.write(`data: ${"[RESPONSE]"}\n\n`);
     },
     (string) => {
-      // console.log("token", { myToken: string });
       res.write(`data: ${string}\n\n`);
     },
     () => {
@@ -72,9 +61,40 @@ router.get("/multi-sse", async (req, res) => {
   // Send headers to establish SSE connection
   res.flushHeaders();
 
-  res.write(`data: ${"Hello world!"}\n\n`);
+  const { question } = req.query as {
+    question: string;
+  };
+
+  // console.log("hit the multi-sse endpoint");
+  const relevantNamespaceNamePair = await selectorAgent(question);
+  res.write(
+    `data: [SYSTEM]${createSearchMessage(relevantNamespaceNamePair)}\n\n`
+  );
+  const summaries = await Promise.all(
+    relevantNamespaceNamePair.map((obj) => {
+      return summarizerAgent(obj.namespace, question);
+    })
+  );
+
+  // console.log({ summaries });
+  await aggregatorStreamAgent(
+    question,
+    summaries,
+    () => {
+      res.write(`data: ${"[RESPONSE]"}\n\n`);
+    },
+    (string) => {
+      // console.log(`token: ${string}`);
+      res.write(`data: ${string}\n\n`);
+    },
+    () => {
+      // send indication that the stream has ended
+      res.write(`data: ${"[END]"}\n\n`);
+    }
+  );
+
+  // res.write(`data: ${"\nHello world!"}\n\n`);
   res.write(`data: ${"[END]"}\n\n`);
-  console.log("hit the multi-sse endpoint");
   res.on("close", () => {
     console.log("Client disconnected");
     res.end();

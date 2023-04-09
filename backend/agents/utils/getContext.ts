@@ -1,6 +1,6 @@
 import * as dotenv from "dotenv";
 dotenv.config();
-import knowledgebaseJSON from "../knowledgebase-constants.json" assert { type: "json" };
+import knowledgebaseJSON from "../../knowledgebase-constants.json" assert { type: "json" };
 import { OpenAIEmbeddings } from "langchain/embeddings";
 import { HNSWLib } from "langchain/vectorstores";
 
