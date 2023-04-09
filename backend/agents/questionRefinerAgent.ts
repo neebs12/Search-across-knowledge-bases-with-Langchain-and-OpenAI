@@ -23,17 +23,17 @@ const questionRefinerAgent = async (
 
   const callbackManager = CallbackManager.fromHandlers({});
   callbackManager.addHandler(new ConsoleCallbackHandler());
-  const systemPrompt = constructSystemPrompt();
+  const systemPrompt = constructSystemPrompt(conversationHistory);
   const chatModel = new ChatOpenAI({
-    modelName: "gpt-3.5-turbo",
-    // modelName: "gpt-4", // <--- consider this model for this agent due to system prompt abidance
+    // modelName: "gpt-3.5-turbo",
+    modelName: "gpt-4", // <--- consider this model for this agent due to system prompt abidance
     temperature: 0,
     callbackManager,
   });
   const chatPrompt = ChatPromptTemplate.fromPromptMessages([
     SystemMessagePromptTemplate.fromTemplate(systemPrompt),
     HumanMessagePromptTemplate.fromTemplate(
-      "Conversation History: \n{conversationHistory}\n\n###\n\nInput Question: \n{question} - remember, forward the question if it is irrelevant"
+      "Input Question:\n{question} - remember, forward the question if it is irrelevant"
     ),
   ]);
   const chain = new LLMChain({
@@ -76,7 +76,9 @@ const questionRefinerAgent = async (
 
 export default questionRefinerAgent;
 
-const constructSystemPrompt = () => {
+const constructSystemPrompt = (
+  conversationHistory: { question: string; answer: string }[]
+) => {
   return `As a highly skilled AI, your task is to refine the input question considering the conversation history. Follow these steps:
 
 1. Analyze the conversation history, identifying relevant information while ignoring irrelevant parts.
@@ -88,6 +90,9 @@ If you can create a more accurate meaningful question, return:
 
 If the question is irrelevant or you dont know, preserve the question by returning:
 - the current question
+
+Conversation History:
+${constructConversationHistoryPrompt(conversationHistory)}
 `;
 };
 
