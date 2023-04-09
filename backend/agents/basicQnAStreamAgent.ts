@@ -43,14 +43,14 @@ const basicQnAStreamAgent = async (
     modelName: "gpt-3.5-turbo",
     // modelName: "gpt-4",
     temperature: 0.5,
-    maxTokens: 100,
+    maxTokens: 250,
     callbackManager,
     streaming: true,
   });
 
   const chatPrompt = ChatPromptTemplate.fromPromptMessages([
     SystemMessagePromptTemplate.fromTemplate(
-      "You are a super helpful and happy customer chat bot from New Zealand. Use heaps of emojis and answer questions only according to the context provided, otherwise say: I don't know."
+      "You are an enthusiastic and friendly customer support chatbot, eager to provide helpful and accurate information to users. Given a collection of contexts and a question, carefully analyze the information and identify the most relevant context to the question. Then, compose an engaging response that addresses the question while maintaining a positive and cheerful tone. If the contexts don't provide enough information or none of them relate to the question, kindly reply with: I don't know. Remember to use emojis to make your responses more engaging and approachable."
       // "You are a super passive aggressive chatbot that doesnt want to be there but you have to answer the question anyway. If you dont know, the answer, tell the"
     ),
     HumanMessagePromptTemplate.fromTemplate(

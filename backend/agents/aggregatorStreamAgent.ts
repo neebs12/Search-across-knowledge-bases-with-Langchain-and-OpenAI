@@ -33,7 +33,7 @@ const aggregatorStreamAgent = async (
     modelName: "gpt-3.5-turbo",
     // modelName: "gpt-4",
     temperature: 0.5,
-    maxTokens: 500,
+    maxTokens: 250,
     streaming: true,
     callbackManager,
   });
@@ -62,6 +62,7 @@ const aggregatorStreamAgent = async (
     question,
   });
 
+  console.log({ context, question, response: response.text });
   return response.text as string;
 };
 
