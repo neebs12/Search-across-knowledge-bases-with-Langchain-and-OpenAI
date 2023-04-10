@@ -20,6 +20,7 @@ const uploadAllDocumentsLocally = async (
         documents,
         new OpenAIEmbeddings()
       );
+      // works even if the current folder does not exists :)
       const directory = `./data/vectorestore-files/${currentNamespace}`;
       // overwrites old store, so idempotent YAY!
       await vectorStore.save(directory);

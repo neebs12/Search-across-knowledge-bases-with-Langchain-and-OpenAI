@@ -1,7 +1,7 @@
 import fs from "fs";
 // import JSON_CACHE_LOCATION  from "../../context-cache.json" assert {type: "json"}
 
-const JSON_CACHE_LOCATION = "../../context-cache.json";
+const JSON_CACHE_LOCATION = "./context-cache.json";
 
 // Read the cache (./context-cache.json)
 const readCache = (): Record<
@@ -12,7 +12,8 @@ const readCache = (): Record<
     const rawData = fs.readFileSync(JSON_CACHE_LOCATION, "utf-8");
     return JSON.parse(rawData);
   } catch (error) {
-    console.error("Error reading cache:", error);
+    console.error("Error reading cache, making a new one", error);
+    // non critical cache can just be rebuilt if it fails
     return {};
   }
 };

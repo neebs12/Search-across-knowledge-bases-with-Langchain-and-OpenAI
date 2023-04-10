@@ -25,8 +25,7 @@ const questionRefinerAgent = async (
   callbackManager.addHandler(new ConsoleCallbackHandler());
   const systemPrompt = constructSystemPrompt(conversationHistory);
   const chatModel = new ChatOpenAI({
-    // modelName: "gpt-3.5-turbo",
-    modelName: "gpt-4", // <--- consider this model for this agent due to system prompt abidance
+    modelName: process.env.QUESTION_REFINER_AGENT_MODEL_NAME ?? "gpt-3.5-turbo",
     temperature: 0,
     callbackManager,
   });
