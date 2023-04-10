@@ -24,7 +24,10 @@ async function getContext(namespace: string, question: string) {
     // console.log({ result });
 
     const context = result.map((res) => res.pageContent).join("\n\n###\n\n");
-    const sources = result.map((res) => res.metadata.link);
+    // TODO: this replace should NOT be here. This means that theres an issue with the metadata ingestion
+    const sources = result.map((res) =>
+      res.metadata.link.replace(/\.txt$/, "").trim()
+    );
 
     return { context, sources };
   } catch (error) {
