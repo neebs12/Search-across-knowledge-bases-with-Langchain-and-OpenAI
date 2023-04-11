@@ -4,8 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "initialize": "export MY_URL=\"http://localhost:3000\" && touch .env && echo \"VITE_BASE_URL=$MY_URL\" > .env ",
-    "dev": "npm run initialize && vite",
+    "initialize": "export MY_URL=\"\" && touch .env && echo \"VITE_BASE_URL=$MY_URL\" > .env ",
+    "dev:initialize": "export MY_URL=\"http://localhost:3000\" && touch .env && echo \"VITE_BASE_URL=$MY_URL\" > .env ",
+    "dev": "npm run dev:initialize && vite",
     "build": "npm run initialize && tsc && touch .env && vite build",
     "preview": "vite preview"
   },
@@ -26,5 +27,8 @@
     "tailwindcss": "^3.3.1",
     "typescript": "^4.9.3",
     "vite": "^4.2.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
