@@ -9,6 +9,7 @@ Main features:
 - Context-aware conversations
 
 ## What you need
+
 - Have Node 18 and Typescript 5.0 installed
 - Create a .env file in the `/backend` directory with the following variables:
 
@@ -21,17 +22,17 @@ QUESTION_REFINER_AGENT_MODEL_NAME="gpt-4"
 ```
 
 ## Demo
+
 > Here is an example conversation
-![Pasted image 20230410161507](https://user-images.githubusercontent.com/51255216/230964287-3d446008-48c0-4492-9356-79552640b84f.png)
+> ![Pasted image 20230410161507](https://user-images.githubusercontent.com/51255216/230964287-3d446008-48c0-4492-9356-79552640b84f.png)
 
 > Here is the full app. Only `Multi Resources` conducts the cross knowledgebase search
-![image](https://user-images.githubusercontent.com/51255216/230964811-181f02ea-bdd7-41bc-a5c1-3ffcd06cbc91.png)
-
+> ![image](https://user-images.githubusercontent.com/51255216/230964811-181f02ea-bdd7-41bc-a5c1-3ffcd06cbc91.png)
 
 ## How to run
 
 ```bash
-bash initialize.sh
+bash initialize.sh # installs dependencies
 bash start.sh # or bash dev.sh
 ```
 
@@ -39,6 +40,10 @@ Use `localhost:3000` if you ran `bash start.sh` OR
 `localhost:5173` if you ran `bash dev.sh`
 
 ## Structuring for personal use
+
+```bash
+bash ingest.sh # ingests text files into local vectorstore
+```
 
 ### Using your own data
 
