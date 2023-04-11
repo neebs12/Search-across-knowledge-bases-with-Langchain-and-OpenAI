@@ -11,6 +11,8 @@
     "ingest": "npm run build:backend && node ./build/ingest/index.js",
     "build:all": "npm run build:backend && cd ../frontend && npm run build && cd ../backend && cp -r ../frontend/dist ./build/public",
     "start": "npm run build:all && cp -r ./data ./build/data && node ./build/server.js && rm -rf ./build",
+    "build:all:prod": "npm run build:all && cp -r ./data ./build/data",
+    "start:prod": "node ./build/server.js",
     "dev": "tsc && cp -r ./data ./build/data && concurrently \"tsc -w\" \"nodemon ./build/server.js\" && rm -rf ./build",
     "backend:dev": "npm run build:backend && node ./build/utils/getContext.js",
     "backend:tmp": "npm run build:backend && node ./build/tmp.js"
@@ -36,5 +38,8 @@
     "express": "^4.18.2",
     "hnswlib-node": "^1.4.2",
     "openai": "^3.2.1"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }

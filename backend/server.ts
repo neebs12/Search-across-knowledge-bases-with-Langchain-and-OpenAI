@@ -13,6 +13,8 @@ import {
 import healthCheckRoutes from "./routes/healthCheck.routes.js";
 import questionRoutes from "./routes/question.routes.js";
 
+const PORT = process.env.PORT || 3000;
+
 const app = express();
 
 app.use(express.static("build/public"));
@@ -28,6 +30,6 @@ app.use("/question", namespaceMiddleware, questionRoutes);
 app.use(notFoundMiddleware);
 app.use(errorMiddleware);
 
-app.listen(3000, () => {
-  console.log("Server started on port 3000");
+app.listen(PORT, () => {
+  console.log("Server started on port:", PORT);
 });
