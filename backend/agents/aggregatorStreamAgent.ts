@@ -29,9 +29,13 @@ const aggregatorStreamAgent = async (
     },
   });
   callbackManager.addHandler(new ConsoleCallbackHandler());
+  console.log({
+    AGGREGATOR_STREAM_AGENT_MODEL_NAME:
+      process.env.AGGREGATOR_STREAM_AGENT_MODEL_NAME,
+  });
   const chatModel = new ChatOpenAI({
-    modelName: "gpt-3.5-turbo",
-    // modelName: "gpt-4",
+    modelName:
+      process.env.AGGREGATOR_STREAM_AGENT_MODEL_NAME ?? "gpt-3.5-turbo",
     temperature: 0.5,
     maxTokens: 250,
     streaming: true,
