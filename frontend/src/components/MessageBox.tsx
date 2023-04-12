@@ -3,6 +3,7 @@ import AIMessage from './_AIMessage';
 import UserMessage from './_UserMessage';
 import SystemMessage from './_SystemMessage';
 import ServerMessage from './_ServerMessage';
+import SourcesMessage from './_SourcesMessage';
 import type { History } from '../types';
 
 type Props = {
@@ -24,6 +25,8 @@ const MessageBox: React.FC<Props> = ({ history }) => {
             return <UserMessage message={msg} key={keyVal} />
           } else if (message.sender === "server") {
             return <ServerMessage message={msg} key={keyVal} />
+          } else if (message.sender === "sources") {
+            return <SourcesMessage message={msg} key={keyVal} />
           }
         })}
       </ul>

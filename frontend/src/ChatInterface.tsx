@@ -63,8 +63,18 @@ const ChatInterface: React.FC = () => {
         source.close();
       } else if (eventData.includes("[CONTEXT]")) {
         // TODO: placeholder for sources used for response
-      } else if (eventData.includes("[SERVER]")) {
+      } else if (eventData.includes("[SERVER]") && eventData.includes("[SOURCES]")) {
         // TODO: placeholder for messages with system info
+        setHistory(currentHistory => {
+          const newHistory = JSON.parse(JSON.stringify(currentHistory)) as History;
+          let processedEventData = processSources(eventData)
+          newHistory.push({
+            sender: "sources",
+            message: processedEventData
+          })
+          return newHistory;
+        })
+      } else if (eventData.includes("[SERVER]")) {
         setHistory(currentHistory => {
           const newHistory = JSON.parse(JSON.stringify(currentHistory)) as History;
           let processedEventData = eventData.replace("[SERVER]", "")
@@ -119,6 +129,7 @@ const ChatInterface: React.FC = () => {
             if (mostRecentMessage.message.includes(newModeName)) {
               return currentHistory
             } else {
+              // TODO, this needs to be typed
               const newMessage = {
                 sender: "system",
                 message: `Changed systems to receive from: ${newModeName}`
@@ -149,3 +160,15 @@ const ChatInterface: React.FC = () => {
 }
 
 export default ChatInterface
+
+const processSources = (sources: string): string => {
+  return Array.from(
+    new Set(
+      sources
+        .replace("[SERVER]", "")
+        .replace("[SOURCES]", "")
+        .split(",")
+        .map(m => m.trim())
+    )
+  ).join(",")
+}

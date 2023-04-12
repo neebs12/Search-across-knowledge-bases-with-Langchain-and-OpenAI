@@ -62,7 +62,9 @@ router.get("/sse", async (req, res) => {
         res.write(`data: [SERVER]no relevant sources found...\n\n`);
       } else {
         res.write(
-          `data: [SERVER]${Array.from(new Set(sources)).join(", ")}\n\n`
+          `data: [SERVER][SOURCES]${Array.from(new Set(sources)).join(
+            ", "
+          )}\n\n`
         );
       }
       res.write(`data: ${"[END]"}\n\n`);
@@ -131,7 +133,9 @@ router.get("/multi-sse", async (req, res) => {
         res.write(`data: [SERVER]no relevant sources found...\n\n`);
       } else {
         res.write(
-          `data: [SERVER]${Array.from(new Set(sources)).join(", ")}\n\n`
+          `data: [SERVER][SOURCES]${Array.from(new Set(sources)).join(
+            ", "
+          )}\n\n`
         );
       }
       res.write(`data: ${"[END]"}\n\n`);
