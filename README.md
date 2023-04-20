@@ -1,6 +1,7 @@
 # Search across knowledge bases with Langchain and OpenAI
 
 Built with Typescript, Langchain, OpenAI, HNSWLib(local vectorstore) in the backend, and React, Vite, TailwindCSS in the frontend.
+See medium article for more info :) https://medium.com/@jason.aricheta/ai-agents-know-where-to-look-a-simple-cross-knowledge-base-search-architecture-60b3c6a9179b
 
 Main features:
 
