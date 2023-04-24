@@ -1,4 +1,15 @@
-[
+[ {
+  "name": "D026",
+  "namespace": "d026",
+  "description": "d026 ai",
+  "image": "https://cdn.pixabay.com/photo/2016/11/23/18/27/hummingbird-1854225_960_720.jpg"
+},
+{
+  "name": "Jazmin's Class",
+  "namespace": "dental",
+  "description": "Dental School AI",
+  "image": "https://cdn.pixabay.com/photo/2016/11/23/18/27/hummingbird-1854225_960_720.jpg"
+},
   {
     "name": "Test Data",
     "namespace": "test-data",
