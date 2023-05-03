@@ -1,7 +1,8 @@
 # Search across knowledge bases with Langchain and OpenAI
 
 Built with Typescript, Langchain, OpenAI, HNSWLib(local vectorstore) in the backend, and React, Vite, TailwindCSS in the frontend.
-See medium article for more info :) https://medium.com/@jason.aricheta/ai-agents-know-where-to-look-a-simple-cross-knowledge-base-search-architecture-60b3c6a9179b
+
+See medium article for more info: https://betterprogramming.pub/ai-agents-know-where-to-look-a-simple-cross-knowledge-base-search-architecture-60b3c6a9179b
 
 Main features:
 
@@ -14,31 +15,29 @@ Main features:
 - Have Node 18 and Typescript 5.0 installed
 - Create a .env file in the `/backend` directory with the following variables:
 
-```
+```bash
 OPENAI_API_KEY="..."
 
 # switch to "gpt-3.5-turbo" if you dont have access
 # app may not contextualize as well though...
 QUESTION_REFINER_AGENT_MODEL_NAME="gpt-4"
+AGGREGATOR_STREAM_AGENT_MODEL_NAME="gpt-4"
 ```
-
-## Demo
-
-> Here is an example conversation
-> ![Pasted image 20230410161507](https://user-images.githubusercontent.com/51255216/230964287-3d446008-48c0-4492-9356-79552640b84f.png)
-
-> Here is the full app. Only `Multi Resources` conducts the cross knowledgebase search
-> ![image](https://user-images.githubusercontent.com/51255216/230964811-181f02ea-bdd7-41bc-a5c1-3ffcd06cbc91.png)
 
 ## How to run
 
 ```bash
 bash initialize.sh # installs dependencies
 bash start.sh # or bash dev.sh
+# open localhost:3000 if start.sh
+# OR
+# open localhost:5173 if dev.sh
 ```
 
-Use `localhost:3000` if you ran `bash start.sh` OR
-`localhost:5173` if you ran `bash dev.sh`
+## Demo
+
+> Here is an example conversation
+> ![Pasted image 20230410161507](https://user-images.githubusercontent.com/51255216/230964287-3d446008-48c0-4492-9356-79552640b84f.png)
 
 ## Structuring for personal use
 
